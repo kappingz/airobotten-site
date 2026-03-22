@@ -225,7 +225,7 @@
   {% endif %}
 
   {% if benefits %}
-  <div class="section-label">Det opnår du</div>
+  <div class="section-label">{{ benefits_label if benefits_label else "Det opnår du" }}</div>
   <h2>Konkrete fordele ved at automatisere denne proces</h2>
   <ul class="benefit-list">
     {% for b in benefits %}<li>{{ b }}</li>{% endfor %}
@@ -276,6 +276,11 @@
     <div class="pro-tip-label">Pro-tip</div>
     <p>{{ pro_tip }}</p>
   </div>
+  {% endif %}
+
+  {% if before_cta %}
+  <div class="section-label" id="start-section">Inden du går i gang</div>
+  {{ before_cta | safe }}
   {% endif %}
 
   <div class="cta-box">

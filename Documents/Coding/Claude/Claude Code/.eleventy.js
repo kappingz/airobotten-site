@@ -3,6 +3,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({ "src/favicon.svg": "favicon.svg" });
 
+  // Custom filters
+  eleventyConfig.addFilter("padStart", (val, length, fill) => String(val).padStart(length, fill));
+
   // Ignorer de eksisterende genererede HTML-filer i _site
   eleventyConfig.ignores.add("_site/**");
 
