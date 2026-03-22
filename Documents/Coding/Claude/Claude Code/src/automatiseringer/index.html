@@ -1,0 +1,5829 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="shortcut icon" href="/favicon.svg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alle automatiseringer — Airobotten</title>
+<meta name="description" content="Udforsk vores samling af AI- og automatiseringsløsninger. Find den der passer til din virksomheds behov.">
+<link rel="canonical" href="https://airobotten.dk//automatiseringer/">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #f6f3ee;
+    --bg-warm: #ede8e0;
+    --bg-card: #ffffff;
+    --text: #1a1a1a;
+    --text-muted: #6b6560;
+    --text-light: #9a9590;
+    --accent: #2a5cff;
+    --accent-soft: rgba(42,92,255,0.08);
+    --accent-hover: #1a45d6;
+    --orange: #e8663d;
+    --orange-soft: rgba(232,102,61,0.08);
+    --green: #1a8c5a;
+    --green-soft: rgba(26,140,90,0.08);
+    --border: rgba(26,26,26,0.08);
+    --border-strong: rgba(26,26,26,0.15);
+    --font-display: 'Instrument Serif', Georgia, serif;
+    --font-body: 'DM Sans', -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --radius: 10px;
+  }
+
+  html { scroll-behavior: smooth; font-size: 16px; }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 1.2rem 3rem;
+    backdrop-filter: blur(24px);
+    background: rgba(246,243,238,0.85);
+    border-bottom: 1px solid var(--border);
+  }
+  .logo {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .logo-mark {
+    width: 28px; height: 28px;
+    background: var(--accent);
+    border-radius: 7px;
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-family: var(--font-body);
+    font-weight: 700; font-size: 0.75rem;
+  }
+  .nav-links { display: flex; gap: 2.2rem; align-items: center; }
+  .nav-links a {
+    font-size: 0.85rem; font-weight: 500;
+    color: var(--text-muted); transition: color 0.3s;
+  }
+  .nav-links a:hover { color: var(--text); }
+  .nav-cta {
+    padding: 0.55rem 1.4rem;
+    background: var(--text);
+    color: var(--bg) !important;
+    border-radius: var(--radius);
+    font-size: 0.82rem !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+  }
+  .nav-cta:hover { background: var(--accent); }
+
+  /* CONTENT */
+  .page-content {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 8rem 2rem 4rem;
+  }
+
+  .breadcrumb {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.78rem; color: var(--text-light);
+    margin-bottom: 2.5rem;
+  }
+  .breadcrumb a { transition: color 0.3s; }
+  .breadcrumb a:hover { color: var(--text); }
+  .breadcrumb .sep { opacity: 0.4; }
+
+  .page-category {
+    font-family: var(--font-mono);
+    font-size: 0.68rem; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+  }
+
+  .page-content h1 {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 400; line-height: 1.15;
+    margin-bottom: 2rem;
+  }
+
+  .flow-summary {
+    display: flex; align-items: center; gap: 1rem;
+    padding: 1.3rem 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+  .flow-step-label {
+    font-family: var(--font-mono);
+    font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--text-light);
+  }
+  .flow-step-value {
+    font-size: 0.88rem; font-weight: 600;
+  }
+  .flow-arrow {
+    color: var(--accent); font-size: 1.2rem;
+    opacity: 0.5;
+  }
+
+  .section-label {
+    font-family: var(--font-mono);
+    font-size: 0.65rem; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+    margin-top: 2.5rem;
+  }
+
+  .page-content h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem; font-weight: 400;
+    margin-bottom: 0.8rem;
+    margin-top: 2.5rem;
+  }
+
+  .page-content p {
+    font-size: 1rem; line-height: 1.75;
+    color: var(--text-muted);
+    margin-bottom: 1.2rem;
+  }
+
+  .tools-list {
+    display: flex; flex-wrap: wrap; gap: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    list-style: none;
+  }
+  .tools-list li {
+    font-family: var(--font-mono);
+    font-size: 0.72rem; letter-spacing: 0.04em;
+    padding: 0.35rem 0.8rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-muted);
+  }
+
+  /* CTA BOX */
+  .cta-box {
+    margin-top: 3.5rem;
+    padding: 2.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    text-align: center;
+  }
+  .cta-box h3 {
+    font-family: var(--font-display);
+    font-size: 1.5rem; font-weight: 400;
+    margin-bottom: 0.6rem;
+  }
+  .cta-box h3 em { font-style: italic; color: var(--accent); }
+  .cta-box p {
+    font-size: 0.9rem; color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 0.6rem;
+    padding: 0.95rem 2rem;
+    background: var(--text);
+    color: var(--bg);
+    font-weight: 600; font-size: 0.88rem;
+    border-radius: var(--radius);
+    transition: all 0.35s ease;
+    border: none; cursor: pointer;
+    font-family: var(--font-body);
+  }
+  .btn-primary:hover { background: var(--accent); transform: translateY(-1px); box-shadow: 0 8px 24px rgba(42,92,255,0.18); }
+  .btn-primary svg { transition: transform 0.3s; }
+  .btn-primary:hover svg { transform: translateX(3px); }
+
+  /* RELATED */
+  .related {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--border);
+  }
+  .related h3 {
+    font-family: var(--font-display);
+    font-size: 1.3rem; font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+  .related-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .related-card {
+    padding: 1.3rem 1.4rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: all 0.3s;
+  }
+  .related-card:hover { border-color: var(--border-strong); transform: translateY(-2px); }
+  .related-card h4 {
+    font-size: 0.88rem; font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .related-card p {
+    font-size: 0.75rem; color: var(--text-light);
+    margin-bottom: 0;
+  }
+
+  /* FOOTER */
+  footer {
+    margin-top: 4rem;
+    padding: 3rem;
+    border-top: 1px solid var(--border);
+    display: flex; justify-content: space-between; align-items: center;
+    max-width: 1200px; margin-left: auto; margin-right: auto;
+    font-size: 0.75rem; color: var(--text-light);
+  }
+  footer a { color: var(--text-muted); transition: color 0.3s; }
+  footer a:hover { color: var(--text); }
+
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.5rem; }
+    .nav-links a:not(.nav-cta) { display: none; }
+    .page-content { padding: 7rem 1.5rem 3rem; }
+    .related-grid { grid-template-columns: 1fr; }
+    .flow-summary { flex-direction: column; align-items: flex-start; }
+    .flow-arrow { transform: rotate(90deg); }
+    footer { flex-direction: column; gap: 0.5rem; text-align: center; padding: 2rem 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="logo">
+    <div class="logo-mark">ai</div>
+    <span>ai<span style="color:var(--accent)">.</span>robotten</span>
+  </a>
+  <div class="nav-links">
+    <a href="/#services">Services</a>
+    <a href="/automatiseringer/">Automatiseringer</a>
+    <a href="/#faq">FAQ</a>
+    <a href="/#contact" class="nav-cta">Send din opgave</a>
+  </div>
+</nav>
+
+
+<div class="page-content" style="max-width:900px;">
+
+  <div class="breadcrumb">
+    <a href="/">Forside</a>
+    <span class="sep">›</span>
+    <span>Automatiseringer</span>
+  </div>
+
+  <div class="page-category">Alle løsninger</div>
+  <h1>Automatiseringer vi kan bygge til din virksomhed</h1>
+  <p>Herunder finder du eksempler på de automatiseringer vi bygger. Kan du ikke finde præcis det du leder efter? <a href="/#contact" style="color:var(--accent);font-weight:600;">Send os din opgave</a> — vi finder en løsning.</p>
+
+  
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+  <div class="section-label" style="margin-top:3rem;">E-commerce</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+      <a href="/automatisering/nye-ordrer-til-slack/" class="related-card">
+        <h4>Send automatisk besked i Slack ved nye ordrer</h4>
+        <p>Shopify, Make.com, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/ny-kunde-velkomst-flow/" class="related-card">
+        <h4>Automatisk velkomst-flow til nye kunder</h4>
+        <p>Shopify, Make.com, Klaviyo</p>
+      </a>
+      
+    
+      
+    
+      
+      <a href="/automatisering/lager-alert-ved-lav-beholdning/" class="related-card">
+        <h4>Automatisk lager-alert når beholdningen er lav</h4>
+        <p>Shopify, Make.com, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/anmeldelse-opfordring-efter-koeb/" class="related-card">
+        <h4>Automatisk anmeldelsesopfordring efter koeb</h4>
+        <p>Shopify, Make.com, Klaviyo, Trustpilot</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/retur-haandtering-automatisering/" class="related-card">
+        <h4>Automatiser din returhaandtering</h4>
+        <p>Shopify, Make.com, Gmail</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-prisaendring-shopify/" class="related-card">
+        <h4>Automatiser prisaendringer i Shopify baseret på regler</h4>
+        <p>Shopify, Make.com, Google Sheets</p>
+      </a>
+      
+    
+      
+      <a href="/automatisering/abandoned-cart-sms/" class="related-card">
+        <h4>Automatisk SMS ved forladt indkoebskurv</h4>
+        <p>Shopify, Make.com, Twilio</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/woocommerce-ordre-til-slack/" class="related-card">
+        <h4>WooCommerce-ordrer automatisk til Slack</h4>
+        <p>WooCommerce, Make.com, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-affiliate-tracking/" class="related-card">
+        <h4>Automatiser dit affiliate-program tracking</h4>
+        <p>Shopify, Make.com, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/leveringsstatus-notifikation/" class="related-card">
+        <h4>Automatisk leveringsstatus-notifikation til kunder</h4>
+        <p>Shopify, Make.com, Twilio</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-rabatkode-generering/" class="related-card">
+        <h4>Automatisk generering af unikke rabatkoder</h4>
+        <p>Shopify, Make.com, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/shopify-produkt-feed-optimering/" class="related-card">
+        <h4>Automatisk optimering af Shopify-produktfeed</h4>
+        <p>Shopify, Make.com, OpenAI, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/ai-oversaettelse-af-produkter/" class="related-card">
+        <h4>Automatisk AI-oversaettelse af produkter til nye markeder</h4>
+        <p>Shopify, Make.com, OpenAI, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/shopify-bundle-automatisering/" class="related-card">
+        <h4>Automatiser produktbundling i Shopify</h4>
+        <p>Shopify, Make.com, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-fragt-beregning/" class="related-card">
+        <h4>Automatisk fragtberegning og label-generering</h4>
+        <p>Shopify, Make.com, Shipmondo</p>
+      </a>
+      
+    
+      
+      <a href="/automatisering/automatisk-churn-detektion/" class="related-card">
+        <h4>Automatisk churn-detektion med AI</h4>
+        <p>Shopify, Make.com, OpenAI, Klaviyo</p>
+      </a>
+      
+    
+      
+      <a href="/automatisering/automatisk-gavekort-ved-foedseldag/" class="related-card">
+        <h4>Send automatisk gavekort på kundens foedseldag</h4>
+        <p>Shopify, Make.com, Klaviyo</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-winback-kampagne/" class="related-card">
+        <h4>Automatisk win-back kampagne til inaktive kunder</h4>
+        <p>Shopify, Make.com, Klaviyo</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-ordrebekraeftelse-sms/" class="related-card">
+        <h4>Automatisk ordrebekraeftelse via SMS</h4>
+        <p>Shopify, Make.com, Twilio</p>
+      </a>
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-prisoptimering-shopify/" class="related-card">
+        <h4>AI-drevet prisoptimering til din Shopify-shop</h4>
+        <p>Shopify, Make.com, OpenAI, Google Sheets</p>
+      </a>
+      
+    
+      
+      <a href="/automatisering/automatisk-refundering-tracking/" class="related-card">
+        <h4>Automatisk tracking af refunderinger og returner</h4>
+        <p>Shopify, Make.com, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-cross-sell-email/" class="related-card">
+        <h4>Automatisk cross-sell email baseret på koeb</h4>
+        <p>Shopify, Make.com, OpenAI, Klaviyo</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Lead-håndtering</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+      <a href="/automatisering/lead-fra-typeform-til-hubspot/" class="related-card">
+        <h4>Send Typeform-leads direkte til HubSpot</h4>
+        <p>Typeform, Make.com, HubSpot</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/linkedin-lead-til-crm/" class="related-card">
+        <h4>Automatiser LinkedIn-leads til dit CRM</h4>
+        <p>LinkedIn, Make.com, HubSpot</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/facebook-lead-ads-til-crm/" class="related-card">
+        <h4>Facebook Lead Ads direkte til dit CRM</h4>
+        <p>Facebook Lead Ads, Make.com, HubSpot</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Regnskab</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/faktura-fra-email-til-regnskab/" class="related-card">
+        <h4>Automatiser fakturahåndtering fra email til regnskab</h4>
+        <p>Gmail, Make.com, OpenAI, Dinero</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/udgiftsrapport-automatisering/" class="related-card">
+        <h4>Automatisk udgiftsrapportering fra kvitteringer</h4>
+        <p>Slack, Make.com, OpenAI, Dinero</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/shopify-ordre-til-economic/" class="related-card">
+        <h4>Sync Shopify-ordrer automatisk til e-conomic</h4>
+        <p>Shopify, Make.com, e-conomic</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/stripe-betaling-til-regnskab/" class="related-card">
+        <h4>Sync Stripe-betalinger automatisk til regnskab</h4>
+        <p>Stripe, Make.com, Dinero</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/tidsregistrering-til-faktura/" class="related-card">
+        <h4>Automatisk fakturering baseret på tidsregistrering</h4>
+        <p>Toggl, Make.com, Dinero</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/woocommerce-til-dinero/" class="related-card">
+        <h4>Sync WooCommerce-ordrer til Dinero automatisk</h4>
+        <p>WooCommerce, Make.com, Dinero</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/invoiceninja-automatisering/" class="related-card">
+        <h4>Automatiser fakturering med Invoice Ninja</h4>
+        <p>Invoice Ninja, Make.com, HubSpot</p>
+      </a>
+      
+    
+      
+    
+      
+      <a href="/automatisering/shopify-til-billy-regnskab/" class="related-card">
+        <h4>Sync Shopify-ordrer til Billy automatisk</h4>
+        <p>Shopify, Make.com, Billy</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/shopify-klarna-rapport/" class="related-card">
+        <h4>Automatisk Klarna-afstemning med Shopify</h4>
+        <p>Shopify, Make.com, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Content</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/social-media-content-med-ai/" class="related-card">
+        <h4>Generer ugentlige social media-opslag med AI</h4>
+        <p>Shopify, Make.com, OpenAI, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-blog-distribution/" class="related-card">
+        <h4>Automatisk distribution af blogindlaeg</h4>
+        <p>WordPress, Make.com, OpenAI, Buffer</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-produktbeskrivelse-ai/" class="related-card">
+        <h4>Generer produktbeskrivelser med AI</h4>
+        <p>Google Sheets, Make.com, OpenAI, Shopify</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-content-kalender/" class="related-card">
+        <h4>AI-genereret content-kalender til social media</h4>
+        <p>Make.com, OpenAI, Google Sheets, Notion</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-inventory-foto/" class="related-card">
+        <h4>Automatiser produktfoto-workflow</h4>
+        <p>Google Drive, Make.com, OpenAI, Shopify</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-blog-seo-optimering/" class="related-card">
+        <h4>AI-optimering af blogindlaeg til SEO</h4>
+        <p>WordPress, Make.com, OpenAI</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-podcast-distribution/" class="related-card">
+        <h4>Automatiser podcast-distribution og promotion</h4>
+        <p>Make.com, OpenAI, Buffer, Notion</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Kundeservice</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/kundeservice-auto-svar/" class="related-card">
+        <h4>AI-genererede svarforslag til kundeservice</h4>
+        <p>Zendesk, Make.com, OpenAI</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/ai-chatbot-til-website/" class="related-card">
+        <h4>AI-chatbot til din hjemmeside</h4>
+        <p>OpenAI, Make.com, Voiceflow</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-kundetilfredshed-nps/" class="related-card">
+        <h4>Automatisk NPS-maaling af kundetilfredshed</h4>
+        <p>Typeform, Make.com, OpenAI, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/intercom-til-slack-eskalering/" class="related-card">
+        <h4>Automatisk eskalering fra Intercom til Slack</h4>
+        <p>Intercom, Make.com, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-reklamationshaandtering/" class="related-card">
+        <h4>Automatiser din reklamationshaandtering</h4>
+        <p>Typeform, Make.com, Asana, Gmail</p>
+      </a>
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Salg</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/crm-opdatering-fra-email/" class="related-card">
+        <h4>Opdater CRM automatisk baseret på emails</h4>
+        <p>Gmail, Make.com, OpenAI, HubSpot</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-tilbudsberegning/" class="related-card">
+        <h4>Automatisk tilbudsberegning fra formular</h4>
+        <p>Typeform, Make.com, Google Sheets, Gmail</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-opfoelgning-paa-tilbud/" class="related-card">
+        <h4>Automatisk opfølgning på udsendte tilbud</h4>
+        <p>HubSpot, Make.com, Gmail</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-kreditvurdering/" class="related-card">
+        <h4>Automatisk kreditvurdering af nye kunder</h4>
+        <p>Make.com, Google Sheets, Slack</p>
+      </a>
+      
+    
+      
+      <a href="/automatisering/pipedrive-automatisering/" class="related-card">
+        <h4>Automatiser dit Pipedrive-workflow</h4>
+        <p>Pipedrive, Make.com, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-salgsprognose/" class="related-card">
+        <h4>AI-baseret salgsprognose fra dit CRM</h4>
+        <p>HubSpot, Make.com, OpenAI, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-duplikat-detektion-crm/" class="related-card">
+        <h4>Automatisk detektion af duplikater i dit CRM</h4>
+        <p>HubSpot, Make.com, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+      <a href="/automatisering/notion-crm-setup/" class="related-card">
+        <h4>Byg et komplet CRM i Notion med automatiseringer</h4>
+        <p>Notion, Make.com, Typeform, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/ai-email-writer-til-salg/" class="related-card">
+        <h4>AI-skrevet salgsmails baseret på lead-data</h4>
+        <p>HubSpot, Make.com, OpenAI, Gmail</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-kontakt-berigelse/" class="related-card">
+        <h4>Automatisk berigelse af CRM-kontakter</h4>
+        <p>HubSpot, Make.com, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-moedebooking-fra-website/" class="related-card">
+        <h4>Automatisk moedebooking fra din hjemmeside</h4>
+        <p>Calendly, Make.com, Gmail, HubSpot</p>
+      </a>
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Produktivitet</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/moede-referat-med-ai/" class="related-card">
+        <h4>Automatisk moedereferat med AI</h4>
+        <p>Google Meet, Make.com, OpenAI, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/slack-standup-bot/" class="related-card">
+        <h4>Automatisk daglig standup via Slack</h4>
+        <p>Slack, Make.com, OpenAI</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-moedeagenda/" class="related-card">
+        <h4>AI-genereret moedeagenda foer hvert moede</h4>
+        <p>Google Calendar, Make.com, OpenAI, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+      <a href="/automatisering/slack-til-notion-vidensbase/" class="related-card">
+        <h4>Gem Slack-beskeder automatisk i Notion-vidensbase</h4>
+        <p>Slack, Make.com, Notion</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/google-forms-til-notion/" class="related-card">
+        <h4>Send Google Forms-besvarelser automatisk til Notion</h4>
+        <p>Google Forms, Make.com, Notion</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-nyhedsovervagning/" class="related-card">
+        <h4>AI-kurateret branchenyhedsovervagning</h4>
+        <p>Make.com, OpenAI, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/notion-til-google-calendar-sync/" class="related-card">
+        <h4>Sync Notion-deadlines til Google Calendar</h4>
+        <p>Notion, Make.com, Google Calendar</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Analyse</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/konkurrent-overvaagning/" class="related-card">
+        <h4>Automatisk konkurrentovervaagning med AI</h4>
+        <p>Make.com, OpenAI, Google Sheets, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-konkurrenceanalyse/" class="related-card">
+        <h4>AI-drevet konkurrenceanalyse på autopilot</h4>
+        <p>Make.com, OpenAI, Google Sheets, Gmail</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Booking</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/booking-bekraeftelse-og-paammindelse/" class="related-card">
+        <h4>Automatisk bookingbekraeftelse og påmindelse</h4>
+        <p>Calendly, Make.com, Gmail</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Projektledelse</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/projekt-oprettelse-fra-deal/" class="related-card">
+        <h4>Opret automatisk projekt når en deal lukkes</h4>
+        <p>HubSpot, Make.com, Asana</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/notion-projekt-fra-slack/" class="related-card">
+        <h4>Opret Notion-projekter direkte fra Slack</h4>
+        <p>Slack, Make.com, Notion</p>
+      </a>
+      
+    
+      
+      <a href="/automatisering/email-til-opgave-i-asana/" class="related-card">
+        <h4>Konverter emails automatisk til Asana-opgaver</h4>
+        <p>Gmail, Make.com, Asana</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/airtable-projekt-dashboard/" class="related-card">
+        <h4>Byg et automatisk projekt-dashboard i Airtable</h4>
+        <p>Airtable, Make.com, HubSpot, Asana</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/jira-til-slack-notifikationer/" class="related-card">
+        <h4>Automatiske Jira-notifikationer i Slack</h4>
+        <p>Jira, Make.com, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-ugentlig-statusmail/" class="related-card">
+        <h4>Automatisk ugentlig statusmail til kunder</h4>
+        <p>Asana, Make.com, Gmail</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Rapportering</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/daglig-omsaetningsrapport/" class="related-card">
+        <h4>Automatisk daglig omsaetningsrapport</h4>
+        <p>Shopify, Make.com, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/rapport-fra-google-analytics-til-slack/" class="related-card">
+        <h4>Ugentlig Analytics-rapport direkte i Slack</h4>
+        <p>Google Analytics, Make.com, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">HR</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/cv-screening-med-ai/" class="related-card">
+        <h4>Automatisk CV-screening med AI</h4>
+        <p>Gmail, Make.com, OpenAI, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/onboarding-ny-medarbejder/" class="related-card">
+        <h4>Automatisk onboarding-flow for nye medarbejdere</h4>
+        <p>Notion, Make.com, Google Workspace, Asana, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-medarbejder-offboarding/" class="related-card">
+        <h4>Automatisk offboarding når medarbejdere stopper</h4>
+        <p>Google Workspace, Make.com, Asana, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-loenkoersel-forberedelse/" class="related-card">
+        <h4>Automatisk forberedelse af loenkoersel</h4>
+        <p>Toggl, Make.com, Google Sheets, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Email Marketing</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/nyhedsbrev-segmentering-med-ai/" class="related-card">
+        <h4>AI-baseret segmentering af nyhedsbrevsliste</h4>
+        <p>Klaviyo, Make.com, OpenAI</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/activecampaign-automation-setup/" class="related-card">
+        <h4>Avancerede ActiveCampaign-automatiseringer</h4>
+        <p>ActiveCampaign, Make.com, Shopify</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-nyhedsbrevsindhold/" class="related-card">
+        <h4>AI-genereret nyhedsbrevsindhold på autopilot</h4>
+        <p>Make.com, OpenAI, ActiveCampaign</p>
+      </a>
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Indkoeb</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/pris-overvaagning-leverandoerer/" class="related-card">
+        <h4>Automatisk prisovervaagning hos leverandoerer</h4>
+        <p>Make.com, Google Sheets, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-indkoebsordre/" class="related-card">
+        <h4>Automatisk indkoebsordre når lager er lavt</h4>
+        <p>Shopify, Make.com, Google Sheets, Gmail</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-prissammenligning/" class="related-card">
+        <h4>Automatisk prissammenligning på tvaers af leverandoerer</h4>
+        <p>Make.com, Google Sheets, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-leverandoer-evaluering/" class="related-card">
+        <h4>Automatisk evaluering af leverandoerer</h4>
+        <p>Google Sheets, Make.com, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Administration</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/kontraktudloeb-paamindelse/" class="related-card">
+        <h4>Automatisk påmindelse om kontraktudloeb</h4>
+        <p>Google Sheets, Make.com, Slack, Gmail</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/dokument-generering-fra-skabelon/" class="related-card">
+        <h4>Automatisk dokumentgenerering fra skabeloner</h4>
+        <p>HubSpot, Make.com, Google Docs</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Integration</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/data-sync-mellem-systemer/" class="related-card">
+        <h4>Automatisk datasynkronisering mellem systemer</h4>
+        <p>Make.com, Shopify, HubSpot, Dinero</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/hubspot-til-activecampaign-sync/" class="related-card">
+        <h4>Sync HubSpot-kontakter med ActiveCampaign</h4>
+        <p>HubSpot, Make.com, ActiveCampaign</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/zapier-til-make-migration/" class="related-card">
+        <h4>Migrer dine Zapier-flows til Make.com</h4>
+        <p>Zapier, Make.com</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Marketing</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/seo-rapport-med-ai-analyse/" class="related-card">
+        <h4>Ugentlig SEO-rapport med AI-analyse</h4>
+        <p>Google Search Console, Make.com, OpenAI, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-social-proof-indsamling/" class="related-card">
+        <h4>Automatisk indsamling af social proof</h4>
+        <p>Make.com, Trustpilot, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/google-ads-rapport-automatisk/" class="related-card">
+        <h4>Automatisk Google Ads-rapport til dit team</h4>
+        <p>Google Ads, Make.com, OpenAI, Slack</p>
+      </a>
+      
+    
+      
+      <a href="/automatisering/meta-ads-rapport-automatisk/" class="related-card">
+        <h4>Automatisk Meta Ads-rapport med AI-indsigter</h4>
+        <p>Meta Ads, Make.com, OpenAI, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/google-reviews-automatisk-svar/" class="related-card">
+        <h4>Automatisk svar på Google Reviews med AI</h4>
+        <p>Google Business, Make.com, OpenAI</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-social-listening/" class="related-card">
+        <h4>Automatisk social listening med AI-analyse</h4>
+        <p>Make.com, OpenAI, Slack, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-influencer-outreach/" class="related-card">
+        <h4>Automatiser influencer-outreach med AI</h4>
+        <p>Make.com, OpenAI, Gmail, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+      <a href="/automatisering/tiktok-ads-rapport/" class="related-card">
+        <h4>Automatisk TikTok Ads-rapport til Slack</h4>
+        <p>TikTok Ads, Make.com, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Compliance</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/gdpr-dataanmodning-automatisering/" class="related-card">
+        <h4>Automatiser GDPR-dataanmodninger</h4>
+        <p>Make.com, Gmail, HubSpot, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">DevOps</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/webhook-monitor-med-alerts/" class="related-card">
+        <h4>Overvaag webhooks og få alerts ved fejl</h4>
+        <p>Make.com, Slack</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-backup-af-data/" class="related-card">
+        <h4>Automatisk backup af forretningskritiske data</h4>
+        <p>Make.com, Google Drive, Airtable</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Events</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-tilbagemelding-efter-event/" class="related-card">
+        <h4>Automatisk feedback-indsamling efter events</h4>
+        <p>Eventbrite, Make.com, Typeform, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">SaaS</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-abonnements-fornyelse/" class="related-card">
+        <h4>Automatiser abonnementsfornyelse og betaling</h4>
+        <p>Stripe, Make.com, Gmail</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <div class="section-label" style="margin-top:3rem;">Kurser</div>
+  <div class="related-grid" style="margin-bottom:1rem;">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <a href="/automatisering/automatisk-kursus-enrollment/" class="related-card">
+        <h4>Automatiser kursustilmelding og adgang</h4>
+        <p>Stripe, Make.com, Gmail, Google Sheets</p>
+      </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+
+  <div class="cta-box" style="margin-top:3rem;">
+    <h3>Kan du ikke finde <em>din opgave?</em></h3>
+    <p>Vi bygger skræddersyede løsninger. Beskriv hvad der tager tid, så finder vi ud af det.</p>
+    <a href="/#contact" class="btn-primary">
+      Send din opgave
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+</div>
+
+
+<footer>
+  <span>© 2025 Airobotten — AI & Automatisering</span>
+  <a href="mailto:kasper@adflair.dk">kasper@adflair.dk</a>
+</footer>
+
+</body>
+</html>
