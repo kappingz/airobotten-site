@@ -1,0 +1,231 @@
+{% extends "base.njk" %}
+
+{% block extraCSS %}
+  .page-content { max-width: 720px; margin: 0 auto; padding: 8rem 2rem 4rem; }
+
+  .breadcrumb {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.78rem; color: var(--text-light);
+    margin-bottom: 2.5rem;
+  }
+  .breadcrumb a { transition: color 0.3s; }
+  .breadcrumb a:hover { color: var(--text); }
+  .breadcrumb .sep { opacity: 0.4; }
+
+  .page-category {
+    font-family: var(--font-mono);
+    font-size: 0.68rem; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.8rem;
+  }
+
+  .page-content h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-weight: 400; line-height: 1.15;
+    margin-bottom: 2rem;
+  }
+
+  .section-label {
+    font-family: var(--font-mono); font-size: 0.65rem;
+    letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.6rem; margin-top: 2.5rem;
+  }
+
+  .page-content h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem; font-weight: 400;
+    margin-bottom: 0.8rem; margin-top: 2.5rem;
+  }
+
+  .page-content p {
+    font-size: 1rem; line-height: 1.75;
+    color: var(--text-muted); margin-bottom: 1.2rem;
+  }
+
+  .page-content ul, .page-content ol {
+    padding-left: 1.4rem; color: var(--text-muted);
+    font-size: 1rem; line-height: 1.75; margin-bottom: 1.2rem;
+  }
+  .page-content li { margin-bottom: 0.4rem; }
+
+  /* DEFINITION BOX */
+  .definition-box {
+    padding: 1.6rem 1.8rem; margin-bottom: 2.5rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: var(--radius);
+  }
+  .definition-label {
+    font-family: var(--font-mono); font-size: 0.6rem;
+    letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--accent); font-weight: 500; margin-bottom: 0.5rem;
+  }
+  .definition-box p {
+    font-size: 1.05rem; font-weight: 500;
+    color: var(--text); margin-bottom: 0; line-height: 1.6;
+  }
+
+  /* RELATED TERMS */
+  .related-terms-list { list-style: none; margin: 0.5rem 0 2rem; display: flex; flex-direction: column; gap: 0; }
+  .related-terms-list li {
+    padding: 0.9rem 0; border-bottom: 1px solid var(--border);
+    font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);
+  }
+  .related-terms-list li:first-child { border-top: 1px solid var(--border); }
+  .related-terms-list li strong { color: var(--text); font-weight: 600; }
+
+  /* NEXT STEPS */
+  .next-steps { list-style: none; margin: 0.5rem 0 2rem; display: flex; flex-direction: column; gap: 1rem; }
+  .next-steps li { display: flex; gap: 1.2rem; align-items: flex-start; }
+  .step-num {
+    font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700;
+    color: var(--accent); min-width: 2rem; padding-top: 0.15rem;
+  }
+  .next-steps li span { font-size: 0.95rem; line-height: 1.65; color: var(--text-muted); }
+  .next-steps li a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+  /* FAQ DETAILS */
+  .faq-details { margin-top: 0.5rem; }
+  .faq-details details { border-bottom: 1px solid var(--border); }
+  .faq-details details:first-child { border-top: 1px solid var(--border); }
+  .faq-details summary {
+    cursor: pointer; padding: 0.85rem 0; font-weight: 600;
+    font-size: 0.93rem; list-style: none;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 1rem; color: var(--text);
+  }
+  .faq-details summary::-webkit-details-marker { display: none; }
+  .faq-details summary::after { content: '+'; color: var(--accent); font-size: 1.1rem; font-weight: 400; flex-shrink: 0; }
+  .faq-details details[open] > summary::after { content: '−'; }
+  .faq-details details p { padding: 0 0 0.9rem; font-size: 0.95rem; color: var(--text-muted); }
+
+  /* CTA BOX */
+  .cta-box {
+    margin-top: 3.5rem; padding: 2.5rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); text-align: center;
+  }
+  .cta-box h3 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; margin-bottom: 0.6rem; }
+  .cta-box h3 em { font-style: italic; color: var(--accent); }
+  .cta-box p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.6; }
+
+  /* RELATED */
+  .related { margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--border); }
+  .related h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; margin-bottom: 1.5rem; }
+  .related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .related-card {
+    padding: 1.3rem 1.4rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); transition: all 0.3s;
+  }
+  .related-card:hover { border-color: var(--border-strong); transform: translateY(-2px); }
+  .related-card h4 { font-size: 0.88rem; font-weight: 600; margin-bottom: 0.25rem; }
+  .related-card p { font-size: 0.75rem; color: var(--text-light); margin-bottom: 0; }
+
+  @media (max-width: 768px) {
+    .page-content { padding: 7rem 1.5rem 3rem; }
+    .related-grid { grid-template-columns: 1fr; }
+  }
+{% endblock %}
+
+{% block head %}
+{% if faq_schema %}
+<script type="application/ld+json">{{ faq_schema | safe }}</script>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="page-content">
+
+  <div class="breadcrumb">
+    <a href="/">Forside</a>
+    <span class="sep">›</span>
+    <a href="/automatiseringer/">Automatiseringer</a>
+    <span class="sep">›</span>
+    <span>Hvad er {{ term }}?</span>
+  </div>
+
+  <div class="page-category">{{ category }}</div>
+  <h1>{{ title }}</h1>
+
+  {% if definition %}
+  <div class="definition-box">
+    <div class="definition-label">Definition</div>
+    <p>{{ definition }}</p>
+  </div>
+  {% endif %}
+
+  {% if explanation %}
+  <div class="section-label">Den simple forklaring</div>
+  {{ explanation | safe }}
+  {% endif %}
+
+  {% if example %}
+  <div class="section-label">Konkret eksempel fra dansk forretning</div>
+  {{ example | safe }}
+  {% endif %}
+
+  {% if relevance %}
+  <div class="section-label">Hvorfor er det relevant for dig?</div>
+  {{ relevance | safe }}
+  {% endif %}
+
+  {% if related_terms %}
+  <div class="section-label">Relaterede begreber</div>
+  <ul class="related-terms-list">
+    {% for t in related_terms %}
+    <li><strong>{{ t.term }}:</strong> {{ t.definition }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if next_steps %}
+  <div class="section-label">Sådan kommer du i gang</div>
+  <ol class="next-steps">
+    {% for step in next_steps %}
+    <li>
+      <div class="step-num">{{ loop.index | string | padStart(2, '0') }}</div>
+      <span>{{ step | safe }}</span>
+    </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+
+  {% if faq_details %}
+  <div class="section-label">Ofte stillede spørgsmål</div>
+  <div class="faq-details">
+    {% for item in faq_details %}
+    <details>
+      <summary>{{ item.q }}</summary>
+      <p>{{ item.a }}</p>
+    </details>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="cta-box">
+    <h3>Klar til at sætte det <em>i praksis</em>?</h3>
+    <p>Vi opsætter automatiseringsflows der bruger {{ term }}er til at spare din virksomhed tid — uden at du behøver at forstå de tekniske detaljer.</p>
+    <a href="/#contact" class="btn-primary">
+      Send din opgave
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+  {% if related %}
+  <div class="related">
+    <h3>Relevante automatiseringer</h3>
+    <div class="related-grid">
+      {% for card in related %}
+      <a href="{{ card.url }}" class="related-card">
+        <h4>{{ card.title }}</h4>
+        <p>{{ card.category }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+</div>
+{% endblock %}

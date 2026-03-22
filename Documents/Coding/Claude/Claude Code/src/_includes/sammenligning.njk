@@ -1,0 +1,269 @@
+{% extends "base.njk" %}
+
+{% block extraCSS %}
+  .page-content { max-width: 720px; margin: 0 auto; padding: 8rem 2rem 4rem; }
+
+  .breadcrumb {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.78rem; color: var(--text-light);
+    margin-bottom: 2.5rem;
+  }
+  .breadcrumb a { transition: color 0.3s; }
+  .breadcrumb a:hover { color: var(--text); }
+  .breadcrumb .sep { opacity: 0.4; }
+
+  .page-category {
+    font-family: var(--font-mono);
+    font-size: 0.68rem; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.8rem;
+  }
+
+  .page-content h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-weight: 400; line-height: 1.15;
+    margin-bottom: 2rem;
+  }
+
+  .section-label {
+    font-family: var(--font-mono); font-size: 0.65rem;
+    letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.6rem; margin-top: 2.5rem;
+  }
+
+  .page-content h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem; font-weight: 400;
+    margin-bottom: 0.8rem; margin-top: 2.5rem;
+  }
+
+  .page-content p {
+    font-size: 1rem; line-height: 1.75;
+    color: var(--text-muted); margin-bottom: 1.2rem;
+  }
+
+  .page-content ul, .page-content ol {
+    padding-left: 1.4rem; color: var(--text-muted);
+    font-size: 1rem; line-height: 1.75; margin-bottom: 1.2rem;
+  }
+  .page-content li { margin-bottom: 0.4rem; }
+
+  /* VERDICT BOX */
+  .verdict-box {
+    padding: 1.6rem 1.8rem; margin-bottom: 3rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: var(--radius);
+  }
+  .verdict-label {
+    font-family: var(--font-mono); font-size: 0.6rem;
+    letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--accent); font-weight: 500; margin-bottom: 0.5rem;
+  }
+  .verdict-box p {
+    font-size: 0.95rem; font-weight: 500;
+    color: var(--text); margin-bottom: 0; line-height: 1.6;
+  }
+
+  /* COMPARE GRID */
+  .compare-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 1rem; margin: 1rem 0 2rem;
+  }
+  .compare-col {
+    padding: 1.4rem; background: var(--bg-card);
+    border: 1px solid var(--border); border-radius: var(--radius);
+  }
+  .compare-col h3 {
+    font-family: var(--font-display); font-size: 1.1rem;
+    font-weight: 400; margin-bottom: 1rem; padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .compare-col ul { list-style: none; padding: 0; margin: 0; }
+  .compare-col li {
+    font-size: 0.88rem; line-height: 1.55; color: var(--text-muted);
+    padding: 0.35rem 0; border-bottom: 1px solid var(--border);
+    display: flex; justify-content: space-between; gap: 0.5rem;
+  }
+  .compare-col li:last-child { border-bottom: none; }
+  .compare-col li strong { color: var(--text); font-weight: 600; flex-shrink: 0; }
+
+  /* CHOOSE BOXES */
+  .choose-box {
+    padding: 1.4rem 1.6rem; margin: 0.8rem 0;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .choose-box h3 {
+    font-family: var(--font-display); font-size: 1.05rem;
+    font-weight: 400; margin-bottom: 0.8rem;
+  }
+  .choose-box ul { list-style: none; padding: 0; margin: 0; }
+  .choose-box li {
+    font-size: 0.92rem; line-height: 1.6; color: var(--text-muted);
+    padding-left: 1.4rem; position: relative; margin-bottom: 0.45rem;
+  }
+  .choose-box li::before { content: '→'; position: absolute; left: 0; color: var(--accent); font-size: 0.8rem; }
+
+  /* RECOMMENDATION */
+  .recommendation-box {
+    margin-top: 2rem; padding: 1.6rem 1.8rem;
+    background: var(--accent-soft); border: 1px solid rgba(42,92,255,0.15);
+    border-radius: var(--radius);
+  }
+  .recommendation-box h3 {
+    font-family: var(--font-display); font-size: 1.15rem;
+    font-weight: 400; margin-bottom: 0.7rem;
+  }
+  .recommendation-box p { color: var(--text); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.8rem; }
+  .recommendation-box p:last-child { margin-bottom: 0; }
+
+  /* FAQ DETAILS */
+  .faq-details { margin-top: 0.5rem; }
+  .faq-details details { border-bottom: 1px solid var(--border); }
+  .faq-details details:first-child { border-top: 1px solid var(--border); }
+  .faq-details summary {
+    cursor: pointer; padding: 0.85rem 0; font-weight: 600;
+    font-size: 0.93rem; list-style: none;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 1rem; color: var(--text);
+  }
+  .faq-details summary::-webkit-details-marker { display: none; }
+  .faq-details summary::after { content: '+'; color: var(--accent); font-size: 1.1rem; font-weight: 400; flex-shrink: 0; }
+  .faq-details details[open] > summary::after { content: '−'; }
+  .faq-details details p { padding: 0 0 0.9rem; font-size: 0.95rem; color: var(--text-muted); }
+
+  /* CTA BOX */
+  .cta-box {
+    margin-top: 3.5rem; padding: 2.5rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); text-align: center;
+  }
+  .cta-box h3 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; margin-bottom: 0.6rem; }
+  .cta-box h3 em { font-style: italic; color: var(--accent); }
+  .cta-box p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.6; }
+
+  /* RELATED */
+  .related { margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--border); }
+  .related h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; margin-bottom: 1.5rem; }
+  .related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .related-card {
+    padding: 1.3rem 1.4rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); transition: all 0.3s;
+  }
+  .related-card:hover { border-color: var(--border-strong); transform: translateY(-2px); }
+  .related-card h4 { font-size: 0.88rem; font-weight: 600; margin-bottom: 0.25rem; }
+  .related-card p { font-size: 0.75rem; color: var(--text-light); margin-bottom: 0; }
+
+  @media (max-width: 768px) {
+    .page-content { padding: 7rem 1.5rem 3rem; }
+    .compare-grid { grid-template-columns: 1fr; }
+    .related-grid { grid-template-columns: 1fr; }
+  }
+{% endblock %}
+
+{% block head %}
+{% if faq_schema %}
+<script type="application/ld+json">{{ faq_schema | safe }}</script>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="page-content">
+
+  <div class="breadcrumb">
+    <a href="/">Forside</a>
+    <span class="sep">›</span>
+    <a href="/automatiseringer/">Automatiseringer</a>
+    <span class="sep">›</span>
+    <span>{{ tool_a }} vs {{ tool_b }}</span>
+  </div>
+
+  <div class="page-category">Sammenligning</div>
+  <h1>{{ title }}</h1>
+
+  <div class="verdict-box">
+    <div class="verdict-label">Vores dom</div>
+    <p>{{ verdict }}</p>
+  </div>
+
+  {% if intro %}
+  <div class="section-label">Indledning</div>
+  {{ intro | safe }}
+  {% endif %}
+
+  {% if comparison_html %}
+  <div class="section-label">Overblik</div>
+  <h2>{{ tool_a }} vs {{ tool_b }} — nøgletal og funktioner</h2>
+  {{ comparison_html | safe }}
+  {% endif %}
+
+  {% if analysis %}
+  <div class="section-label">Dybdegående analyse</div>
+  <h2>Hvor adskiller de sig mest?</h2>
+  {{ analysis | safe }}
+  {% endif %}
+
+  {% if choose_a %}
+  <div class="section-label">Hvornår vælger du {{ tool_a }}</div>
+  <div class="choose-box">
+    <h3>Vælg {{ tool_a }} hvis du…</h3>
+    {{ choose_a | safe }}
+  </div>
+  {% endif %}
+
+  {% if choose_b %}
+  <div class="section-label">Hvornår vælger du {{ tool_b }}</div>
+  <div class="choose-box">
+    <h3>Vælg {{ tool_b }} hvis du…</h3>
+    {{ choose_b | safe }}
+  </div>
+  {% endif %}
+
+  {% if recommendation %}
+  <div class="section-label">Vores anbefaling</div>
+  <div class="recommendation-box">
+    <h3>Tag stilling — her er vores konklusion</h3>
+    {{ recommendation | safe }}
+  </div>
+  {% endif %}
+
+  {% if faq_details %}
+  <div class="section-label">Ofte stillede spørgsmål</div>
+  <div class="faq-details">
+    {% for item in faq_details %}
+    <details>
+      <summary>{{ item.q }}</summary>
+      <p>{{ item.a }}</p>
+    </details>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="cta-box">
+    <h3>Brug for hjælp til at <em>vælge og opsætte</em>?</h3>
+    <p>Vi sætter automatiseringsflows op med det værktøj der passer til din virksomhed — og sørger for at det faktisk virker fra dag ét.</p>
+    <a href="/#contact" class="btn-primary">
+      Send din opgave
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+  {% if related %}
+  <div class="related">
+    <h3>Relevante automatiseringer</h3>
+    <div class="related-grid">
+      {% for card in related %}
+      <a href="{{ card.url }}" class="related-card">
+        <h4>{{ card.title }}</h4>
+        <p>{{ card.category }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+</div>
+{% endblock %}
