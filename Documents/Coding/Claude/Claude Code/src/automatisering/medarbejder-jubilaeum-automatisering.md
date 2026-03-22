@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatisk jubilæumshilsen og anerkendelse til medarbejdere"
 meta_description: "Anerkend medarbejderjubilæer automatisk med personlige hilsener i Slack, email og fysisk gave. Aldrig et jubilæum der glipper — selv i en travl hverdag."
-canonical: "https://airobotten.dk/automatisering/medarbejder-jubilæum-automatisering/"
+canonical: "https://airobotten.dk/automatisering/medarbejder-jubilaeum-automatisering/"
 category: "HR"
 breadcrumb_label: "Automatisk jubilæumsanerkendelse"
 trigger: "Medarbejderens ansættelsesjubilæum nærmer sig"
