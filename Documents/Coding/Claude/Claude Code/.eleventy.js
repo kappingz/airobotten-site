@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
 
   // Custom filters
   eleventyConfig.addFilter("padStart", (val, length, fill) => String(val).padStart(length, fill));
+  eleventyConfig.addFilter("dateISOString", (date) => new Date(date).toISOString().slice(0, 10));
 
   // Ignorer de eksisterende genererede HTML-filer i _site
   eleventyConfig.ignores.add("_site/**");
