@@ -1,0 +1,305 @@
+{% extends "base.njk" %}
+
+{% block extraCSS %}
+  /* AUTOMATISERING-SIDER */
+  .page-content { max-width: 720px; margin: 0 auto; padding: 8rem 2rem 4rem; }
+
+  .breadcrumb {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.78rem; color: var(--text-light);
+    margin-bottom: 2.5rem;
+  }
+  .breadcrumb a { transition: color 0.3s; }
+  .breadcrumb a:hover { color: var(--text); }
+  .breadcrumb .sep { opacity: 0.4; }
+
+  .page-category {
+    font-family: var(--font-mono);
+    font-size: 0.68rem; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.8rem;
+  }
+
+  .page-content h1 {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 400; line-height: 1.15;
+    margin-bottom: 2rem;
+  }
+
+  .flow-summary {
+    display: flex; align-items: center; gap: 1rem;
+    padding: 1.3rem 1.5rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); margin-bottom: 3rem; flex-wrap: wrap;
+  }
+  .flow-step-label {
+    font-family: var(--font-mono); font-size: 0.65rem;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-light);
+  }
+  .flow-step-value { font-size: 0.88rem; font-weight: 600; }
+  .flow-arrow { color: var(--accent); font-size: 1.2rem; opacity: 0.5; }
+
+  .section-label {
+    font-family: var(--font-mono); font-size: 0.65rem;
+    letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.6rem; margin-top: 2.5rem;
+  }
+
+  .page-content h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem; font-weight: 400;
+    margin-bottom: 0.8rem; margin-top: 2.5rem;
+  }
+
+  .page-content p {
+    font-size: 1rem; line-height: 1.75;
+    color: var(--text-muted); margin-bottom: 1.2rem;
+  }
+
+  /* TOOLS */
+  .tools-list {
+    display: flex; flex-wrap: wrap; gap: 0.5rem;
+    margin-top: 0.5rem; margin-bottom: 1.5rem; list-style: none;
+  }
+  .tools-list li {
+    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.04em;
+    padding: 0.35rem 0.8rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 6px; color: var(--text-muted);
+  }
+
+  /* TIMELINE */
+  .step-list { margin: 1rem 0 2rem; display: flex; flex-direction: column; gap: 1.2rem; }
+  .step-item { display: flex; gap: 1.2rem; align-items: flex-start; }
+  .step-num {
+    font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700;
+    color: var(--accent); min-width: 2rem; padding-top: 0.15rem;
+  }
+
+  /* BENEFIT LIST */
+  .benefit-list { list-style: none; margin: 0.5rem 0 2rem; display: flex; flex-direction: column; gap: 0.6rem; }
+  .benefit-list li {
+    font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);
+    padding-left: 1.4rem; position: relative;
+  }
+  .benefit-list li::before { content: '→'; position: absolute; left: 0; color: var(--accent); font-size: 0.8rem; }
+
+  /* MINI CASE */
+  .mini-case {
+    margin-top: 2.5rem; padding: 1.6rem 1.8rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .fictive-badge {
+    display: inline-block; font-family: var(--font-mono);
+    font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 0.2rem 0.6rem; background: var(--orange-soft);
+    color: var(--orange); border-radius: 4px; margin-bottom: 0.6rem;
+  }
+  .mini-case h3 {
+    font-family: var(--font-display); font-size: 1.1rem;
+    font-weight: 400; margin-bottom: 0.7rem; margin-top: 0.4rem;
+  }
+
+  /* FAQ */
+  .faq { margin: 0.5rem 0 2rem; }
+  .faq-item { border-bottom: 1px solid var(--border); padding: 1rem 0; }
+  .faq-item h3 {
+    font-family: var(--font-display); font-size: 1.05rem;
+    font-weight: 400; margin-bottom: 0.5rem;
+  }
+
+  /* FAQ DETAILS (udvidede sider) */
+  .faq-details { margin-top: 0.5rem; }
+  .faq-details details { border-bottom: 1px solid var(--border); }
+  .faq-details details:first-child { border-top: 1px solid var(--border); }
+  .faq-details summary {
+    cursor: pointer; padding: 0.85rem 0; font-weight: 600;
+    font-size: 0.93rem; list-style: none;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 1rem; color: var(--text);
+  }
+  .faq-details summary::-webkit-details-marker { display: none; }
+  .faq-details summary::after { content: '+'; color: var(--accent); font-size: 1.1rem; font-weight: 400; flex-shrink: 0; }
+  .faq-details details[open] > summary::after { content: '−'; }
+  .faq-details details p { padding: 0 0 0.9rem; font-size: 0.95rem; }
+
+  /* PRO-TIP */
+  .pro-tip {
+    margin-top: 2.5rem; padding: 1.2rem 1.5rem;
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+  .pro-tip-label {
+    font-family: var(--font-mono); font-size: 0.6rem;
+    letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--accent); font-weight: 500; margin-bottom: 0.4rem;
+  }
+  .pro-tip p { font-size: 0.92rem; margin-bottom: 0; }
+
+  /* CTA BOX */
+  .cta-box {
+    margin-top: 3.5rem; padding: 2.5rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); text-align: center;
+  }
+  .cta-box h3 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; margin-bottom: 0.6rem; }
+  .cta-box h3 em { font-style: italic; color: var(--accent); }
+  .cta-box p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.6; }
+
+  /* RELATED */
+  .related { margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--border); }
+  .related h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; margin-bottom: 1.5rem; }
+  .related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .related-card {
+    padding: 1.3rem 1.4rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); transition: all 0.3s;
+  }
+  .related-card:hover { border-color: var(--border-strong); transform: translateY(-2px); }
+  .related-card h4 { font-size: 0.88rem; font-weight: 600; margin-bottom: 0.25rem; }
+  .related-card p { font-size: 0.75rem; color: var(--text-light); margin-bottom: 0; }
+
+  @media (max-width: 768px) {
+    .page-content { padding: 7rem 1.5rem 3rem; }
+    .related-grid { grid-template-columns: 1fr; }
+    .flow-summary { flex-direction: column; align-items: flex-start; }
+    .flow-arrow { transform: rotate(90deg); }
+  }
+{% endblock %}
+
+{% block head %}
+{% if faq_schema %}
+<script type="application/ld+json">{{ faq_schema | safe }}</script>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="page-content">
+
+  <div class="breadcrumb">
+    <a href="/">Forside</a>
+    <span class="sep">›</span>
+    <a href="/automatiseringer/">Automatiseringer</a>
+    <span class="sep">›</span>
+    <span>{{ breadcrumb_label }}</span>
+  </div>
+
+  <div class="page-category">{{ category }}</div>
+  <h1>{{ title }}</h1>
+
+  <div class="flow-summary">
+    <div>
+      <div class="flow-step-label">Trigger</div>
+      <div class="flow-step-value">{{ trigger }}</div>
+    </div>
+    <div class="flow-arrow">→</div>
+    <div>
+      <div class="flow-step-label">Resultat</div>
+      <div class="flow-step-value">{{ result }}</div>
+    </div>
+  </div>
+
+  <div class="section-label">Problemet</div>
+  {{ problem | safe }}
+
+  <div class="section-label">Løsningen</div>
+  {{ solution | safe }}
+
+  {% if steps %}
+  <div class="section-label">Trin for trin</div>
+  <h2>Sådan kører automatiseringen fra trigger til resultat</h2>
+  <div class="step-list">
+    {% for step in steps %}
+    <div class="step-item">
+      <div class="step-num">{{ loop.index | string | padStart(2, '0') }}</div>
+      <div>
+        <p><strong>{{ step.title }}</strong></p>
+        <p>{{ step.body }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if benefits %}
+  <div class="section-label">Det opnår du</div>
+  <h2>Konkrete fordele ved at automatisere denne proces</h2>
+  <ul class="benefit-list">
+    {% for b in benefits %}<li>{{ b }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  <div class="section-label">Værktøjer vi bruger</div>
+  <ul class="tools-list">
+    {% for tool in tools %}<li>{{ tool }}</li>{% endfor %}
+  </ul>
+
+  {% if faq_items %}
+  <div class="section-label">Typiske spørgsmål</div>
+  <h2>Ofte stillede spørgsmål</h2>
+  <div class="faq">
+    {% for item in faq_items %}
+    <div class="faq-item">
+      <h3>{{ item.q }}</h3>
+      <p>{{ item.a }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if mini_case %}
+  <div class="section-label">Sådan fungerer det i praksis</div>
+  <div class="mini-case">
+    <span class="fictive-badge">Fiktivt eksempel</span>
+    <h3>{{ mini_case.title }}</h3>
+    {{ mini_case.body | safe }}
+  </div>
+  {% endif %}
+
+  {% if faq_details %}
+  <div class="section-label">Praktiske spørgsmål</div>
+  <div class="faq-details">
+    {% for item in faq_details %}
+    <details>
+      <summary>{{ item.q }}</summary>
+      <p>{{ item.a }}</p>
+    </details>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if pro_tip %}
+  <div class="pro-tip">
+    <div class="pro-tip-label">Pro-tip</div>
+    <p>{{ pro_tip }}</p>
+  </div>
+  {% endif %}
+
+  <div class="cta-box">
+    <h3>Har du en <em>lignende</em> opgave?</h3>
+    <p>Beskriv hvad der tager tid i din hverdag, så vurderer vi uforpligtende om vi kan automatisere det for dig.</p>
+    <a href="/#contact" class="btn-primary">
+      Send din opgave
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+  {% if related %}
+  <div class="related">
+    <h3>Andre automatiseringer</h3>
+    <div class="related-grid">
+      {% for card in related %}
+      <a href="{{ card.url }}" class="related-card">
+        <h4>{{ card.title }}</h4>
+        <p>{{ card.category }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+</div>
+{% endblock %}

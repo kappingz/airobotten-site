@@ -1,0 +1,500 @@
+---
+layout: base.njk
+title: "Airobotten — AI & Automatisering til din virksomhed"
+meta_description: "Vi bygger AI-løsninger og automatiseringer der fjerner manuelt arbejde fra din hverdag."
+---
+
+{% block extraCSS %}
+  /* FORSIDE */
+  body { overflow-x: hidden; }
+
+  .hero {
+    min-height: 100vh;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 8rem 3rem 5rem;
+    position: relative; max-width: 1200px; margin: 0 auto;
+  }
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 0.6rem;
+    padding: 0.5rem 1rem;
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 100px;
+    font-size: 0.78rem; font-weight: 500; color: var(--text-muted);
+    width: fit-content; margin-bottom: 2.5rem;
+    opacity: 0; animation: fadeUp 0.7s 0.1s forwards;
+  }
+  .badge-dot {
+    width: 7px; height: 7px; border-radius: 50%; background: var(--green);
+    animation: pulse-dot 2.5s ease-in-out infinite;
+  }
+  @keyframes pulse-dot {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.5); opacity: 0.6; }
+  }
+  .hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(3.2rem, 7vw, 6.5rem);
+    font-weight: 400; line-height: 1.05; letter-spacing: -0.02em;
+    max-width: 780px; opacity: 0; animation: fadeUp 0.8s 0.25s forwards;
+  }
+  .hero h1 em { font-style: italic; color: var(--accent); }
+  .hero-sub {
+    margin-top: 2rem; font-size: 1.12rem; line-height: 1.7;
+    color: var(--text-muted); font-weight: 400; max-width: 500px;
+    opacity: 0; animation: fadeUp 0.8s 0.4s forwards;
+  }
+  .hero-actions {
+    display: flex; align-items: center; gap: 1.5rem; margin-top: 3rem;
+    opacity: 0; animation: fadeUp 0.8s 0.55s forwards;
+  }
+  .btn-secondary {
+    font-size: 0.88rem; font-weight: 500; color: var(--text-muted);
+    display: flex; align-items: center; gap: 0.4rem; transition: color 0.3s;
+  }
+  .btn-secondary:hover { color: var(--text); }
+  .hero-cards {
+    position: absolute; right: 0; top: 50%; transform: translateY(-50%);
+    display: flex; flex-direction: column; gap: 0.8rem;
+    opacity: 0; animation: fadeUp 0.8s 0.7s forwards;
+  }
+  .hero-card {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 1rem 1.3rem; display: flex; align-items: center; gap: 0.8rem;
+    font-size: 0.8rem; font-weight: 500; color: var(--text-muted);
+    transition: all 0.3s; box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  }
+  .hero-card:hover { border-color: var(--border-strong); transform: translateX(-4px); }
+  .hero-card-icon { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; }
+
+  /* MARQUEE */
+  .marquee-section {
+    padding: 1.4rem 0; overflow: hidden;
+    border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+    background: var(--bg-card);
+  }
+  .marquee-track { display: flex; gap: 3rem; animation: marquee 40s linear infinite; width: max-content; }
+  .marquee-item {
+    font-family: var(--font-mono); font-size: 0.7rem; font-weight: 400;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-light);
+    white-space: nowrap; display: flex; align-items: center; gap: 3rem;
+  }
+  .marquee-item::after { content: '\00B7'; font-size: 1.2rem; color: var(--border-strong); }
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  /* SECTION SHARED */
+  .section-tag {
+    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent); margin-bottom: 0.8rem; font-weight: 500;
+  }
+  .section-title {
+    font-family: var(--font-display); font-size: clamp(2rem, 3.8vw, 3.2rem);
+    font-weight: 400; line-height: 1.15; max-width: 650px;
+  }
+  .section-title em { font-style: italic; color: var(--accent); }
+
+  /* PROCESS */
+  .process { padding: 7rem 3rem; max-width: 1200px; margin: 0 auto; }
+  .process-header { margin-bottom: 3.5rem; }
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .step {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 2.5rem 2rem; transition: all 0.4s;
+  }
+  .step:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,0.05); }
+  .step-num {
+    font-family: var(--font-display); font-size: 3.5rem; font-weight: 400;
+    color: var(--accent); opacity: 0.15; line-height: 1; margin-bottom: 1.5rem; font-style: italic;
+  }
+  .step h3 { font-family: var(--font-display); font-size: 1.4rem; font-weight: 400; margin-bottom: 0.7rem; }
+  .step p { font-size: 0.88rem; line-height: 1.65; color: var(--text-muted); }
+
+  /* SERVICES */
+  .services { padding: 7rem 3rem; background: var(--bg-card); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .services-inner { max-width: 1200px; margin: 0 auto; }
+  .services-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3.5rem; }
+  .services-count { font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-light); letter-spacing: 0.08em; }
+  .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .service-card {
+    background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 2.2rem 1.8rem; transition: all 0.4s; cursor: default;
+  }
+  .service-card:hover { border-color: var(--border-strong); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.04); }
+  .service-emoji {
+    font-size: 1.6rem; margin-bottom: 1.2rem; width: 48px; height: 48px;
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .service-card h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; margin-bottom: 0.6rem; }
+  .service-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 1rem; }
+  .service-tags span {
+    font-size: 0.62rem; letter-spacing: 0.04em; padding: 0.22rem 0.55rem;
+    border: 1px solid var(--border); border-radius: 4px; color: var(--text-light); font-family: var(--font-mono);
+  }
+  .service-card p { font-size: 0.85rem; line-height: 1.6; color: var(--text-muted); }
+
+  /* USE CASES */
+  .use-cases { padding: 7rem 3rem; max-width: 1200px; margin: 0 auto; }
+  .use-cases-header { margin-bottom: 3rem; }
+  .cases-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.2rem; max-width: 900px; }
+  .case-pill {
+    display: flex; align-items: center; gap: 1rem;
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 1.3rem 1.5rem; transition: all 0.3s;
+  }
+  .case-pill:hover { border-color: var(--border-strong); transform: translateX(4px); }
+  .case-pill-icon { width: 38px; height: 38px; flex-shrink: 0; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1rem; }
+  .case-pill h4 { font-size: 0.88rem; font-weight: 600; margin-bottom: 0.15rem; }
+  .case-pill p { font-size: 0.75rem; color: var(--text-light); line-height: 1.4; }
+
+  /* TOOLS STRIP */
+  .tools-section { padding: 3rem; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .tools-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; gap: 2.5rem; flex-wrap: wrap; justify-content: center; }
+  .tools-label { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-light); white-space: nowrap; }
+  .tools-divider { width: 1px; height: 24px; background: var(--border-strong); }
+  .tool-names { display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; }
+  .tool-name { font-size: 0.82rem; font-weight: 500; color: var(--text-muted); transition: color 0.3s; cursor: default; }
+  .tool-name:hover { color: var(--text); }
+
+  /* WHY */
+  .why { padding: 7rem 3rem; background: var(--bg-card); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .why-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+  .why-text .section-title { margin-bottom: 1.5rem; }
+  .why-text > p { font-size: 1rem; line-height: 1.7; color: var(--text-muted); margin-bottom: 2rem; }
+  .why-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .why-card { background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.6rem; transition: all 0.35s; }
+  .why-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .why-card h4 { font-family: var(--font-display); font-size: 1.05rem; margin-bottom: 0.35rem; }
+  .why-card p { font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; }
+
+  /* FAQ */
+  .faq { padding: 7rem 3rem; max-width: 1200px; margin: 0 auto; }
+  .faq-header { margin-bottom: 3rem; }
+  .faq-list { max-width: 700px; }
+  .faq-item { border-bottom: 1px solid var(--border); }
+  .faq-question {
+    width: 100%; display: flex; justify-content: space-between; align-items: center;
+    padding: 1.5rem 0; background: none; border: none; color: var(--text);
+    font-family: var(--font-body); font-size: 1rem; font-weight: 500;
+    cursor: pointer; text-align: left; transition: color 0.3s;
+  }
+  .faq-question:hover { color: var(--accent); }
+  .faq-toggle {
+    width: 24px; height: 24px; flex-shrink: 0;
+    border: 1px solid var(--border); border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1rem; font-weight: 300; color: var(--text-light); transition: all 0.3s;
+  }
+  .faq-item.active .faq-toggle { transform: rotate(45deg); border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+  .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.5s ease, padding 0.3s ease; }
+  .faq-item.active .faq-answer { max-height: 300px; padding-bottom: 1.5rem; }
+  .faq-answer p { font-size: 0.9rem; line-height: 1.7; color: var(--text-muted); max-width: 580px; }
+
+  /* CONTACT */
+  .contact { padding: 7rem 3rem; background: var(--bg-card); border-top: 1px solid var(--border); }
+  .contact-inner { max-width: 620px; margin: 0 auto; }
+  .contact-header { text-align: center; margin-bottom: 3rem; }
+  .contact-header p { font-size: 0.95rem; color: var(--text-muted); margin-top: 1rem; line-height: 1.6; }
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+  .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+  .form-group.full { grid-column: 1/-1; }
+  .form-group label { font-size: 0.78rem; font-weight: 600; color: var(--text); }
+  .form-group input, .form-group textarea, .form-group select {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text); font-family: var(--font-body); font-size: 0.9rem;
+    padding: 0.85rem 1rem; transition: all 0.3s; outline: none; -webkit-appearance: none;
+  }
+  .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .form-group input::placeholder, .form-group textarea::placeholder { color: var(--text-light); }
+  .form-group textarea { resize: vertical; min-height: 130px; }
+  .form-group select { cursor: pointer; color: var(--text-muted); }
+  .form-group select option { background: var(--bg-card); color: var(--text); }
+  .form-footer { grid-column: 1/-1; display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem; }
+  .form-note { font-size: 0.75rem; color: var(--text-light); max-width: 260px; line-height: 1.5; }
+
+  /* HOMEPAGE FOOTER */
+  .site-footer { padding: 3.5rem 3rem 2.5rem; border-top: 1px solid var(--border); max-width: 1200px; margin: 0 auto; }
+  .footer-top { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 2.5rem; border-bottom: 1px solid var(--border); }
+  .footer-brand .logo { margin-bottom: 0.8rem; }
+  .footer-brand p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; max-width: 280px; }
+  .footer-links { display: flex; gap: 4rem; }
+  .footer-col h5 { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text); margin-bottom: 0.8rem; }
+  .footer-col a { display: block; font-size: 0.85rem; color: var(--text-muted); padding: 0.25rem 0; transition: color 0.3s; }
+  .footer-col a:hover { color: var(--text); }
+  .footer-bottom { display: flex; justify-content: space-between; align-items: center; padding-top: 1.5rem; font-size: 0.72rem; color: var(--text-light); }
+
+  @media (max-width: 1024px) {
+    .hero-cards { display: none; }
+    .services-grid { grid-template-columns: repeat(2, 1fr); }
+    .why-inner { grid-template-columns: 1fr; gap: 3rem; }
+    .cases-grid { grid-template-columns: 1fr; }
+    .steps { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 768px) {
+    .hero { padding: 7rem 1.5rem 3rem; }
+    .process { padding: 5rem 1.5rem; }
+    .services { padding: 5rem 1.5rem; }
+    .services-grid { grid-template-columns: 1fr; }
+    .services-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+    .use-cases { padding: 5rem 1.5rem; }
+    .why { padding: 5rem 1.5rem; }
+    .why-cards { grid-template-columns: 1fr; }
+    .faq { padding: 5rem 1.5rem; }
+    .contact { padding: 5rem 1.5rem; }
+    .form-grid { grid-template-columns: 1fr; }
+    .form-footer { flex-direction: column; gap: 1rem; align-items: stretch; }
+    .form-note { max-width: 100%; }
+    .tools-section { padding: 2rem 1.5rem; }
+    .tools-inner { gap: 1.5rem; }
+    .tools-divider { display: none; }
+    .site-footer { padding: 3rem 1.5rem 2rem; }
+    .footer-top { flex-direction: column; gap: 2rem; }
+    .footer-links { gap: 2.5rem; }
+    .footer-bottom { flex-direction: column; gap: 0.5rem; text-align: center; }
+  }
+{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-badge"><span class="badge-dot"></span> Åben for nye opgaver</div>
+  <h1>Giv din virksomhed <em>superkræfter</em> med AI og automatisering</h1>
+  <p class="hero-sub">Du fortæller os hvad der tager tid – vi bygger en løsning, der gør det automatisk. Ingen buzzwords, ingen overkompleksitet. Bare ting der virker.</p>
+  <div class="hero-actions">
+    <a href="#contact" class="btn-primary">Beskriv din opgave
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+    <a href="#how" class="btn-secondary">Sådan virker det ↓</a>
+  </div>
+  <div class="hero-cards">
+    <div class="hero-card"><div class="hero-card-icon" style="background:var(--accent-soft)">⚡</div>Automatiserede workflows</div>
+    <div class="hero-card"><div class="hero-card-icon" style="background:var(--orange-soft)">🤖</div>AI-assistenter til dit team</div>
+    <div class="hero-card"><div class="hero-card-icon" style="background:var(--green-soft)">🔗</div>Systemer der taler sammen</div>
+  </div>
+</section>
+
+<div class="marquee-section">
+  <div class="marquee-track">
+    <span class="marquee-item">Make.com</span><span class="marquee-item">AI Workflows</span>
+    <span class="marquee-item">Automatisering</span><span class="marquee-item">ChatGPT</span>
+    <span class="marquee-item">Claude</span><span class="marquee-item">Integrationer</span>
+    <span class="marquee-item">Effektivisering</span><span class="marquee-item">Data Pipelines</span>
+    <span class="marquee-item">Make.com</span><span class="marquee-item">AI Workflows</span>
+    <span class="marquee-item">Automatisering</span><span class="marquee-item">ChatGPT</span>
+    <span class="marquee-item">Claude</span><span class="marquee-item">Integrationer</span>
+    <span class="marquee-item">Effektivisering</span><span class="marquee-item">Data Pipelines</span>
+  </div>
+</div>
+
+<section class="process" id="how">
+  <div class="process-header reveal">
+    <div class="section-tag">Sådan virker det</div>
+    <h2 class="section-title">Fra problem til løsning <em>i tre skridt</em></h2>
+  </div>
+  <div class="steps">
+    <div class="step reveal">
+      <div class="step-num">1</div>
+      <h3>Beskriv din opgave</h3>
+      <p>Fortæl os hvad der tager tid i din hverdag. Udfyld formularen med en kort beskrivelse – ingen teknisk viden nødvendig.</p>
+    </div>
+    <div class="step reveal">
+      <div class="step-num">2</div>
+      <h3>Vi vurderer mulighederne</h3>
+      <p>Vi kigger på din opgave og vender tilbage inden 48 timer med en ærlig vurdering og et konkret forslag.</p>
+    </div>
+    <div class="step reveal">
+      <div class="step-num">3</div>
+      <h3>Vi bygger løsningen</h3>
+      <p>Du får et færdigt setup der kører – med dokumentation og support til at komme godt i gang.</p>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="services-inner">
+    <div class="services-header reveal">
+      <div>
+        <div class="section-tag">Services</div>
+        <h2 class="section-title">Hvad vi kan hjælpe <em>med</em></h2>
+      </div>
+      <div class="services-count">06 ydelser</div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-emoji">⚡</div>
+        <h3>Workflow Automatisering</h3>
+        <div class="service-tags"><span>Make.com</span><span>Zapier</span><span>n8n</span></div>
+        <p>Automatiserede workflows der forbinder dine systemer og fjerner manuelle opgaver. Fra simpel datahåndtering til komplekse processer.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-emoji">🤖</div>
+        <h3>AI Assistenter</h3>
+        <div class="service-tags"><span>ChatGPT</span><span>Claude</span><span>Custom</span></div>
+        <p>Skræddersyede AI-assistenter der kan besvare henvendelser, generere indhold, opsummere dokumenter eller hjælpe dit team.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-emoji">🔗</div>
+        <h3>System-integrationer</h3>
+        <div class="service-tags"><span>API</span><span>Webhooks</span><span>Sync</span></div>
+        <p>Vi forbinder de systemer du allerede bruger – CRM, regnskab, e-mail, webshop – så data flyder automatisk.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-emoji">📊</div>
+        <h3>Data & Rapportering</h3>
+        <div class="service-tags"><span>Dashboards</span><span>Sheets</span><span>Auto</span></div>
+        <p>Automatisk indsamling, behandling og rapportering. Dashboards der opdaterer sig selv, så du altid har overblikket.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-emoji">📧</div>
+        <h3>Email & Kommunikation</h3>
+        <div class="service-tags"><span>Auto-svar</span><span>Flows</span><span>Routing</span></div>
+        <p>Automatiserede email-flows, intelligent routing af henvendelser og AI-genererede svar – så intet falder mellem to stole.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-emoji">🧠</div>
+        <h3>Custom Løsninger</h3>
+        <div class="service-tags"><span>Skræddersyet</span><span>Rådgivning</span><span>Setup</span></div>
+        <p>Har du en unik proces? Vi finder den bedste kombination af AI og automatisering til netop din udfordring.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="use-cases">
+  <div class="use-cases-header reveal">
+    <div class="section-tag">Eksempler</div>
+    <h2 class="section-title">Den slags opgaver <em>vi løser</em></h2>
+  </div>
+  <div class="cases-grid">
+    <div class="case-pill reveal"><div class="case-pill-icon" style="background:var(--accent-soft)">📧</div><div><h4>Automatisk ordrebehandling</h4><p>Ordrer sendes automatisk til lager, regnskab og CRM</p></div></div>
+    <div class="case-pill reveal"><div class="case-pill-icon" style="background:var(--orange-soft)">📝</div><div><h4>AI-genereret content</h4><p>Ugentlige opslag baseret på jeres produkter og tone of voice</p></div></div>
+    <div class="case-pill reveal"><div class="case-pill-icon" style="background:var(--green-soft)">📱</div><div><h4>Intelligent kundeservice</h4><p>Henvendelser analyseres og routes med foreslået svar</p></div></div>
+    <div class="case-pill reveal"><div class="case-pill-icon" style="background:var(--accent-soft)">📁</div><div><h4>Automatisk lead-håndtering</h4><p>Leads fra formularer beriges og oprettes i CRM</p></div></div>
+    <div class="case-pill reveal"><div class="case-pill-icon" style="background:var(--orange-soft)">📈</div><div><h4>Live rapportering</h4><p>Data fra alle systemer samlet i ét altid-opdateret dashboard</p></div></div>
+    <div class="case-pill reveal"><div class="case-pill-icon" style="background:var(--green-soft)">📋</div><div><h4>Dokument-automatisering</h4><p>Kontrakter, fakturaer og rapporter genereres automatisk</p></div></div>
+  </div>
+</section>
+
+<section class="tools-section">
+  <div class="tools-inner">
+    <div class="tools-label">Værktøjer vi arbejder med</div>
+    <div class="tools-divider"></div>
+    <div class="tool-names">
+      <span class="tool-name">Make.com</span><span class="tool-name">Zapier</span>
+      <span class="tool-name">OpenAI</span><span class="tool-name">Anthropic</span>
+      <span class="tool-name">Google Sheets</span><span class="tool-name">Slack</span>
+      <span class="tool-name">Shopify</span><span class="tool-name">Notion</span>
+      <span class="tool-name">Airtable</span><span class="tool-name">HubSpot</span>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="why-inner">
+    <div class="why-text reveal">
+      <div class="section-tag">Fordele</div>
+      <h2 class="section-title">Hvorfor <em>airobotten?</em></h2>
+      <p>Vi er AI-native og bruger værktøjerne hver dag. Det betyder, at vi hurtigt spotter muligheder andre overser – og bygger løsninger der faktisk virker i praksis.</p>
+      <a href="#contact" class="btn-primary">Fortæl os om din opgave
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+    <div class="why-cards reveal">
+      <div class="why-card"><h4>Hurtigt i gang</h4><p>Ingen langvarig onboarding. Vi vurderer din opgave inden for 48 timer.</p></div>
+      <div class="why-card"><h4>Uforpligtende</h4><p>Send din opgave, og vi fortæller dig ærligt om vi kan hjælpe – helt gratis.</p></div>
+      <div class="why-card"><h4>AI-native tilgang</h4><p>Vi bruger de nyeste værktøjer dagligt og kender deres styrker og begrænsninger.</p></div>
+      <div class="why-card"><h4>Løsning, ikke slides</h4><p>Du får et færdigt setup der virker – ikke en PowerPoint med anbefalinger.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="faq-header reveal">
+    <div class="section-tag">FAQ</div>
+    <h2 class="section-title">Typiske <em>spørgsmål</em></h2>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item reveal"><button class="faq-question" onclick="toggleFaq(this)"><span>Hvad koster det?</span><div class="faq-toggle">+</div></button><div class="faq-answer"><p>Det afhænger af opgavens omfang. Små automatiseringer starter fra 2.000 kr. Du får altid et fast tilbud inden vi går i gang – ingen overraskelser.</p></div></div>
+    <div class="faq-item reveal"><button class="faq-question" onclick="toggleFaq(this)"><span>Skal jeg have teknisk viden?</span><div class="faq-toggle">+</div></button><div class="faq-answer"><p>Overhovedet ikke. Du skal bare kunne beskrive hvad der tager tid. Vi tager os af alt det tekniske og leverer noget du kan bruge uden at røre en linje kode.</p></div></div>
+    <div class="faq-item reveal"><button class="faq-question" onclick="toggleFaq(this)"><span>Hvilke virksomheder arbejder I med?</span><div class="faq-toggle">+</div></button><div class="faq-answer"><p>Alle virksomheder med gentagne processer der kan gøres smartere – e-commerce, SaaS, rådgivning, kreative bureauer. Hvis en opgave gentager sig, kan den sandsynligvis automatiseres.</p></div></div>
+    <div class="faq-item reveal"><button class="faq-question" onclick="toggleFaq(this)"><span>Hvad hvis I ikke kan hjælpe?</span><div class="faq-toggle">+</div></button><div class="faq-answer"><p>Så siger vi det ærligt. Vi vurderer alle henvendelser uforpligtende – og peger dig gerne i den rigtige retning.</p></div></div>
+    <div class="faq-item reveal"><button class="faq-question" onclick="toggleFaq(this)"><span>Hvor lang tid tager det?</span><div class="faq-toggle">+</div></button><div class="faq-answer"><p>De fleste automatiseringer bygges inden for 1–2 uger. Du får altid en tidsramme op front, så du ved hvad du kan forvente.</p></div></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="contact-header reveal">
+      <div class="section-tag">Kom i gang</div>
+      <h2 class="section-title" style="margin:0 auto;text-align:center;">Fortæl os hvad der <em>tager tid</em></h2>
+      <p>Beskriv den opgave du gerne vil automatisere. Vi vurderer den uforpligtende og vender tilbage inden for 48 timer.</p>
+    </div>
+    <form name="opgave" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="reveal">
+      <input type="hidden" name="form-name" value="opgave">
+      <p style="display:none"><label>Skriv ikke her: <input name="bot-field"></label></p>
+      <div class="form-grid">
+        <div class="form-group"><label for="name">Navn</label><input type="text" id="name" name="name" placeholder="Dit fulde navn" required></div>
+        <div class="form-group"><label for="company">Virksomhed</label><input type="text" id="company" name="company" placeholder="Virksomhedsnavn"></div>
+        <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="din@email.dk" required></div>
+        <div class="form-group"><label for="type">Type opgave</label>
+          <select id="type" name="type">
+            <option value="" disabled selected>Vælg en kategori</option>
+            <option value="workflow">Workflow automatisering</option>
+            <option value="ai-assistent">AI assistent / chatbot</option>
+            <option value="integration">System-integration</option>
+            <option value="data">Data & rapportering</option>
+            <option value="email">Email & kommunikation</option>
+            <option value="andet">Andet / ved ikke</option>
+          </select>
+        </div>
+        <div class="form-group full"><label for="task">Beskriv din opgave</label><textarea id="task" name="task" placeholder="Hvad tager tid? Hvad gentager sig? Hvad ville du ønske bare kørte af sig selv?" required></textarea></div>
+        <div class="form-footer">
+          <div class="form-note">Helt uforpligtende. Vi svarer inden for 48 timer med en ærlig vurdering.</div>
+          <button class="btn-primary" type="submit">Send opgave
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+{% endblock %}
+
+{% block footer %}
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="logo">
+        <div class="logo-mark">ai</div>
+        <span>ai<span style="color:var(--accent)">.</span>robotten</span>
+      </div>
+      <p>AI og automatisering til virksomheder der vil gøre tingene smartere. Baseret i Danmark.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h5>Navigation</h5>
+        <a href="#services">Services</a>
+        <a href="#how">Proces</a>
+        <a href="/workshops/">Workshops</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Send opgave</a>
+      </div>
+      <div class="footer-col">
+        <h5>Kontakt</h5>
+        <a href="mailto:kasper@adflair.dk">kasper@adflair.dk</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Airobotten</span>
+    <span>AI & Automatisering – Danmark</span>
+  </div>
+</footer>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  function toggleFaq(b) {
+    var i = b.closest('.faq-item'), w = i.classList.contains('active');
+    document.querySelectorAll('.faq-item').forEach(function(x) { x.classList.remove('active'); });
+    if (!w) i.classList.add('active');
+  }
+</script>
+{% endblock %}
