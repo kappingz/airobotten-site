@@ -1,0 +1,2336 @@
+{
+  "site": "https://airobotten.dk",
+  "template": "_template.html",
+  "output_dir": "automatisering",
+  "pages": [
+    {
+      "slug": "abandoned-cart-sms",
+      "title": "\"Automatisk SMS ved forladt indkoebskurv",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Twilio"
+      ],
+      "meta_description": "\"Genvind tabte salg med automatisk SMS til kunder der forlader deres indkøbskurv. Opsæt SMS-flows der minder kunderne om deres varer og øger konverteringen.",
+      "status": "live"
+    },
+    {
+      "slug": "activecampaign-automation-setup",
+      "title": "\"Avancerede ActiveCampaign-automatiseringer",
+      "category": "\"Email Marketing",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "ActiveCampaign",
+        "Make.com",
+        "Shopify"
+      ],
+      "meta_description": "\"Opsæt kraftfulde ActiveCampaign-automatiseringer der konverterer leads til kunder. Byg avancerede flows, lead scoring og personlige email-sekvenser der kører helt automatisk.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-blogindlaeg-fra-produktdata",
+      "title": "\"AI-genererede blogindlæg fra produktdata og emnevalg",
+      "category": "\"Content",
+      "trigger": "\"Nyt emne tilføjet til indholdskøen eller planlagt publicering",
+      "result": "\"Komplet SEO-optimeret blogindlæg genereret og klar til review",
+      "tools": [
+        "OpenAI",
+        "Shopify",
+        "Make.com",
+        "WordPress"
+      ],
+      "meta_description": "\"Generer SEO-optimerede blogindlæg automatisk med AI baseret på dine produkter og emner. Spar dage på contentproduktion og byg organisk trafik konsekvent.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-chatbot-til-kundeservice-gentagne-spoergsmaal",
+      "title": "\"AI kundeservice-chatbot der besvarer gentagne spørgsmål automatisk",
+      "category": "\"Kundeservice",
+      "trigger": "\"Kundehenvendelse modtaget på chat eller email",
+      "result": "\"Automatisk svar sendt inden for sekunder",
+      "tools": [
+        "OpenAI",
+        "Make.com",
+        "Crisp / Tidio",
+        "Shopify",
+        "Notion (videnbase)"
+      ],
+      "meta_description": "\"Opsæt en AI-chatbot der besvarer 60-80% af dine gentagne kundehenvendelser automatisk. Kortere svartid, lavere supportomkostninger, tilfredse kunder.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-chatbot-til-website",
+      "title": "\"AI-chatbot til din hjemmeside",
+      "category": "\"Kundeservice",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "OpenAI",
+        "Make.com",
+        "Voiceflow"
+      ],
+      "meta_description": "\"Implementér en AI-chatbot på din hjemmeside der besvarer kundehenvendelser 24/7. Reducer kundeservice-belastningen og konverter besøgende til kunder med intelligent chat-automatisering.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-dokumentgenerering-skabeloner",
+      "title": "\"Automatisk dokumentgenerering med AI fra skabeloner",
+      "category": "\"Salg",
+      "trigger": "\"Deal når specifik fase i HubSpot CRM",
+      "result": "\"Personligt tilbud eller kontrakt genereret og klar til afsendelse",
+      "tools": [
+        "OpenAI",
+        "Make.com",
+        "Google Drive",
+        "HubSpot"
+      ],
+      "meta_description": "\"Generer tilbud, kontrakter og præsentationer automatisk med AI fra CRM-data. Personlige dokumenter klar på minutter frem for timer — med korrekte tal og kundenavn.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-email-writer-til-salg",
+      "title": "\"AI-skrevet salgsmails baseret på lead-data",
+      "category": "\"Salg",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "OpenAI",
+        "Gmail"
+      ],
+      "meta_description": "\"Generer personlige salgsmails automatisk med AI baseret på dine leads data og virksomhedsinfo. Øg din svarrate med relevante, skræddersyede beskeder uden manuelt copywriting.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-kategorisering-udgifter-bilag",
+      "title": "\"AI-kategorisering af udgifter og bilag automatisk",
+      "category": "\"Regnskab",
+      "trigger": "\"Nyt bilag eller udgift modtaget",
+      "result": "\"Bilag kategoriseret og bogført automatisk",
+      "tools": [
+        "Claude AI",
+        "Make.com",
+        "e-conomic",
+        "Gmail"
+      ],
+      "meta_description": "\"Lad AI kategorisere dine udgifter og bilag automatisk i e-conomic. Spar timer på manuel bilagsbehandling og reducer fejl i konteringen med Claude AI og Make.com.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-oversaettelse-af-produkter",
+      "title": "\"Automatisk AI-oversaettelse af produkter til nye markeder",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "OpenAI",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Ekspander til nye markeder med automatisk AI-oversættelse af dine produkter. Oversæt produktbeskrivelser, titler og metadata hurtigt og præcist til ethvert sprog.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-produktbeskrivelser-webshop",
+      "title": "\"AI-genererede produktbeskrivelser til din webshop",
+      "category": "\"E-commerce",
+      "trigger": "\"Nyt produkt tilføjet i Shopify",
+      "result": "\"SEO-optimeret produktbeskrivelse genereret automatisk",
+      "tools": [
+        "OpenAI",
+        "Shopify",
+        "Make.com"
+      ],
+      "meta_description": "\"Spar dage på produktbeskrivelser — lad AI generere SEO-optimerede tekster direkte i Shopify baseret på produktdata. Konsekvent tone, dansk sprog, klar til publicering.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-referat-fra-moeder",
+      "title": "\"Automatisk AI-referat fra møder via transskribering",
+      "category": "\"HR",
+      "trigger": "\"Møde afsluttes med optagelse eller transskribering",
+      "result": "\"Struktureret referat med beslutninger og handlingspunkter klar",
+      "tools": [
+        "Notion",
+        "OpenAI",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Generer automatisk mødereferater med AI fra optagelse eller transskribering. Nøglebeslutninger, handlingspunkter og ansvar er klar inden mødet er slut.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-sammenfatning-af-email-traade",
+      "title": "\"AI-sammenfatning af lange email-tråde til hurtig kontekst",
+      "category": "\"Kundeservice",
+      "trigger": "\"Ny besked i lang email-tråd eller specifik label tilføjet",
+      "result": "\"Kompakt AI-sammenfatning med kontekst og næste handling",
+      "tools": [
+        "Claude AI",
+        "Gmail",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Lad Claude AI sammenfatte lange email-tråde automatisk, så du og dit team altid har kontekst i sekunder. Perfekt til kundeservice, salg og projektkommunikation.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-support-ticket-klassificering",
+      "title": "\"AI klassificerer og prioriterer support-tickets automatisk",
+      "category": "\"Kundeservice",
+      "trigger": "\"Ny support-ticket modtaget",
+      "result": "\"Ticket klassificeret og assignet automatisk",
+      "tools": [
+        "Freshdesk",
+        "Make.com",
+        "OpenAI"
+      ],
+      "meta_description": "\"Automatiser klassificering af support-tickets med AI. Tickets sorteres og prioriteres automatisk så dit team kan fokusere på løsninger.",
+      "status": "live"
+    },
+    {
+      "slug": "ai-udkast-til-kundemails",
+      "title": "\"AI genererer udkast til svar på kundemails",
+      "category": "\"Kundeservice",
+      "trigger": "\"Ny kundemail modtaget",
+      "result": "\"AI-udkast klar til godkendelse i indbakken",
+      "tools": [
+        "Gmail",
+        "Make.com",
+        "OpenAI"
+      ],
+      "meta_description": "\"Brug AI til at generere udkast til svar på kundemails. Reducer svartid og frigør tid i kundeservice uden at gå på kompromis med kvaliteten.",
+      "status": "live"
+    },
+    {
+      "slug": "airtable-projekt-dashboard",
+      "title": "\"Byg et automatisk projekt-dashboard i Airtable",
+      "category": "\"Projektledelse",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Airtable",
+        "Make.com",
+        "HubSpot",
+        "Asana"
+      ],
+      "meta_description": "\"Opret et automatisk projekt-dashboard i Airtable der samler data fra alle dine systemer. Få realtidsoverblik over projektstatus, deadlines og ressourcer på ét sted.",
+      "status": "live"
+    },
+    {
+      "slug": "anmeldelse-opfordring-efter-koeb",
+      "title": "\"Automatisk anmeldelsesopfordring efter koeb",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Klaviyo",
+        "Trustpilot"
+      ],
+      "meta_description": "\"Indsaml automatisk flere anmeldelser ved at sende opfordringer til kunder på det rigtige tidspunkt efter køb. Boost din Trustpilot-score og online omdømme med automatisering.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-abonnements-fornyelse",
+      "title": "\"Automatiser abonnementsfornyelse og betaling",
+      "category": "\"SaaS",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Stripe",
+        "Make.com",
+        "Gmail"
+      ],
+      "meta_description": "\"Forny abonnementer og opkræv betalinger automatisk ved udløb. Reducer churn med automatiske påmindelser og problemfri fornyelse der sikrer kontinuerlig indtægt for din virksomhed.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-affiliate-tracking",
+      "title": "\"Automatiser dit affiliate-program tracking",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Spor og administrer dit affiliate-program automatisk. Registrer klik, salg og provisioner automatisk og spar timer på manuel affiliate-tracking og afregning.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-annonce-rapport",
+      "title": "\"Automatisk rapportering af annonce-performance",
+      "category": "\"Marketing",
+      "trigger": "\"Ugentlig tidsplan",
+      "result": "\"Performancerapport leveret automatisk",
+      "tools": [
+        "Meta Ads",
+        "Google Ads",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Automatiser annonce-performancerapporter. Få automatiske ugentlige rapporter med nøgletal fra alle dine annonceringsplatforme.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-backup-af-data",
+      "title": "\"Automatisk backup af forretningskritiske data",
+      "category": "\"DevOps",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "Google Drive",
+        "Airtable"
+      ],
+      "meta_description": "\"Beskyt din virksomhed med automatisk backup af forretningskritiske data. Opsæt regelmæssige sikkerhedskopier til cloud-lager og undgå datatab ved fejl eller nedbrud.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-bankafstemning-bogfoering",
+      "title": "\"Automatisk bankafstemning med bogføring i Dinero",
+      "category": "\"Regnskab",
+      "trigger": "\"Ny bankpostering registreret",
+      "result": "\"Postering matchet og afstemt automatisk",
+      "tools": [
+        "Dinero",
+        "Make.com",
+        "Google Sheets",
+        "Gmail"
+      ],
+      "meta_description": "\"Afstem bankkontoen automatisk med Dinero. Matcher bankposteringer mod bogførte bilag og markerer uoverensstemmelser til behandling — spar timer ved månedsskiftet.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-blog-distribution",
+      "title": "\"Automatisk distribution af blogindlaeg",
+      "category": "\"Content",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "WordPress",
+        "Make.com",
+        "OpenAI",
+        "Buffer"
+      ],
+      "meta_description": "\"Distribuer automatisk dine blogindlæg til alle kanaler ved publicering. Del indhold til sociale medier, nyhedsbrev og andre platforme på én gang uden manuel indsats.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-blog-seo-optimering",
+      "title": "\"AI-optimering af blogindlaeg til SEO",
+      "category": "\"Content",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "WordPress",
+        "Make.com",
+        "OpenAI"
+      ],
+      "meta_description": "\"Optimer automatisk dine blogindlæg til søgemaskiner med AI-drevet SEO-analyse. Identificer forbedringer, tilføj keywords og forbedre din organiske synlighed automatisk.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-bogfoering-stripe",
+      "title": "\"Automatisk bogføring af Stripe-betalinger",
+      "category": "\"Regnskab",
+      "trigger": "\"Betaling modtaget i Stripe",
+      "result": "\"Bogført i regnskabssystem",
+      "tools": [
+        "Stripe",
+        "Make.com",
+        "Dinero"
+      ],
+      "meta_description": "\"Automatiser bogføring af Stripe-betalinger. Fra betaling modtaget til bogført i regnskabssystemet uden manuelt arbejde.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-churn-detektion",
+      "title": "\"Automatisk churn-detektion med AI",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "OpenAI",
+        "Klaviyo"
+      ],
+      "meta_description": "\"Identificer automatisk kunder der er ved at churne med AI-drevet churn-detektion. Reagér proaktivt med målrettede tilbud og indsatser og bevar flere kunder i din forretning.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-content-kalender",
+      "title": "\"AI-genereret content-kalender til social media",
+      "category": "\"Content",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "OpenAI",
+        "Google Sheets",
+        "Notion"
+      ],
+      "meta_description": "\"Planlæg og generer din sociale medie-indhold automatisk med AI. Få en fuld content-kalender med færdige opslag, grafikforslag og publiceringstider uden manuelt arbejde.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-cross-sell-email",
+      "title": "\"Automatisk cross-sell email baseret på koeb",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "OpenAI",
+        "Klaviyo"
+      ],
+      "meta_description": "\"Øg din gennemsnitlige ordreværdi med automatiske cross-sell emails baseret på kundens tidligere køb. Send relevante produktanbefalinger på det rigtige tidspunkt automatisk.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-duplikat-detektion-crm",
+      "title": "\"Automatisk detektion af duplikater i dit CRM",
+      "category": "\"Salg",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Hold dit CRM rent og opdateret med automatisk duplikat-detektion. Find og flet dubletter automatisk og sikr at dine salgs- og marketingdata altid er korrekte.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-fragt-beregning",
+      "title": "\"Automatisk fragtberegning og label-generering",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Shipmondo"
+      ],
+      "meta_description": "\"Automatiser fragtberegning og print af labels ved nye ordrer. Spar tid og fejl med automatisk valg af fragtmetode, priskalkulation og generering af fragtlabels.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-gavekort-ved-foedseldag",
+      "title": "\"Send automatisk gavekort på kundens foedseldag",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Klaviyo"
+      ],
+      "meta_description": "\"Overrask dine kunder med et automatisk gavekort på deres fødselsdag. Styrk kundeloyalitet og øg salget med en personlig og automatiseret fødselsdagskampagne til alle kunder.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-indkoebsgodkendelse",
+      "title": "\"Automatisk godkendelsesflow for indkøb og udgifter",
+      "category": "\"HR",
+      "trigger": "\"Medarbejder indsender indkøbsanmodning",
+      "result": "\"Godkendelse sendt og indkøb autoriseret med log",
+      "tools": [
+        "Slack",
+        "Make.com",
+        "Google Sheets",
+        "Gmail"
+      ],
+      "meta_description": "\"Digitalisér indkøbsgodkendelse med et automatisk flow i Slack. Medarbejdere anmoder, ledere godkender med ét klik, og alt logges automatisk — ingen emails frem og tilbage.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-indkoebsordre",
+      "title": "\"Automatisk indkoebsordre når lager er lavt",
+      "category": "\"Indkoeb",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Google Sheets",
+        "Gmail"
+      ],
+      "meta_description": "\"Generer automatisk indkøbsordrer til leverandører når lageret falder under minimum. Undgå udsolgte varer med intelligent automatisk genbestilling baseret på dine regler.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-influencer-outreach",
+      "title": "\"Automatiser influencer-outreach med AI",
+      "category": "\"Marketing",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "OpenAI",
+        "Gmail",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Find og kontakt relevante influencers automatisk med personlige AI-genererede beskeder. Skalér din influencer marketing og byg flere brandpartnerskaber med mindre manuel indsats.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-inventory-foto",
+      "title": "\"Automatiser produktfoto-workflow",
+      "category": "\"Content",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Drive",
+        "Make.com",
+        "OpenAI",
+        "Shopify"
+      ],
+      "meta_description": "\"Strømlinjeforn dit produktfoto-workflow med automatisering. Organiser, bearbejd og upload produktbilleder automatisk til din webshop og spar tid på manuelt fotoarbejde.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-konkurrenceanalyse",
+      "title": "\"AI-drevet konkurrenceanalyse på autopilot",
+      "category": "\"Analyse",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "OpenAI",
+        "Google Sheets",
+        "Gmail"
+      ],
+      "meta_description": "\"Udfør automatisk dybdegående konkurrenceanalyser med AI. Overvåg konkurrenternes priser, indhold og strategi og modtag ugentlige rapporter der holder dig et skridt foran.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-kontakt-berigelse",
+      "title": "\"Automatisk berigelse af CRM-kontakter",
+      "category": "\"Salg",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Berig dine CRM-kontakter automatisk med firma- og persondata fra eksterne kilder. Få komplette kontaktprofiler uden manuel research og forbedr din salgsindsats.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-kontrakt-udsendelse",
+      "title": "\"Send kontrakter til underskrift automatisk ved vundet deal",
+      "category": "\"Salg",
+      "trigger": "\"Deal markeret som vundet i CRM",
+      "result": "\"Kontrakt sendt til digital underskrift",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "Penneo",
+        "Slack"
+      ],
+      "meta_description": "\"Automatiser afsendelse af kontrakter. Kontrakten genereres og sendes til digital underskrift automatisk når et deal vindes i dit CRM.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-kreditvurdering",
+      "title": "\"Automatisk kreditvurdering af nye kunder",
+      "category": "\"Salg",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "Google Sheets",
+        "Slack"
+      ],
+      "meta_description": "\"Kreditvurder automatisk nye kunder ved oprettelse og undgå betalingsrisici. Indhent og analyser kreditdata automatisk og tag beslutninger baseret på klare kriterier.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-kundesegmentering-ai",
+      "title": "\"Automatisk kundesegmentering med AI til målrettet marketing",
+      "category": "\"Marketing",
+      "trigger": "\"Kundeadfærd eller ny data registreret i CRM",
+      "result": "\"Kunden tildelt korrekt segment og marketingflow aktiveret",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "OpenAI",
+        "Mailchimp"
+      ],
+      "meta_description": "\"Segmentér dine kunder automatisk med AI baseret på adfærd, køb og engagement. Send den rigtige besked til den rigtige gruppe og øg relevansen i din marketing.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-kundetilfredshed-nps",
+      "title": "\"Automatisk NPS-maaling af kundetilfredshed",
+      "category": "\"Kundeservice",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Typeform",
+        "Make.com",
+        "OpenAI",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Mål kundetilfredsheden automatisk med NPS-surveys sendt på det rigtige tidspunkt. Saml feedback, analyser resultater og forbedr kundeoplevelsen løbende med automatisering.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-kursus-enrollment",
+      "title": "\"Automatiser kursustilmelding og adgang",
+      "category": "\"Kurser",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Stripe",
+        "Make.com",
+        "Gmail",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Automatiser kursustilmelding og giv deltagere adgang automatisk efter betaling. Administrer enrollment, velkomstmails og kursusadgang uden manuel håndtering.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-lageropdatering-tvaers-af-salgskanaler",
+      "title": "\"Automatiser lageropdatering på tværs af alle dine salgskanaler",
+      "category": "\"E-commerce",
+      "trigger": "\"Salg eller lagerjustering på én kanal",
+      "result": "\"Alle kanaler opdateret automatisk i realtid",
+      "tools": [
+        "Shopify",
+        "WooCommerce",
+        "Make.com",
+        "Shopify POS",
+        "Slack (alerts)",
+        "Gmail"
+      ],
+      "meta_description": "\"Synkroniser lagerbeholdning automatisk på tværs af Shopify, WooCommerce, fysisk butik og marketplace. Undgå oversalg og manuelle lagertjek for altid.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-leverandoer-evaluering",
+      "title": "\"Automatisk evaluering af leverandoerer",
+      "category": "\"Indkoeb",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Sheets",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Evaluer dine leverandører automatisk baseret på levering, kvalitet og pris. Saml data og generer leverandørrapporter automatisk for at træffe bedre indkøbsbeslutninger.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-loenkoersel-forberedelse",
+      "title": "\"Automatisk forberedelse af loenkoersel",
+      "category": "\"HR",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Toggl",
+        "Make.com",
+        "Google Sheets",
+        "Slack"
+      ],
+      "meta_description": "\"Forbered din månedlige lønkørsel automatisk ved at samle timer, fravær og tillæg fra dine systemer. Spar tid på lønbogholderi og reducer risikoen for fejl i lønnen.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-medarbejder-offboarding",
+      "title": "\"Automatisk offboarding når medarbejdere stopper",
+      "category": "\"HR",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Workspace",
+        "Make.com",
+        "Asana",
+        "Slack"
+      ],
+      "meta_description": "\"Håndtér medarbejder-offboarding automatisk og sikkert. Fjern adgange, overdrag opgaver og arkivér data automatisk når en medarbejder forlader din virksomhed.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-medarbejder-pulsmaling",
+      "title": "\"Automatisk pulsmåling og survey af medarbejdertilfredshed",
+      "category": "\"HR",
+      "trigger": "\"Ugentlig eller månedlig tidsplan",
+      "result": "\"Survey sendt og rapport genereret automatisk",
+      "tools": [
+        "Make.com",
+        "Typeform",
+        "Slack",
+        "Notion"
+      ],
+      "meta_description": "\"Automatiser medarbejder-pulsmålinger med ugentlige surveys og automatisk rapportering til ledelsen. Hold fingeren på pulsen uden manuelt arbejde.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-moedeagenda",
+      "title": "\"AI-genereret moedeagenda foer hvert moede",
+      "category": "\"Produktivitet",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Calendar",
+        "Make.com",
+        "OpenAI",
+        "Slack"
+      ],
+      "meta_description": "\"Generer automatisk en struktureret mødeagenda med AI inden hvert møde. Saml relevante punkter fra dine systemer og send agendaen til alle deltagere automatisk i god tid.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-moedebooking-fra-website",
+      "title": "\"Automatisk moedebooking fra din hjemmeside",
+      "category": "\"Salg",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Calendly",
+        "Make.com",
+        "Gmail",
+        "HubSpot"
+      ],
+      "meta_description": "\"Lad besøgende booke møder direkte fra din hjemmeside med automatisk mødebooking. Synkroniser automatisk med din kalender og send bekræftelser og påmindelser til alle parter.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-moms-afstemning-og-angivelse",
+      "title": "\"Automatisk momsafstemning og forberedelse af momsangivelse",
+      "category": "\"Regnskab",
+      "trigger": "\"Momsperiode afsluttes",
+      "result": "\"Momsafstemning komplet og angivelse klar til godkendelse",
+      "tools": [
+        "e-conomic",
+        "Make.com",
+        "Google Sheets",
+        "Gmail"
+      ],
+      "meta_description": "\"Automatiser momsafstemning og klargøring af momsangivelse til SKAT. Momstal beregnes automatisk fra e-conomic, afstemmes og klargøres til revisor — spar timer ved momsperioden.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-nyhedsbrev-fra-blog",
+      "title": "\"Automatisk nyhedsbrev til abonnenter når du publicerer nyt blogindhold",
+      "category": "\"Marketing",
+      "trigger": "\"Nyt blogindlæg publiceret i WordPress",
+      "result": "\"Nyhedsbrev sendt til alle Mailchimp-abonnenter",
+      "tools": [
+        "WordPress",
+        "Mailchimp",
+        "Make.com",
+        "OpenAI"
+      ],
+      "meta_description": "\"Publicer et blogindlæg i WordPress og send automatisk et nyhedsbrev til dine Mailchimp-abonnenter. AI skriver intro og teaser — du focuserer på indholdet.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-nyhedsbrevsindhold",
+      "title": "\"AI-genereret nyhedsbrevsindhold på autopilot",
+      "category": "\"Email Marketing",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "OpenAI",
+        "ActiveCampaign"
+      ],
+      "meta_description": "\"Lad AI generere engagerende nyhedsbrevsindhold på autopilot. Skab konsistente og relevante nyhedsbreve til dine abonnenter uden at bruge timer på at skrive indhold manuelt.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-nyhedsovervagning",
+      "title": "\"AI-kurateret branchenyhedsovervagning",
+      "category": "\"Produktivitet",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "OpenAI",
+        "Slack"
+      ],
+      "meta_description": "\"Hold dig opdateret med AI-kurateret nyhedsovervågning af din branche. Modtag daglige sammendrag af de vigtigste nyheder direkte i din inbox eller Slack-kanal.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-onboarding-flow-nye-medarbejdere",
+      "title": "\"Automatisk onboarding-flow for nye medarbejdere",
+      "category": "\"HR",
+      "trigger": "\"Ny medarbejder oprettet i HR-system",
+      "result": "\"Komplet onboarding-forløb startet automatisk",
+      "tools": [
+        "Make.com",
+        "Notion",
+        "Slack",
+        "Gmail",
+        "Google Workspace"
+      ],
+      "meta_description": "\"Automatiser hele onboarding-flowet for nye medarbejdere. Velkomstmail, opgavelister, adgange og check-ins kører automatisk fra dag 1 — uden HR-manualarbejde.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-opfoelgning-paa-tilbud",
+      "title": "\"Automatisk opfølgning på udsendte tilbud",
+      "category": "\"Salg",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "Gmail"
+      ],
+      "meta_description": "\"Gå aldrig glip af et salg med automatisk opfølgning på dine tilbud. Send påmindelser til prospects på det rigtige tidspunkt og forbedr din konverteringsrate markant.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-ordrebekraeftelse-email",
+      "title": "\"Automatisk ordrebekræftelse via email",
+      "category": "\"E-commerce",
+      "trigger": "\"Ny ordre modtaget",
+      "result": "\"Ordrebekræftelse sendt automatisk",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Gmail"
+      ],
+      "meta_description": "\"Automatiser ordrebekræftelser via email. Vi bygger flowet der sender professionelle bekræftelser øjeblikkeligt når en ordre placeres.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-ordrebekraeftelse-sms",
+      "title": "\"Automatisk ordrebekraeftelse via SMS",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Twilio"
+      ],
+      "meta_description": "\"Send automatisk SMS-ordrebekræftelse til dine kunder med det samme de afgiver en ordre. Øg kundeoplevelsen med hurtige, personlige SMS-beskeder der bekræfter købet.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-podcast-distribution",
+      "title": "\"Automatiser podcast-distribution og promotion",
+      "category": "\"Content",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "OpenAI",
+        "Buffer",
+        "Notion"
+      ],
+      "meta_description": "\"Distribuer din podcast automatisk til alle platforme og promover nye episoder på sociale medier. Spar timer på manuel distribution og nå flere lyttere effortlessly.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-prisaendring-shopify",
+      "title": "\"Automatiser prisaendringer i Shopify baseret på regler",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Opsæt automatiske prisændringer i din Shopify-shop baseret på definerede regler. Tilpas priser ved udsalg, sæsonudsving og lagerændringer automatisk uden manuel indgriben.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-prisoptimering-shopify",
+      "title": "\"AI-drevet prisoptimering til din Shopify-shop",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "OpenAI",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Automatiser prisoptimering i din Shopify-shop med AI. Tilpas priser dynamisk baseret på konkurrenter, lagerstatus og efterspørgsel og øg din fortjeneste.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-prissammenligning",
+      "title": "\"Automatisk prissammenligning på tvaers af leverandoerer",
+      "category": "\"Indkoeb",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "Google Sheets",
+        "Slack"
+      ],
+      "meta_description": "\"Sammenlign automatisk priser hos dine leverandører og find altid den bedste pris. Spar tid på manuelle prissammenligninger og optimer dine indkøbsomkostninger løbende.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-produktbeskrivelse-ai",
+      "title": "\"Generer produktbeskrivelser med AI",
+      "category": "\"Content",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Sheets",
+        "Make.com",
+        "OpenAI",
+        "Shopify"
+      ],
+      "meta_description": "\"Automatiser din produktbeskrivelser med AI og spar timer på manuelt copywriting. Generer unikke, SEO-optimerede tekster til din webshop hurtigt og effektivt.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-rabatkode-generering",
+      "title": "\"Automatisk generering af unikke rabatkoder",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Generer automatisk unikke rabatkoder til kampagner, loyalitetsprogrammer og events. Spar tid med batch-generering og distribuer rabatkoder automatisk til de rigtige kunder.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-refundering-tracking",
+      "title": "\"Automatisk tracking af refunderinger og returner",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Hold styr på refunderinger og returner automatisk på tværs af dine salgskanaler. Synkroniser retur-data med lager og regnskab automatisk og spar tid på manuel opfølgning.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-reklamationshaandtering",
+      "title": "\"Automatiser din reklamationshaandtering",
+      "category": "\"Kundeservice",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Typeform",
+        "Make.com",
+        "Asana",
+        "Gmail"
+      ],
+      "meta_description": "\"Håndtér reklamationer automatisk og hurtigere med en struktureret automatiseringsproces. Registrér, kategorisér og eskalér reklamationer automatisk for bedre kundeservice.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-routing-kundehenvendelser",
+      "title": "\"Automatisk routing af kundehenvendelser til rette afdeling",
+      "category": "\"Kundeservice",
+      "trigger": "\"Ny kundehenvendelse modtaget via email eller formular",
+      "result": "\"Henvendelse routet til rette person med prioritet og kategori",
+      "tools": [
+        "Gmail",
+        "Make.com",
+        "HubSpot",
+        "Slack"
+      ],
+      "meta_description": "\"Sorter og rout kundehenvendelser automatisk til den rigtige medarbejder eller afdeling. Hurtigere svartider, ingen henvendelser der falder igennem og bedre kundeoplevelse.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-rykkerprocedure",
+      "title": "\"Automatisk rykkerprocedure ved manglende betaling",
+      "category": "\"Regnskab",
+      "trigger": "\"Betalingsfrist overskredet",
+      "result": "\"Rykker sendt automatisk",
+      "tools": [
+        "Dinero",
+        "Make.com",
+        "Gmail"
+      ],
+      "meta_description": "\"Automatiser din rykkerprocedure. Første, anden og tredje rykker sendes automatisk ved overskredne betalingsfrister.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-salgsprognose",
+      "title": "\"AI-baseret salgsprognose fra dit CRM",
+      "category": "\"Salg",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "OpenAI",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Generer automatiske salgsprognoser med AI baseret på data fra dit CRM. Forudsig fremtidigt salg, identificer tendenser og træf bedre forretningsbeslutninger med data-drevne prognoser.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-social-listening",
+      "title": "\"Automatisk social listening med AI-analyse",
+      "category": "\"Marketing",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "OpenAI",
+        "Slack",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Overvåg automatisk hvad der siges om dit brand på sociale medier med AI-analyse. Få alerts ved nævnelser og analyser sentiment for at reagere hurtigt på kundernes feedback.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-social-proof-indsamling",
+      "title": "\"Automatisk indsamling af social proof",
+      "category": "\"Marketing",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "Trustpilot",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Indsaml automatisk anmeldelser, testimonials og social proof fra dine kunder. Byg troværdighed og øg konverteringen med en automatiseret social proof-strategi.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-tilbagemelding-efter-event",
+      "title": "\"Automatisk feedback-indsamling efter events",
+      "category": "\"Events",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Eventbrite",
+        "Make.com",
+        "Typeform",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Indsaml automatisk feedback fra deltagerne efter dine events og arrangementer. Send surveys automatisk og analysér svarene for at forbedre fremtidige events løbende.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-tilbudsberegning",
+      "title": "\"Automatisk tilbudsberegning fra formular",
+      "category": "\"Salg",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Typeform",
+        "Make.com",
+        "Google Sheets",
+        "Gmail"
+      ],
+      "meta_description": "\"Generer automatisk præcise tilbud baseret på kundens formular-svar. Spar tid på manuel prisberegning og send professionelle tilbud hurtigt direkte til potentielle kunder.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-ugentlig-statusmail",
+      "title": "\"Automatisk ugentlig statusmail til kunder",
+      "category": "\"Projektledelse",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Asana",
+        "Make.com",
+        "Gmail"
+      ],
+      "meta_description": "\"Hold dine kunder opdaterede med automatiske ugentlige statusmails om deres projekter eller ordrer. Spar tid på manuel rapportering og styrk kundeforholdet med regelmæssig kommunikation.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-upsell-sekvens",
+      "title": "\"Automatisk upsell-sekvens baseret på købshistorik",
+      "category": "\"E-commerce",
+      "trigger": "\"Køb gennemført",
+      "result": "\"Personlig upsell-email sendt på rette tidspunkt",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Klaviyo",
+        "OpenAI"
+      ],
+      "meta_description": "\"Automatiser din upsell-strategi med personlige emails baseret på købshistorik. Sælg mere til eksisterende kunder uden manuelt arbejde.",
+      "status": "live"
+    },
+    {
+      "slug": "automatisk-winback-kampagne",
+      "title": "\"Automatisk win-back kampagne til inaktive kunder",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Klaviyo"
+      ],
+      "meta_description": "\"Reaktiver inaktive kunder automatisk med målrettede win-back kampagner. Identificer churning kunder og send personlige tilbud på det rigtige tidspunkt for at genvinde dem.",
+      "status": "live"
+    },
+    {
+      "slug": "b2b-ordre-fakturering-automatisk",
+      "title": "\"Automatisk B2B-ordreflow med godkendelse og fakturering",
+      "category": "\"E-commerce",
+      "trigger": "\"Ny B2B-ordre modtaget",
+      "result": "\"Ordre godkendt og faktura sendt automatisk",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Dinero",
+        "Gmail"
+      ],
+      "meta_description": "\"Automatiser dit B2B-ordreflow med kreditcheck, individuelle priser og fakturering. Ordrer behandles korrekt og hurtigt uden manuelt arbejde.",
+      "status": "live"
+    },
+    {
+      "slug": "booking-bekraeftelse-og-paammindelse",
+      "title": "\"Automatisk bookingbekraeftelse og påmindelse",
+      "category": "\"Booking",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Calendly",
+        "Make.com",
+        "Gmail"
+      ],
+      "meta_description": "\"Send automatisk bookingbekræftelse og påmindelser til dine kunder. Reducer no-shows og forbedre kundeoplevelsen med tidstro beskeder via email og SMS.",
+      "status": "live"
+    },
+    {
+      "slug": "crm-opdatering-fra-email",
+      "title": "\"Opdater CRM automatisk baseret på emails",
+      "category": "\"Salg",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Gmail",
+        "Make.com",
+        "OpenAI",
+        "HubSpot"
+      ],
+      "meta_description": "\"Hold dit CRM opdateret automatisk ved at analysere dine emails med AI. Opdater kontaktoplysninger, log interaktioner og opret opgaver automatisk baseret på indholdet i dine mails.",
+      "status": "live"
+    },
+    {
+      "slug": "crm-pipeline-automatisk-opdatering",
+      "title": "\"Automatisk opdatering af CRM pipeline baseret på kundeaktivitet",
+      "category": "\"Salg",
+      "trigger": "\"Kundeaktivitet registreret (email, møde, klik)",
+      "result": "\"Deal opdateret til korrekt pipeline-fase automatisk",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "Gmail",
+        "Slack"
+      ],
+      "meta_description": "\"Hold din HubSpot pipeline opdateret automatisk. Deals rykkes frem baseret på emails, møder og aktivitet — uden manuelt CRM-arbejde for sælgerne.",
+      "status": "live"
+    },
+    {
+      "slug": "cv-screening-med-ai",
+      "title": "\"Automatisk CV-screening med AI",
+      "category": "\"HR",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Gmail",
+        "Make.com",
+        "OpenAI",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Screen kandidaters CV'er automatisk med AI og find de bedste matches hurtigt. Spar timer på manuel gennemgang og lad AI rangere og filtrere ansøgere efter dine kriterier.",
+      "status": "live"
+    },
+    {
+      "slug": "daglig-omsaetningsrapport",
+      "title": "\"Automatisk daglig omsaetningsrapport",
+      "category": "\"Rapportering",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Modtag automatisk en daglig omsætningsrapport med nøgletal fra din butik eller platform. Følg salgsudviklingen tæt og reager hurtigt på trends med friske data hver morgen.",
+      "status": "live"
+    },
+    {
+      "slug": "data-sync-mellem-systemer",
+      "title": "\"Automatisk datasynkronisering mellem systemer",
+      "category": "\"Integration",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "Shopify",
+        "HubSpot",
+        "Dinero"
+      ],
+      "meta_description": "\"Synkroniser automatisk data på tværs af dine systemer og hold altid oplysningerne konsistente. Eliminer dobbeltindtastning og sikre at alle platforme har opdaterede data.",
+      "status": "live"
+    },
+    {
+      "slug": "digitalt-godkendelsesflow-fakturaer",
+      "title": "\"Digitalt godkendelsesflow til fakturaer og udgifter",
+      "category": "\"Regnskab",
+      "trigger": "\"Ny faktura eller udgift modtaget",
+      "result": "\"Godkendt og bogført automatisk",
+      "tools": [
+        "Make.com",
+        "Gmail",
+        "Dinero",
+        "Google Drive"
+      ],
+      "meta_description": "\"Automatiser godkendelse af fakturaer og udgifter digitalt. Fakturaer sendes til godkender automatisk og bogføres når godkendelse er givet.",
+      "status": "live"
+    },
+    {
+      "slug": "dokument-generering-fra-skabelon",
+      "title": "\"Automatisk dokumentgenerering fra skabeloner",
+      "category": "\"Administration",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "Google Docs"
+      ],
+      "meta_description": "\"Generer kontrakter, tilbud og rapporter automatisk fra skabeloner. Udfyld dokumenter med data fra dit CRM eller formular og send dem direkte til underskrift.",
+      "status": "live"
+    },
+    {
+      "slug": "e-conomic-google-sheets-rapport",
+      "title": "\"Automatisk rapportering fra e-conomic til Google Sheets",
+      "category": "\"Regnskab",
+      "trigger": "\"Planlagt kørsel (dagligt/ugentligt)",
+      "result": "\"Opdateret rapport i Google Sheets med aktuelle nøgletal",
+      "tools": [
+        "e-conomic",
+        "Make.com",
+        "Google Sheets",
+        "Gmail"
+      ],
+      "meta_description": "\"Hent nøgletal fra e-conomic og opbyg automatiske rapporter i Google Sheets. Omsætning, likviditet og nøgletal opdateres dagligt uden manuelt arbejde.",
+      "status": "live"
+    },
+    {
+      "slug": "email-lead-nurturing-sekvens",
+      "title": "\"Automatisk email nurturing-sekvens til leads",
+      "category": "\"Lead-håndtering",
+      "trigger": "\"Nyt lead registreret i CRM",
+      "result": "\"Nurturing-sekvens startet automatisk",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "OpenAI",
+        "Gmail"
+      ],
+      "meta_description": "\"Automatiser din email nurturing-sekvens. Leads modnes automatisk over 2-4 uger med relevant indhold til de er klar til at købe.",
+      "status": "live"
+    },
+    {
+      "slug": "email-til-opgave-i-asana",
+      "title": "\"Konverter emails automatisk til Asana-opgaver",
+      "category": "\"Projektledelse",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Gmail",
+        "Make.com",
+        "Asana"
+      ],
+      "meta_description": "\"Omdан automatisk vigtige emails til Asana-opgaver og undgå at handlingspunkter går tabt i indbakken. Hold styr på alle to-do's med direkte integration mellem email og Asana.",
+      "status": "live"
+    },
+    {
+      "slug": "facebook-lead-ads-til-crm",
+      "title": "\"Facebook Lead Ads direkte til dit CRM",
+      "category": "\"Lead-håndtering",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Facebook Lead Ads",
+        "Make.com",
+        "HubSpot"
+      ],
+      "meta_description": "\"Send automatisk Facebook Lead Ads-leads direkte til dit CRM i realtid. Undgå manuel CSV-eksport og sørg for at dit salgsteam altid har de nyeste leads klar til opfølgning.",
+      "status": "live"
+    },
+    {
+      "slug": "faktura-fra-email-til-regnskab",
+      "title": "\"Automatiser fakturahåndtering fra email til regnskab",
+      "category": "\"Regnskab",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Gmail",
+        "Make.com",
+        "OpenAI",
+        "Dinero"
+      ],
+      "meta_description": "\"Automatiser hele faktura-processen fra modtagelse i email til bogføring i regnskabet. AI udtrækker data, kategoriserer og bogfører fakturaer automatisk for dig.",
+      "status": "live"
+    },
+    {
+      "slug": "forladte-kurve-paamindelse",
+      "title": "\"Send påmindelse til kunder om forladte kurve",
+      "category": "\"E-commerce",
+      "trigger": "\"Kunde forlader kurv",
+      "result": "\"Påmindelses-email sendt automatisk",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Klaviyo"
+      ],
+      "meta_description": "\"Automatiser påmindelser om forladte kurve. Genvind tabte salg med automatiske opfølgningsmails til kunder der ikke gennemfører købet.",
+      "status": "live"
+    },
+    {
+      "slug": "fragtlabel-generering-nye-ordrer",
+      "title": "\"Automatisk fragtlabel-generering ved nye ordrer",
+      "category": "\"E-commerce",
+      "trigger": "\"Ny betalt ordre i Shopify",
+      "result": "\"Fragtlabel genereret og klar til print",
+      "tools": [
+        "Shopify",
+        "Shipmondo",
+        "Make.com",
+        "Gmail"
+      ],
+      "meta_description": "\"Generer fragtlabels automatisk ved nye ordrer i Shopify. Spar 2-4 timer om ugen og undgå fejl i adresser og pakkedata med Make.com og Shipmondo.",
+      "status": "live"
+    },
+    {
+      "slug": "gdpr-dataanmodning-automatisering",
+      "title": "\"Automatiser GDPR-dataanmodninger",
+      "category": "\"Compliance",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "Gmail",
+        "HubSpot",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Håndtér GDPR-dataanmodninger automatisk og overhold lovgivningen uden besvær. Automatiser behandling af indsigtsanmodninger og sletninger og dokument svar inden for fristen.",
+      "status": "live"
+    },
+    {
+      "slug": "google-ads-performance-rapport",
+      "title": "\"Automatisk Google Ads performance-rapport til Sheets og Slack",
+      "category": "\"Marketing",
+      "trigger": "\"Planlagt daglig kørsel",
+      "result": "\"Google Ads rapport i Slack og Google Sheets opdateret",
+      "tools": [
+        "Google Ads",
+        "Make.com",
+        "Google Sheets",
+        "Slack"
+      ],
+      "meta_description": "\"Modtag automatisk daglig Google Ads rapport med forbrug, ROAS, konverteringer og kampagnestatus i Slack og Google Sheets — uden manuelt arbejde i Ads-kontoen.",
+      "status": "live"
+    },
+    {
+      "slug": "google-ads-rapport-automatisk",
+      "title": "\"Automatisk Google Ads-rapport til dit team",
+      "category": "\"Marketing",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Ads",
+        "Make.com",
+        "OpenAI",
+        "Slack"
+      ],
+      "meta_description": "\"Modtag automatiske Google Ads-rapporter med de vigtigste nøgletal. Hold teamet opdateret på kampagne-performance, udgifter og konverteringer uden at trække data manuelt.",
+      "status": "live"
+    },
+    {
+      "slug": "google-forms-til-notion",
+      "title": "\"Send Google Forms-besvarelser automatisk til Notion",
+      "category": "\"Produktivitet",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Forms",
+        "Make.com",
+        "Notion"
+      ],
+      "meta_description": "\"Synkroniser automatisk Google Forms-svar direkte til Notion. Opret nye Notion-sider eller opdater databaser automatisk når en formular udfyldes og hold data organiseret.",
+      "status": "live"
+    },
+    {
+      "slug": "google-reviews-automatisk-svar",
+      "title": "\"Automatisk svar på Google Reviews med AI",
+      "category": "\"Marketing",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Business",
+        "Make.com",
+        "OpenAI"
+      ],
+      "meta_description": "\"Svar automatisk på dine Google Reviews med personlige AI-genererede svar. Styrk dit omdømme, vis du lytter til kunder og spar tid med automatiseret review-håndtering.",
+      "status": "live"
+    },
+    {
+      "slug": "google-shopping-feed-opdatering",
+      "title": "\"Automatisk opdatering af Google Shopping-feed",
+      "category": "\"E-commerce",
+      "trigger": "\"Produkt opdateret eller nyt produkt tilføjet",
+      "result": "\"Google Shopping-feed opdateret automatisk",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Google Merchant Center"
+      ],
+      "meta_description": "\"Automatiser opdateringen af dit Google Shopping-feed. Priser, lager og produktdata synkroniseres automatisk til Google Merchant Center.",
+      "status": "live"
+    },
+    {
+      "slug": "hubspot-til-activecampaign-sync",
+      "title": "\"Sync HubSpot-kontakter med ActiveCampaign",
+      "category": "\"Integration",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "ActiveCampaign"
+      ],
+      "meta_description": "\"Hold HubSpot og ActiveCampaign synkroniserede automatisk. Nye kontakter, opdateringer og segmenteringer synces i realtid uden manuel eksport og import af data.",
+      "status": "live"
+    },
+    {
+      "slug": "intercom-til-slack-eskalering",
+      "title": "\"Automatisk eskalering fra Intercom til Slack",
+      "category": "\"Kundeservice",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Intercom",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Eskalér automatisk kritiske kundehenvendelser fra Intercom til Slack. Sikr at vigtige sager altid når det rette team hurtigt med automatisk routing og notifikationer.",
+      "status": "live"
+    },
+    {
+      "slug": "invoiceninja-automatisering",
+      "title": "\"Automatiser fakturering med Invoice Ninja",
+      "category": "\"Regnskab",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Invoice Ninja",
+        "Make.com",
+        "HubSpot"
+      ],
+      "meta_description": "\"Automatiser din faktureringsproces med Invoice Ninja. Opret og send fakturaer automatisk, opsæt rykkere og synkroniser betalinger med dit regnskabssystem uden manuel indsats.",
+      "status": "live"
+    },
+    {
+      "slug": "it-adgang-ny-medarbejder",
+      "title": "\"Automatisk IT-provisionering ved ansættelse af ny medarbejder",
+      "category": "\"HR",
+      "trigger": "\"Ny medarbejder oprettet i HR-system",
+      "result": "\"Alle IT-adgange oprettet fra dag 1",
+      "tools": [
+        "Google Workspace",
+        "Make.com",
+        "Slack",
+        "HiBob"
+      ],
+      "meta_description": "\"Automatiser IT-provisionering ved ansættelse. Nye medarbejdere får email, Slack og systemadgange klar automatisk fra dag 1.",
+      "status": "live"
+    },
+    {
+      "slug": "jira-til-slack-notifikationer",
+      "title": "\"Automatiske Jira-notifikationer i Slack",
+      "category": "\"Projektledelse",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Jira",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Hold dit team opdateret med automatiske Jira-notifikationer direkte i Slack. Modtag alerts ved statusændringer, nye issues og kommentarer uden at skifte mellem systemer.",
+      "status": "live"
+    },
+    {
+      "slug": "klaviyo-email-automation",
+      "title": "\"Opsæt Klaviyo email-automations til din webshop",
+      "category": "\"E-commerce",
+      "trigger": "\"Kundeadfærd i webshoppen",
+      "result": "\"Automatisk email afsendt baseret på adfærd",
+      "tools": [
+        "Klaviyo",
+        "Shopify",
+        "Make.com"
+      ],
+      "meta_description": "\"Professionel opsætning af Klaviyo email-automations. Velkomst, post-køb, winback og browse abandonment flows sat op korrekt fra dag 1.",
+      "status": "live"
+    },
+    {
+      "slug": "konkurrent-overvaagning",
+      "title": "\"Automatisk konkurrentovervaagning med AI",
+      "category": "\"Analyse",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "OpenAI",
+        "Google Sheets",
+        "Slack"
+      ],
+      "meta_description": "\"Overvåg dine konkurrenter automatisk med AI og få alerts ved prisændringer, nye produkter og marketingtiltag. Reagér hurtigere og hold dig altid et skridt foran.",
+      "status": "live"
+    },
+    {
+      "slug": "kontraktudloeb-paamindelse",
+      "title": "\"Automatisk påmindelse om kontraktudloeb",
+      "category": "\"Administration",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Sheets",
+        "Make.com",
+        "Slack",
+        "Gmail"
+      ],
+      "meta_description": "\"Gå aldrig glip af et kontraktudløb med automatiske påmindelser i god tid. Modtag alerts og send automatiske fornyelsestilbud til kunder inden kontrakten udløber.",
+      "status": "live"
+    },
+    {
+      "slug": "kundeservice-auto-svar",
+      "title": "\"AI-genererede svarforslag til kundeservice",
+      "category": "\"Kundeservice",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Zendesk",
+        "Make.com",
+        "OpenAI"
+      ],
+      "meta_description": "\"Besvar kundehenvendelser hurtigere med AI-genererede svarforslag til dit supportteam. Reducer svartider og forbedr kundetilfredsheden med intelligent automatisering af kundeservice.",
+      "status": "live"
+    },
+    {
+      "slug": "lager-alarm-lav-beholdning",
+      "title": "\"Automatisk lageralarm ved lav beholdning i Shopify",
+      "category": "\"E-commerce",
+      "trigger": "\"Lagerbeholdning falder under defineret tærskel",
+      "result": "\"Alarm sendt med produktinfo og genbestillingsanbefaling",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Slack",
+        "Gmail"
+      ],
+      "meta_description": "\"Få automatisk alarm i Slack eller email når et Shopify-produkt når et kritisk lagerniveau. Undgå udsolgte varer og tabte ordrer med intelligent lagerovervågning.",
+      "status": "live"
+    },
+    {
+      "slug": "lager-alert-ved-lav-beholdning",
+      "title": "\"Automatisk lager-alert når beholdningen er lav",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Modtag automatisk lager-alerts når dine produkter nærmer sig minimum-beholdning. Undgå udsolgte varer og tab af salg med tidlige advarsler direkte til dit team via Slack eller email.",
+      "status": "live"
+    },
+    {
+      "slug": "lead-fra-typeform-til-hubspot",
+      "title": "\"Send Typeform-leads direkte til HubSpot",
+      "category": "\"Lead-håndtering",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Typeform",
+        "Make.com",
+        "HubSpot"
+      ],
+      "meta_description": "\"Automatiser din lead-håndtering ved at sende Typeform-besvarelser direkte til HubSpot. Nye kontakter oprettes automatisk og starter din salgsproces med det samme.",
+      "status": "live"
+    },
+    {
+      "slug": "lead-scoring-hubspot",
+      "title": "\"Automatisk lead scoring i HubSpot med AI",
+      "category": "\"Lead-håndtering",
+      "trigger": "\"Ny aktivitet på lead",
+      "result": "\"Lead scoret og prioriteret automatisk",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "OpenAI"
+      ],
+      "meta_description": "\"Automatiser lead scoring i HubSpot med AI. Prioriter de varmeste leads automatisk og spar salgsteamets tid på de forkerte emner.",
+      "status": "live"
+    },
+    {
+      "slug": "leveringsstatus-notifikation",
+      "title": "\"Automatisk leveringsstatus-notifikation til kunder",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Twilio"
+      ],
+      "meta_description": "\"Hold dine kunder opdateret med automatiske leveringsnotifikationer. Send status-opdateringer via SMS og email ved afsendelse, transit og levering og reducer kundeservice.",
+      "status": "live"
+    },
+    {
+      "slug": "linkedin-lead-til-crm",
+      "title": "\"Automatiser LinkedIn-leads til dit CRM",
+      "category": "\"Lead-håndtering",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "LinkedIn",
+        "Make.com",
+        "HubSpot"
+      ],
+      "meta_description": "\"Send LinkedIn-leads automatisk til dit CRM og kom aldrig et varmt lead. Integrer LinkedIn Lead Gen Forms med dit CRM og start opfølgning med det samme.",
+      "status": "live"
+    },
+    {
+      "slug": "linkedin-opslag-ai-fra-nyheder",
+      "title": "\"LinkedIn-opslag genereret med AI fra virksomhedsnyheder",
+      "category": "\"Content",
+      "trigger": "\"Ny nyhed, artikel eller opdatering tilgængelig",
+      "result": "\"LinkedIn-opslag klar til godkendelse og publicering",
+      "tools": [
+        "OpenAI",
+        "Make.com",
+        "LinkedIn",
+        "Notion"
+      ],
+      "meta_description": "\"Generer automatisk LinkedIn-opslag med AI baseret på nyheder, blogindlæg og virksomhedsopdateringer. Konsekvent tilstedeværelse på LinkedIn uden at bruge timer på det.",
+      "status": "live"
+    },
+    {
+      "slug": "meta-ads-rapport-automatisk",
+      "title": "\"Automatisk Meta Ads-rapport med AI-indsigter",
+      "category": "\"Marketing",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Meta Ads",
+        "Make.com",
+        "OpenAI",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Modtag automatiske Meta Ads-rapporter med AI-genererede indsigter og anbefalinger. Spor Facebook og Instagram-kampagners performance og optimer dit annoncebudget løbende.",
+      "status": "live"
+    },
+    {
+      "slug": "meta-ads-rapport-til-slack",
+      "title": "\"Automatisk Meta Ads performance-rapport til Slack",
+      "category": "\"Marketing",
+      "trigger": "\"Planlagt kørsel (dagligt eller ugentligt)",
+      "result": "\"Komplet Meta Ads rapport sendt til Slack-kanal",
+      "tools": [
+        "Meta Ads",
+        "Make.com",
+        "Slack",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Modtag automatisk daglig Meta Ads rapport i Slack med forbrug, ROAS, CPR og kampagnestatus. Stop med at logge ind i Ads Manager for at tjekke tallene manuelt.",
+      "status": "live"
+    },
+    {
+      "slug": "meta-ads-ugentlig-performance-rapport-email",
+      "title": "\"Automatisk ugentlig Meta Ads performance-rapport til din email",
+      "category": "\"Marketing",
+      "trigger": "\"Mandag morgen (ugentlig tidsplan)",
+      "result": "\"Overskuelig Meta Ads-rapport i din indbakke",
+      "tools": [
+        "Meta Marketing API",
+        "Make.com",
+        "OpenAI",
+        "Gmail",
+        "Google Sheets (arkivering)"
+      ],
+      "meta_description": "\"Modtag automatisk en overskuelig Meta Ads rapport i din indbakke hver mandag. Forbrug, ROAS, CPM og topkampagner samlet uden manuelt arbejde i Ads Manager.",
+      "status": "live"
+    },
+    {
+      "slug": "milepael-fakturering-projekter",
+      "title": "\"Automatisk fakturering ved projektmilepæle",
+      "category": "\"Regnskab",
+      "trigger": "\"Projektmilepæl markeret som afsluttet",
+      "result": "\"Faktura sendt til kunden automatisk",
+      "tools": [
+        "Asana",
+        "Make.com",
+        "Dinero",
+        "Gmail"
+      ],
+      "meta_description": "\"Automatiser fakturering ved projektmilepæle. Fakturaer genereres og sendes automatisk når en milepæl er afsluttet i dit projektstyringssystem.",
+      "status": "live"
+    },
+    {
+      "slug": "moede-referat-med-ai",
+      "title": "\"Automatisk moedereferat med AI",
+      "category": "\"Produktivitet",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Meet",
+        "Make.com",
+        "OpenAI",
+        "Slack"
+      ],
+      "meta_description": "\"Generer automatisk præcise mødereferater med AI fra dine møder og opkald. Spar tid på manuel skrivning og del referater med teamet umiddelbart efter mødet er slut.",
+      "status": "live"
+    },
+    {
+      "slug": "moms-indberetning-forberedelse",
+      "title": "\"Automatisk forberedelse af momsindberetning til SKAT",
+      "category": "\"Regnskab",
+      "trigger": "\"Momsperiode afsluttes",
+      "result": "\"Momstal klar og sendt til revisor",
+      "tools": [
+        "Dinero",
+        "Make.com",
+        "Gmail",
+        "Google Drive"
+      ],
+      "meta_description": "\"Automatiser forberedelsen af momsindberetning. Saml moms-tal automatisk fra dit regnskabssystem og send dem klar til indberetning.",
+      "status": "live"
+    },
+    {
+      "slug": "multi-kanal-bogfoering-e-conomic",
+      "title": "\"Automatisk multi-kanal bogføring i e-conomic",
+      "category": "\"Regnskab",
+      "trigger": "\"Salg på en hvilken som helst kanal",
+      "result": "\"Automatisk bogført i e-conomic",
+      "tools": [
+        "e-conomic",
+        "Make.com",
+        "Shopify",
+        "Stripe",
+        "MobilePay"
+      ],
+      "meta_description": "\"Automatiser bogføring fra alle salgskanaler til e-conomic. Shopify, Stripe, MobilePay og WooCommerce samles automatisk i ét regnskab.",
+      "status": "live"
+    },
+    {
+      "slug": "notion-crm-setup",
+      "title": "\"Byg et komplet CRM i Notion med automatiseringer",
+      "category": "\"Salg",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Notion",
+        "Make.com",
+        "Typeform",
+        "Slack"
+      ],
+      "meta_description": "\"Opbyg et fuldt funktionelt CRM direkte i Notion med automatiseringer. Spor leads, deals og kundekommunikation automatisk og hold hele salgsprocessen samlet på ét sted.",
+      "status": "live"
+    },
+    {
+      "slug": "notion-projekt-fra-slack",
+      "title": "\"Opret Notion-projekter direkte fra Slack",
+      "category": "\"Projektledelse",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Slack",
+        "Make.com",
+        "Notion"
+      ],
+      "meta_description": "\"Opret nye projekter i Notion direkte fra Slack med en simpel kommando. Undgå kontekstskifte og hold teamets arbejdsflow i gang ved at integrere Slack og Notion.",
+      "status": "live"
+    },
+    {
+      "slug": "notion-til-google-calendar-sync",
+      "title": "\"Sync Notion-deadlines til Google Calendar",
+      "category": "\"Produktivitet",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Notion",
+        "Make.com",
+        "Google Calendar"
+      ],
+      "meta_description": "\"Hold styr på dine deadlines ved at synkronisere Notion automatisk med Google Calendar. Nye opgaver og frister i Notion vises straks i din kalender uden manuel opdatering.",
+      "status": "live"
+    },
+    {
+      "slug": "ny-kunde-velkomst-flow",
+      "title": "\"Automatisk velkomst-flow til nye kunder",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Klaviyo"
+      ],
+      "meta_description": "\"Imponér dine nye kunder med et automatisk velkomst-flow der giver dem den bedste start. Opsæt email-sekvenser, onboarding og første interaktioner der sker helt automatisk.",
+      "status": "live"
+    },
+    {
+      "slug": "nye-ordrer-til-slack",
+      "title": "\"Send automatisk besked i Slack ved nye ordrer",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Hold hele teamet opdateret med automatiske Slack-notifikationer ved nye ordrer. Få instant besked om ordredetaljer direkte i din Slack-kanal uden manuel opdatering.",
+      "status": "live"
+    },
+    {
+      "slug": "nyhedsbrev-segmentering-med-ai",
+      "title": "\"AI-baseret segmentering af nyhedsbrevsliste",
+      "category": "\"Email Marketing",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Klaviyo",
+        "Make.com",
+        "OpenAI"
+      ],
+      "meta_description": "\"Segmenter automatisk din nyhedsbrevsliste med AI baseret på adfærd, interesser og køb. Send mere relevante emails til de rigtige modtagere og øg åbnings- og klikrater markant.",
+      "status": "live"
+    },
+    {
+      "slug": "onboarding-ny-medarbejder",
+      "title": "\"Automatisk onboarding-flow for nye medarbejdere",
+      "category": "\"HR",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Notion",
+        "Make.com",
+        "Google Workspace",
+        "Asana",
+        "Slack"
+      ],
+      "meta_description": "\"Giv nye medarbejdere den bedste start med et automatisk onboarding-flow. Opsæt adgange, send velkomstmails og tildel opgaver automatisk fra første arbejdsdag.",
+      "status": "live"
+    },
+    {
+      "slug": "opfoelgningsmail-efter-kundemøde",
+      "title": "\"Automatisk opfølgningsmail efter hvert kundemøde",
+      "category": "\"Salg",
+      "trigger": "\"Kundemøde afsluttes i Calendly",
+      "result": "\"Personlig opfølgningsmail sendt til kunden",
+      "tools": [
+        "Calendly",
+        "OpenAI",
+        "Make.com",
+        "HubSpot"
+      ],
+      "meta_description": "\"Send automatisk en personlig opfølgningsmail efter hvert kundemøde bookad via Calendly. AI udarbejder indholdet — du lukker flere deals ved at følge op konsekvent.",
+      "status": "live"
+    },
+    {
+      "slug": "pipedrive-automatisering",
+      "title": "\"Automatiser dit Pipedrive-workflow",
+      "category": "\"Salg",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Pipedrive",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Spar tid og luk flere deals med automatisering af dit Pipedrive-workflow. Opsæt automatiske notifikationer, opgaver og opfølgninger baseret på pipeline-aktivitet og deal-status.",
+      "status": "live"
+    },
+    {
+      "slug": "pre-order-og-backorder-haandtering",
+      "title": "\"Automatisk håndtering af pre-orders og backorders",
+      "category": "\"E-commerce",
+      "trigger": "\"Pre-order placeret eller produkt genopfyldt",
+      "result": "\"Kunder notificeret og ordre behandlet automatisk",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Gmail",
+        "Slack"
+      ],
+      "meta_description": "\"Automatiser håndtering af pre-orders og backorders. Kunder holdes opdateret automatisk og ordrer behandles korrekt når lageret er genopfyldt.",
+      "status": "live"
+    },
+    {
+      "slug": "pris-overvaagning-leverandoerer",
+      "title": "\"Automatisk prisovervaagning hos leverandoerer",
+      "category": "\"Indkoeb",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "Google Sheets",
+        "Slack"
+      ],
+      "meta_description": "\"Overvåg automatisk priserne hos dine leverandører og få besked ved ændringer. Reagér hurtigt og forhandl bedre priser med altid opdaterede prisdata til rådighed.",
+      "status": "live"
+    },
+    {
+      "slug": "prisovervaagning-konkurrenter-automatisk",
+      "title": "\"Automatisk prisovervågning af konkurrenter",
+      "category": "\"E-commerce",
+      "trigger": "\"Konkurrent ændrer pris på overvåget produkt",
+      "result": "\"Alarm sendt med pris, forskel og anbefaling",
+      "tools": [
+        "Make.com",
+        "Google Sheets",
+        "Slack",
+        "Gmail"
+      ],
+      "meta_description": "\"Overvåg konkurrenters priser automatisk og modtag alarm i Slack eller email når de ændrer sig. Reagér hurtigere og behold din konkurrencefordel uden manuelt arbejde.",
+      "status": "live"
+    },
+    {
+      "slug": "projekt-oprettelse-fra-deal",
+      "title": "\"Opret automatisk projekt når en deal lukkes",
+      "category": "\"Projektledelse",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "HubSpot",
+        "Make.com",
+        "Asana"
+      ],
+      "meta_description": "\"Opret automatisk projekter i dit projektstyringsværktøj når en deal lukkes i dit CRM. Spar tid på manuel projektoprettelse og kom hurtigt i gang med leverancen til kunden.",
+      "status": "live"
+    },
+    {
+      "slug": "rapport-fra-google-analytics-til-slack",
+      "title": "\"Ugentlig Analytics-rapport direkte i Slack",
+      "category": "\"Rapportering",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Analytics",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Modtag automatisk ugentlige Google Analytics-rapporter direkte i din Slack-kanal. Hold teamet opdateret på trafik, konverteringer og performance uden at åbne Analytics.",
+      "status": "live"
+    },
+    {
+      "slug": "retur-haandtering-automatisering",
+      "title": "\"Automatiser din returhaandtering",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Gmail"
+      ],
+      "meta_description": "\"Spar tid og reducer fejl med automatisk returhåndtering. Strømlin dine returprocesser fra kundebesked til refundering og lageropdate med smart automatisering.",
+      "status": "live"
+    },
+    {
+      "slug": "sentiment-analyse-kundeanmeldelser-ai",
+      "title": "\"Sentiment-analyse af kundeanmeldelser automatisk med AI",
+      "category": "\"Kundeservice",
+      "trigger": "\"Ny kundeanmeldelse modtaget",
+      "result": "\"Sentiment klassificeret og indsigt gemt til analyse",
+      "tools": [
+        "OpenAI",
+        "Make.com",
+        "Google Sheets",
+        "Slack"
+      ],
+      "meta_description": "\"Analyser automatisk sentiment i kundeanmeldelser fra Trustpilot, Google og email. Identificer mønstre og reagér hurtigere på negative oplevelser med AI og Make.com.",
+      "status": "live"
+    },
+    {
+      "slug": "seo-audit-rapport-automatisk",
+      "title": "\"Automatisk SEO-audit og optimeringsrapport hver uge",
+      "category": "\"Marketing",
+      "trigger": "\"Planlagt ugentlig kørsel",
+      "result": "\"SEO-rapport med placeringer, fejl og anbefalinger klar i Sheets",
+      "tools": [
+        "Google Search Console",
+        "Make.com",
+        "Google Sheets",
+        "Gmail"
+      ],
+      "meta_description": "\"Modtag automatisk ugentlig SEO-rapport med dine vigtigste søgeordsplaceringer, tekniske fejl og optimeringsmuligheder fra Google Search Console til Google Sheets.",
+      "status": "live"
+    },
+    {
+      "slug": "seo-rapport-med-ai-analyse",
+      "title": "\"Ugentlig SEO-rapport med AI-analyse",
+      "category": "\"Marketing",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Google Search Console",
+        "Make.com",
+        "OpenAI",
+        "Slack"
+      ],
+      "meta_description": "\"Modtag automatisk ugentlige SEO-rapporter med AI-genererede indsigter og anbefalinger. Spor rankings, trafik og konverteringer og forbedr din organiske synlighed løbende.",
+      "status": "live"
+    },
+    {
+      "slug": "shopify-bundle-automatisering",
+      "title": "\"Automatiser produktbundling i Shopify",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Skab og administrer produktbundles automatisk i din Shopify-shop. Øg gennemsnitlig ordreværdi med smarte bundling-regler, automatisk lagerstyring og dynamiske priser.",
+      "status": "live"
+    },
+    {
+      "slug": "shopify-klarna-rapport",
+      "title": "\"Automatisk Klarna-afstemning med Shopify",
+      "category": "\"Regnskab",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Afstem automatisk dine Klarna-betalinger med Shopify-ordrer. Eliminer manuelle fejl i bogføringen og få altid opdaterede og korrekte regnskabstal uden besvær.",
+      "status": "live"
+    },
+    {
+      "slug": "shopify-ordre-til-economic",
+      "title": "\"Sync Shopify-ordrer automatisk til e-conomic",
+      "category": "\"Regnskab",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "e-conomic"
+      ],
+      "meta_description": "\"Synkroniser automatisk Shopify-ordrer til e-conomic og hold regnskabet opdateret. Undgå manuel bogføring af webshop-salg med direkte integration mellem Shopify og e-conomic.",
+      "status": "live"
+    },
+    {
+      "slug": "shopify-produkt-feed-optimering",
+      "title": "\"Automatisk optimering af Shopify-produktfeed",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "OpenAI",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Optimer dit Shopify-produktfeed automatisk til Google Shopping og andre kanaler. Øg synlighed og klik med opdaterede titler, billeder og priser uden manuel indsats.",
+      "status": "live"
+    },
+    {
+      "slug": "shopify-til-billy-regnskab",
+      "title": "\"Sync Shopify-ordrer til Billy automatisk",
+      "category": "\"Regnskab",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Billy"
+      ],
+      "meta_description": "\"Synkroniser automatisk Shopify-ordrer og betalinger til Billy regnskab. Eliminer manuel bogføring og hold dit regnskab ajour med automatisk data-overførsel hver dag.",
+      "status": "live"
+    },
+    {
+      "slug": "shopify-til-dinero-automatisk-bogfoering-af-ordrer",
+      "title": "\"Shopify til Dinero — automatisk bogføring af webshop-ordrer",
+      "category": "\"Regnskab",
+      "trigger": "\"Ny ordre gennemført i Shopify",
+      "result": "\"Ordre bogført korrekt i Dinero automatisk",
+      "tools": [
+        "Shopify",
+        "Dinero",
+        "Make.com",
+        "Gmail"
+      ],
+      "meta_description": "\"Automatiser bogføring fra Shopify til Dinero. Hver ordre bogføres automatisk med korrekt moms, betalingsmetode og kontoplan — uden manuelt arbejde.",
+      "status": "live"
+    },
+    {
+      "slug": "shopify-trustpilot-invitation",
+      "title": "\"Automatisk Trustpilot-invitation efter Shopify-levering",
+      "category": "\"E-commerce",
+      "trigger": "\"Ordre markeret som leveret",
+      "result": "\"Trustpilot-invitation sendt automatisk",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Gmail"
+      ],
+      "meta_description": "\"Automatiser Trustpilot-invitationer fra Shopify. Invitér automatisk X dage efter levering og få markant flere anmeldelser uden manuelt arbejde.",
+      "status": "live"
+    },
+    {
+      "slug": "shopify-woocommerce-lager-sync",
+      "title": "\"Synkroniser lager mellem Shopify og WooCommerce",
+      "category": "\"E-commerce",
+      "trigger": "\"Lagerbeholdning ændret",
+      "result": "\"Begge platforme opdateret",
+      "tools": [
+        "Shopify",
+        "WooCommerce",
+        "Make.com"
+      ],
+      "meta_description": "\"Synkroniser lager automatisk mellem Shopify og WooCommerce. Undgå oversalg med realtids lagersync på tværs af platforme.",
+      "status": "live"
+    },
+    {
+      "slug": "slack-standup-bot",
+      "title": "\"Automatisk daglig standup via Slack",
+      "category": "\"Produktivitet",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Slack",
+        "Make.com",
+        "OpenAI"
+      ],
+      "meta_description": "\"Opsæt en automatisk daglig standup-bot i Slack der samler statusopdateringer fra hele teamet. Undgå unødvendige møder og hold alle informeret med strukturerede daglige opdateringer.",
+      "status": "live"
+    },
+    {
+      "slug": "slack-til-notion-vidensbase",
+      "title": "\"Gem Slack-beskeder automatisk i Notion-vidensbase",
+      "category": "\"Produktivitet",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Slack",
+        "Make.com",
+        "Notion"
+      ],
+      "meta_description": "\"Bevar vigtig viden fra Slack ved automatisk at gemme udvalgte beskeder i din Notion-vidensbase. Hold styr på beslutninger og indsigter uden at information går tabt i chatten.",
+      "status": "live"
+    },
+    {
+      "slug": "sms-marketing-flows",
+      "title": "\"Automatiske SMS marketing-flows til dine kunder",
+      "category": "\"E-commerce",
+      "trigger": "\"Kundeadfærd eller tidsbaseret event",
+      "result": "\"Personlig SMS sendt automatisk",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "Klaviyo",
+        "Twilio"
+      ],
+      "meta_description": "\"Automatiser dine SMS marketing-flows. Velkomst, post-køb og winback via SMS med 98% åbningsrate og høj konvertering.",
+      "status": "live"
+    },
+    {
+      "slug": "social-media-content-med-ai",
+      "title": "\"Generer ugentlige social media-opslag med AI",
+      "category": "\"Content",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Shopify",
+        "Make.com",
+        "OpenAI",
+        "Google Sheets"
+      ],
+      "meta_description": "\"Generer automatisk engagerende social media-opslag med AI til alle dine kanaler. Planlæg og publicér indhold automatisk og opbyg en konsistent tilstedeværelse på sociale medier.",
+      "status": "live"
+    },
+    {
+      "slug": "stripe-betaling-til-regnskab",
+      "title": "\"Sync Stripe-betalinger automatisk til regnskab",
+      "category": "\"Regnskab",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Stripe",
+        "Make.com",
+        "Dinero"
+      ],
+      "meta_description": "\"Synkroniser automatisk Stripe-betalinger direkte til dit regnskabsprogram. Eliminer manuel bogføring af online betalinger og hold altid dit regnskab opdateret og korrekt.",
+      "status": "live"
+    },
+    {
+      "slug": "tidsregistrering-til-faktura",
+      "title": "\"Automatisk fakturering baseret på tidsregistrering",
+      "category": "\"Regnskab",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Toggl",
+        "Make.com",
+        "Dinero"
+      ],
+      "meta_description": "\"Konverter automatisk registrerede timer til fakturaer og spar tid på manuel fakturering. Synkroniser timeregistrering med dit faktureringssystem og fakturer præcist hver gang.",
+      "status": "live"
+    },
+    {
+      "slug": "tiktok-ads-rapport",
+      "title": "\"Automatisk TikTok Ads-rapport til Slack",
+      "category": "\"Marketing",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "TikTok Ads",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Modtag automatisk dine TikTok Ads-rapporter direkte i Slack. Hold styr på visninger, klik, konverteringer og ROAS uden manuelt at trække data ud af TikTok Ads Manager.",
+      "status": "live"
+    },
+    {
+      "slug": "timeseddel-og-fravaersregistrering",
+      "title": "\"Automatisk timeseddel og fraværsregistrering for dit team",
+      "category": "\"HR",
+      "trigger": "\"Ugentlig påmindring eller fraværsanmodning indsendt",
+      "result": "\"Timeseddel indsamlet og fraværsoversigt opdateret automatisk",
+      "tools": [
+        "Google Sheets",
+        "Make.com",
+        "Slack",
+        "Gmail"
+      ],
+      "meta_description": "\"Automatiser indsamling af timesedler og fraværsregistrering med Slack og Google Sheets. Ingen manuelle rykke-emails, altid et opdateret overblik og løngrundlag klar til tid.",
+      "status": "live"
+    },
+    {
+      "slug": "udgiftsrapport-automatisering",
+      "title": "\"Automatisk udgiftsrapportering fra kvitteringer",
+      "category": "\"Regnskab",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Slack",
+        "Make.com",
+        "OpenAI",
+        "Dinero"
+      ],
+      "meta_description": "\"Automatiser din udgiftsrapportering fra scanning af kvitteringer til bogføring. AI udtrækker data fra bilag automatisk og eliminerer tidskrævende manuel registrering.",
+      "status": "live"
+    },
+    {
+      "slug": "webhook-monitor-med-alerts",
+      "title": "\"Overvaag webhooks og få alerts ved fejl",
+      "category": "\"DevOps",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Monitorér dine webhooks automatisk og modtag øjeblikkelige alerts ved fejl eller nedbrud. Hold dine integrationer kørende og reager hurtigt ved problemer i dine automations.",
+      "status": "live"
+    },
+    {
+      "slug": "woocommerce-bogfoering-e-conomic",
+      "title": "\"Automatisk bogføring af WooCommerce-ordrer i e-conomic",
+      "category": "\"Regnskab",
+      "trigger": "\"Ny betalt ordre i WooCommerce",
+      "result": "\"Salgsbilag oprettet korrekt i e-conomic",
+      "tools": [
+        "WooCommerce",
+        "e-conomic",
+        "Make.com",
+        "Gmail"
+      ],
+      "meta_description": "\"Forbind WooCommerce med e-conomic og bogfør alle ordrer automatisk med korrekt moms, betalingsmetode og konteringer. Spar timer og eliminer bogføringsfejl.",
+      "status": "live"
+    },
+    {
+      "slug": "woocommerce-ordre-til-slack",
+      "title": "\"WooCommerce-ordrer automatisk til Slack",
+      "category": "\"E-commerce",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "WooCommerce",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Modtag automatisk Slack-notifikationer ved nye WooCommerce-ordrer. Hold hele teamet opdateret i realtid med ordredetaljer direkte i jeres Slack-kanal uden manuel overvågning.",
+      "status": "live"
+    },
+    {
+      "slug": "woocommerce-til-dinero",
+      "title": "\"Sync WooCommerce-ordrer til Dinero automatisk",
+      "category": "\"Regnskab",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "WooCommerce",
+        "Make.com",
+        "Dinero"
+      ],
+      "meta_description": "\"Synkroniser automatisk dine WooCommerce-ordrer direkte til Dinero og hold regnskabet ajour. Spar tid på manuel bogføring og undgå fejl med automatisk data-synkronisering.",
+      "status": "live"
+    },
+    {
+      "slug": "zapier-til-make-migration",
+      "title": "\"Migrer dine Zapier-flows til Make.com",
+      "category": "\"Integration",
+      "trigger": "\"",
+      "result": "\"",
+      "tools": [
+        "Zapier",
+        "Make.com"
+      ],
+      "meta_description": "\"Skift fra Zapier til Make.com og spar op til 90% på automatiseringsomkostninger. Få hjælp til at migrere dine eksisterende Zapier-flows og opbyg kraftfulde Make-automations.",
+      "status": "live"
+    },
+    {
+      "slug": "zendesk-automatisering",
+      "title": "\"Automatiser dit kundeservice-flow i Zendesk",
+      "category": "\"Kundeservice",
+      "trigger": "\"Ny ticket eller hændelse i Zendesk",
+      "result": "\"Ticket routed og håndteret automatisk",
+      "tools": [
+        "Zendesk",
+        "Make.com",
+        "Slack"
+      ],
+      "meta_description": "\"Automatiser dit Zendesk-setup med skræddersyede flows for routing, eskalering og automatiske svar. Reducer svartid og øg kundetilfredsheden.",
+      "status": "live"
+    }
+  ]
+}
