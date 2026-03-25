@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk generering af unikke rabatkoder"
-meta_description: "Generer automatisk unikke rabatkoder til kampagner, loyalitetsprogrammer og events. Spar tid med batch-generering og distribuer rabatkoder automatisk til de rigtige kunder."
-canonical: "https://airobotten.dk//automatisering/automatisk-rabatkode-generering/"
+meta_description: "Generer automatisk unikke rabatkoder til kampagner, loyalitetsprogrammer og events. Spar tid med batch-generering og distribuer rabatkoder automatisk til."
+canonical: "https://airobotten.dk/automatisering/automatisk-rabatkode-generering/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk generering af unikke rabatkoder"
 trigger: ""

@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk velkomst-flow til nye kunder"
-meta_description: "Imponér dine nye kunder med et automatisk velkomst-flow der giver dem den bedste start. Opsæt email-sekvenser, onboarding og første interaktioner der sker helt automatisk."
-canonical: "https://airobotten.dk//automatisering/ny-kunde-velkomst-flow/"
+meta_description: "Imponér dine nye kunder med et automatisk velkomst-flow der giver dem den bedste start. Opsæt email-sekvenser, onboarding og første interaktioner der sker."
+canonical: "https://airobotten.dk/automatisering/ny-kunde-velkomst-flow/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk velkomst-flow til nye kunder"
 trigger: ""

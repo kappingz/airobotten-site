@@ -1,5 +1,5 @@
 ---
-title: "AI-automatisering til ejendomsmæglere: Spar 7 timer om ugen på opfølgning og dokumenter"
+title: "AI-automatisering til ejendomsmæglere: Spar 7 timer om"
 slug: "ai-automatisering-ejendomsmaglere"
 branche: "ejendomsmæglere"
 branche_kort: "ejendomsmægler"

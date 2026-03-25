@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk lager-alert når beholdningen er lav"
-meta_description: "Modtag automatisk lager-alerts når dine produkter nærmer sig minimum-beholdning. Undgå udsolgte varer og tab af salg med tidlige advarsler direkte til dit team via Slack eller email."
-canonical: "https://airobotten.dk//automatisering/lager-alert-ved-lav-beholdning/"
+meta_description: "Modtag automatisk lager-alerts når dine produkter nærmer sig minimum-beholdning. Undgå udsolgte varer og tab af salg med tidlige advarsler direkte til dit."
+canonical: "https://airobotten.dk/automatisering/lager-alert-ved-lav-beholdning/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk lager-alert når beholdningen er lav"
 trigger: ""

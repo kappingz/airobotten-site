@@ -1,5 +1,5 @@
 ---
-title: "Hvad er workflow automation? En simpel forklaring til virksomhedsejere"
+title: "Hvad er workflow automation? En simpel forklaring til"
 slug: "hvad-er-workflow-automation"
 term: "Workflow automation"
 category: "Automatisering"

@@ -1,9 +1,9 @@
 ---
-title: "AI-automatisering til fysioterapeuter og klinikker: Spar 6 timer om ugen på papirwork"
+title: "AI-automatisering til fysioterapeuter og klinikker: Spar 6"
 slug: "ai-automatisering-fysioterapeuter"
 branche: "fysioterapeuter og klinikker"
 branche_kort: "fysioterapeut"
-meta_description: "AI-automatisering til fysioterapiklinikker — automatiser booking, journalnotater, forsikringskorrespondance og patientopfølgning. Færre skærm-timer, flere patienttimer."
+meta_description: "AI-automatisering til fysioterapiklinikker — automatiser booking, journalnotater, forsikringskorrespondance og patientopfølgning. Færre skærm-timer, flere."
 canonical: "https://airobotten.dk/branche/ai-automatisering-fysioterapeuter/"
 layout: branche.njk
 intro: |

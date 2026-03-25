@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatiser produktfoto-workflow"
-meta_description: "Strømlinjeforn dit produktfoto-workflow med automatisering. Organiser, bearbejd og upload produktbilleder automatisk til din webshop og spar tid på manuelt fotoarbejde."
-canonical: "https://airobotten.dk//automatisering/automatisk-inventory-foto/"
+meta_description: "Strømlinjeforn dit produktfoto-workflow med automatisering. Organiser, bearbejd og upload produktbilleder automatisk til din webshop og spar tid på manuelt."
+canonical: "https://airobotten.dk/automatisering/automatisk-inventory-foto/"
 category: "Content"
 breadcrumb_label: "Automatiser produktfoto-workflow"
 trigger: ""

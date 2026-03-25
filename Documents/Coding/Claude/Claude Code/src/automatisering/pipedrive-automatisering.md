@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatiser dit Pipedrive-workflow"
-meta_description: "Spar tid og luk flere deals med automatisering af dit Pipedrive-workflow. Opsæt automatiske notifikationer, opgaver og opfølgninger baseret på pipeline-aktivitet og deal-status."
-canonical: "https://airobotten.dk//automatisering/pipedrive-automatisering/"
+meta_description: "Spar tid og luk flere deals med automatisering af dit Pipedrive-workflow. Opsæt automatiske notifikationer, opgaver og opfølgninger baseret på."
+canonical: "https://airobotten.dk/automatisering/pipedrive-automatisering/"
 category: "Salg"
 breadcrumb_label: "Automatiser dit Pipedrive-workflow"
 trigger: ""

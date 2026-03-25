@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "AI-baseret segmentering af nyhedsbrevsliste"
-meta_description: "Segmenter automatisk din nyhedsbrevsliste med AI baseret på adfærd, interesser og køb. Send mere relevante emails til de rigtige modtagere og øg åbnings- og klikrater markant."
-canonical: "https://airobotten.dk//automatisering/nyhedsbrev-segmentering-med-ai/"
+meta_description: "Segmenter automatisk din nyhedsbrevsliste med AI baseret på adfærd, interesser og køb. Send mere relevante emails til de rigtige modtagere og øg åbnings."
+canonical: "https://airobotten.dk/automatisering/nyhedsbrev-segmentering-med-ai/"
 category: "Email Marketing"
 breadcrumb_label: "AI-baseret segmentering af nyhedsbrevsliste"
 trigger: ""

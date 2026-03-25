@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "AI-baseret salgsprognose fra dit CRM"
-meta_description: "Generer automatiske salgsprognoser med AI baseret på data fra dit CRM. Forudsig fremtidigt salg, identificer tendenser og træf bedre forretningsbeslutninger med data-drevne prognoser."
-canonical: "https://airobotten.dk//automatisering/automatisk-salgsprognose/"
+meta_description: "Generer automatiske salgsprognoser med AI baseret på data fra dit CRM. Forudsig fremtidigt salg, identificer tendenser og træf bedre."
+canonical: "https://airobotten.dk/automatisering/automatisk-salgsprognose/"
 category: "Salg"
 breadcrumb_label: "AI-baseret salgsprognose fra dit CRM"
 trigger: ""

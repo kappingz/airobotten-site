@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Ugentlig SEO-rapport med AI-analyse"
-meta_description: "Modtag automatisk ugentlige SEO-rapporter med AI-genererede indsigter og anbefalinger. Spor rankings, trafik og konverteringer og forbedr din organiske synlighed løbende."
-canonical: "https://airobotten.dk//automatisering/seo-rapport-med-ai-analyse/"
+meta_description: "Modtag automatisk ugentlige SEO-rapporter med AI-genererede indsigter og anbefalinger. Spor rankings, trafik og konverteringer og forbedr din organiske."
+canonical: "https://airobotten.dk/automatisering/seo-rapport-med-ai-analyse/"
 category: "Marketing"
 breadcrumb_label: "Ugentlig SEO-rapport med AI-analyse"
 trigger: ""

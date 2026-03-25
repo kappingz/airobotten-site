@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatisk Klarna-afstemning med Shopify"
 meta_description: "Afstem automatisk dine Klarna-betalinger med Shopify-ordrer. Eliminer manuelle fejl i bogføringen og få altid opdaterede og korrekte regnskabstal uden besvær."
-canonical: "https://airobotten.dk//automatisering/shopify-klarna-rapport/"
+canonical: "https://airobotten.dk/automatisering/shopify-klarna-rapport/"
 category: "Regnskab"
 breadcrumb_label: "Automatisk Klarna-afstemning med Shopify"
 trigger: ""

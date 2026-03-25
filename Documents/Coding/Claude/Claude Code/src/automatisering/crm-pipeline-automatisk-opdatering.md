@@ -1,6 +1,6 @@
 ---
 layout: automatisering.njk
-title: "Automatisk opdatering af CRM pipeline baseret på kundeaktivitet"
+title: "Automatisk opdatering af CRM pipeline baseret på"
 meta_description: "Hold din HubSpot pipeline opdateret automatisk. Deals rykkes frem baseret på emails, møder og aktivitet — uden manuelt CRM-arbejde for sælgerne."
 canonical: "https://airobotten.dk/automatisering/crm-pipeline-automatisk-opdatering/"
 category: "Salg"

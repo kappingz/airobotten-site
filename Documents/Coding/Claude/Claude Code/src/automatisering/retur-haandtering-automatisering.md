@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatiser din returhaandtering"
 meta_description: "Spar tid og reducer fejl med automatisk returhåndtering. Strømlin dine returprocesser fra kundebesked til refundering og lageropdate med smart automatisering."
-canonical: "https://airobotten.dk//automatisering/retur-haandtering-automatisering/"
+canonical: "https://airobotten.dk/automatisering/retur-haandtering-automatisering/"
 category: "E-commerce"
 breadcrumb_label: "Automatiser din returhaandtering"
 trigger: ""

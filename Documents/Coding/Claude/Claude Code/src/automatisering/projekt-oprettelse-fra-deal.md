@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Opret automatisk projekt når en deal lukkes"
-meta_description: "Opret automatisk projekter i dit projektstyringsværktøj når en deal lukkes i dit CRM. Spar tid på manuel projektoprettelse og kom hurtigt i gang med leverancen til kunden."
-canonical: "https://airobotten.dk//automatisering/projekt-oprettelse-fra-deal/"
+meta_description: "Opret automatisk projekter i dit projektstyringsværktøj når en deal lukkes i dit CRM. Spar tid på manuel projektoprettelse og kom hurtigt i gang med."
+canonical: "https://airobotten.dk/automatisering/projekt-oprettelse-fra-deal/"
 category: "Projektledelse"
 breadcrumb_label: "Opret automatisk projekt når en deal lukkes"
 trigger: ""

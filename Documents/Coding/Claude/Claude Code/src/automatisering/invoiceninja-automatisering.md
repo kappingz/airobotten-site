@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatiser fakturering med Invoice Ninja"
-meta_description: "Automatiser din faktureringsproces med Invoice Ninja. Opret og send fakturaer automatisk, opsæt rykkere og synkroniser betalinger med dit regnskabssystem uden manuel indsats."
-canonical: "https://airobotten.dk//automatisering/invoiceninja-automatisering/"
+meta_description: "Automatiser din faktureringsproces med Invoice Ninja. Opret og send fakturaer automatisk, opsæt rykkere og synkroniser betalinger med dit regnskabssystem."
+canonical: "https://airobotten.dk/automatisering/invoiceninja-automatisering/"
 category: "Regnskab"
 breadcrumb_label: "Automatiser fakturering med Invoice Ninja"
 trigger: ""

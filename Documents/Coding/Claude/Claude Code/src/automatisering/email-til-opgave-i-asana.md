@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Konverter emails automatisk til Asana-opgaver"
-meta_description: "Omdан automatisk vigtige emails til Asana-opgaver og undgå at handlingspunkter går tabt i indbakken. Hold styr på alle to-do's med direkte integration mellem email og Asana."
-canonical: "https://airobotten.dk//automatisering/email-til-opgave-i-asana/"
+meta_description: "Omdан automatisk vigtige emails til Asana-opgaver og undgå at handlingspunkter går tabt i indbakken. Hold styr på alle to-do's med direkte integration."
+canonical: "https://airobotten.dk/automatisering/email-til-opgave-i-asana/"
 category: "Projektledelse"
 breadcrumb_label: "Konverter emails automatisk til Asana-opgaver"
 trigger: ""

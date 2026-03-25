@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatiser produktbundling i Shopify"
-meta_description: "Skab og administrer produktbundles automatisk i din Shopify-shop. Øg gennemsnitlig ordreværdi med smarte bundling-regler, automatisk lagerstyring og dynamiske priser."
-canonical: "https://airobotten.dk//automatisering/shopify-bundle-automatisering/"
+meta_description: "Skab og administrer produktbundles automatisk i din Shopify-shop. Øg gennemsnitlig ordreværdi med smarte bundling-regler, automatisk lagerstyring og."
+canonical: "https://airobotten.dk/automatisering/shopify-bundle-automatisering/"
 category: "E-commerce"
 breadcrumb_label: "Automatiser produktbundling i Shopify"
 trigger: ""

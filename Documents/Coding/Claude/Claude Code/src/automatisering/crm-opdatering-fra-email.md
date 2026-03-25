@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Opdater CRM automatisk baseret på emails"
-meta_description: "Hold dit CRM opdateret automatisk ved at analysere dine emails med AI. Opdater kontaktoplysninger, log interaktioner og opret opgaver automatisk baseret på indholdet i dine mails."
-canonical: "https://airobotten.dk//automatisering/crm-opdatering-fra-email/"
+meta_description: "Hold dit CRM opdateret automatisk ved at analysere dine emails med AI. Opdater kontaktoplysninger, log interaktioner og opret opgaver automatisk baseret på."
+canonical: "https://airobotten.dk/automatisering/crm-opdatering-fra-email/"
 category: "Salg"
 breadcrumb_label: "Opdater CRM automatisk baseret på emails"
 trigger: ""

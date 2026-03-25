@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Sync Shopify-ordrer til Billy automatisk"
-meta_description: "Synkroniser automatisk Shopify-ordrer og betalinger til Billy regnskab. Eliminer manuel bogføring og hold dit regnskab ajour med automatisk data-overførsel hver dag."
-canonical: "https://airobotten.dk//automatisering/shopify-til-billy-regnskab/"
+meta_description: "Synkroniser automatisk Shopify-ordrer og betalinger til Billy regnskab. Eliminer manuel bogføring og hold dit regnskab ajour med automatisk data-overførsel."
+canonical: "https://airobotten.dk/automatisering/shopify-til-billy-regnskab/"
 category: "Regnskab"
 breadcrumb_label: "Sync Shopify-ordrer til Billy automatisk"
 trigger: ""

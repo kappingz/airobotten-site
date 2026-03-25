@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "AI-chatbot til din hjemmeside"
-meta_description: "Implementér en AI-chatbot på din hjemmeside der besvarer kundehenvendelser 24/7. Reducer kundeservice-belastningen og konverter besøgende til kunder med intelligent chat-automatisering."
-canonical: "https://airobotten.dk//automatisering/ai-chatbot-til-website/"
+meta_description: "Implementér en AI-chatbot på din hjemmeside der besvarer kundehenvendelser 24/7. Reducer kundeservice-belastningen og konverter besøgende til kunder med."
+canonical: "https://airobotten.dk/automatisering/ai-chatbot-til-website/"
 category: "Kundeservice"
 breadcrumb_label: "AI-chatbot til din hjemmeside"
 trigger: ""

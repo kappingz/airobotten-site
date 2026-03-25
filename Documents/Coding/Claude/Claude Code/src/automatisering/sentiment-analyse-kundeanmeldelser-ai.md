@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "Sentiment-analyse af kundeanmeldelser automatisk med AI"
-meta_description: "Analyser automatisk sentiment i kundeanmeldelser fra Trustpilot, Google og email. Identificer mønstre og reagér hurtigere på negative oplevelser med AI og Make.com."
+meta_description: "Analyser automatisk sentiment i kundeanmeldelser fra Trustpilot, Google og email. Identificer mønstre og reagér hurtigere på negative oplevelser med AI og."
 canonical: "https://airobotten.dk/automatisering/sentiment-analyse-kundeanmeldelser-ai/"
 category: "Kundeservice"
 breadcrumb_label: "AI sentiment-analyse af anmeldelser"

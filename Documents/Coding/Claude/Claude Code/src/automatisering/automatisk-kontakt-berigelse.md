@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatisk berigelse af CRM-kontakter"
 meta_description: "Berig dine CRM-kontakter automatisk med firma- og persondata fra eksterne kilder. Få komplette kontaktprofiler uden manuel research og forbedr din salgsindsats."
-canonical: "https://airobotten.dk//automatisering/automatisk-kontakt-berigelse/"
+canonical: "https://airobotten.dk/automatisering/automatisk-kontakt-berigelse/"
 category: "Salg"
 breadcrumb_label: "Automatisk berigelse af CRM-kontakter"
 trigger: ""

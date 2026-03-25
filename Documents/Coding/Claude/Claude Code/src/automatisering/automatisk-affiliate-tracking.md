@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatiser dit affiliate-program tracking"
 meta_description: "Spor og administrer dit affiliate-program automatisk. Registrer klik, salg og provisioner automatisk og spar timer på manuel affiliate-tracking og afregning."
-canonical: "https://airobotten.dk//automatisering/automatisk-affiliate-tracking/"
+canonical: "https://airobotten.dk/automatisering/automatisk-affiliate-tracking/"
 category: "E-commerce"
 breadcrumb_label: "Automatiser dit affiliate-program tracking"
 trigger: ""

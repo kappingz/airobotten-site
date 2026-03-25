@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk daglig standup via Slack"
-meta_description: "Opsæt en automatisk daglig standup-bot i Slack der samler statusopdateringer fra hele teamet. Undgå unødvendige møder og hold alle informeret med strukturerede daglige opdateringer."
-canonical: "https://airobotten.dk//automatisering/slack-standup-bot/"
+meta_description: "Opsæt en automatisk daglig standup-bot i Slack der samler statusopdateringer fra hele teamet. Undgå unødvendige møder og hold alle informeret med."
+canonical: "https://airobotten.dk/automatisering/slack-standup-bot/"
 category: "Produktivitet"
 breadcrumb_label: "Automatisk daglig standup via Slack"
 trigger: ""

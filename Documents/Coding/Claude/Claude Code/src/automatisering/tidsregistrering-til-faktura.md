@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk fakturering baseret på tidsregistrering"
-meta_description: "Konverter automatisk registrerede timer til fakturaer og spar tid på manuel fakturering. Synkroniser timeregistrering med dit faktureringssystem og fakturer præcist hver gang."
-canonical: "https://airobotten.dk//automatisering/tidsregistrering-til-faktura/"
+meta_description: "Konverter automatisk registrerede timer til fakturaer og spar tid på manuel fakturering. Synkroniser timeregistrering med dit faktureringssystem og."
+canonical: "https://airobotten.dk/automatisering/tidsregistrering-til-faktura/"
 category: "Regnskab"
 breadcrumb_label: "Automatisk fakturering baseret på tidsregistrering"
 trigger: ""

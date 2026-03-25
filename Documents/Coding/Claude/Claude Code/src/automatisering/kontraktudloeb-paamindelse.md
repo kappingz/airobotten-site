@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk påmindelse om kontraktudloeb"
-meta_description: "Gå aldrig glip af et kontraktudløb med automatiske påmindelser i god tid. Modtag alerts og send automatiske fornyelsestilbud til kunder inden kontrakten udløber."
-canonical: "https://airobotten.dk//automatisering/kontraktudloeb-paamindelse/"
+meta_description: "Gå aldrig glip af et kontraktudløb med automatiske påmindelser i god tid. Modtag alerts og send automatiske fornyelsestilbud til kunder inden kontrakten."
+canonical: "https://airobotten.dk/automatisering/kontraktudloeb-paamindelse/"
 category: "Administration"
 breadcrumb_label: "Automatisk påmindelse om kontraktudloeb"
 trigger: ""

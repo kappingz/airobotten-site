@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "AI-drevet konkurrenceanalyse på autopilot"
-meta_description: "Udfør automatisk dybdegående konkurrenceanalyser med AI. Overvåg konkurrenternes priser, indhold og strategi og modtag ugentlige rapporter der holder dig et skridt foran."
-canonical: "https://airobotten.dk//automatisering/automatisk-konkurrenceanalyse/"
+meta_description: "Udfør automatisk dybdegående konkurrenceanalyser med AI. Overvåg konkurrenternes priser, indhold og strategi og modtag ugentlige rapporter der holder dig."
+canonical: "https://airobotten.dk/automatisering/automatisk-konkurrenceanalyse/"
 category: "Analyse"
 breadcrumb_label: "AI-drevet konkurrenceanalyse på autopilot"
 trigger: ""

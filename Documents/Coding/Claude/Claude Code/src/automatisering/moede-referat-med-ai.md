@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk moedereferat med AI"
-meta_description: "Generer automatisk præcise mødereferater med AI fra dine møder og opkald. Spar tid på manuel skrivning og del referater med teamet umiddelbart efter mødet er slut."
-canonical: "https://airobotten.dk//automatisering/moede-referat-med-ai/"
+meta_description: "Generer automatisk præcise mødereferater med AI fra dine møder og opkald. Spar tid på manuel skrivning og del referater med teamet umiddelbart efter mødet."
+canonical: "https://airobotten.dk/automatisering/moede-referat-med-ai/"
 category: "Produktivitet"
 breadcrumb_label: "Automatisk moedereferat med AI"
 trigger: ""

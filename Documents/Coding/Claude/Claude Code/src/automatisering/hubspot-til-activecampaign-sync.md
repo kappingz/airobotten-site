@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Sync HubSpot-kontakter med ActiveCampaign"
 meta_description: "Hold HubSpot og ActiveCampaign synkroniserede automatisk. Nye kontakter, opdateringer og segmenteringer synces i realtid uden manuel eksport og import af data."
-canonical: "https://airobotten.dk//automatisering/hubspot-til-activecampaign-sync/"
+canonical: "https://airobotten.dk/automatisering/hubspot-til-activecampaign-sync/"
 category: "Integration"
 breadcrumb_label: "Sync HubSpot-kontakter med ActiveCampaign"
 trigger: ""

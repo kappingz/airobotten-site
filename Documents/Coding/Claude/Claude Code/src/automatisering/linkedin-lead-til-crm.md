@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatiser LinkedIn-leads til dit CRM"
 meta_description: "Send LinkedIn-leads automatisk til dit CRM og kom aldrig et varmt lead. Integrer LinkedIn Lead Gen Forms med dit CRM og start opfølgning med det samme."
-canonical: "https://airobotten.dk//automatisering/linkedin-lead-til-crm/"
+canonical: "https://airobotten.dk/automatisering/linkedin-lead-til-crm/"
 category: "Lead-håndtering"
 breadcrumb_label: "Automatiser LinkedIn-leads til dit CRM"
 trigger: ""

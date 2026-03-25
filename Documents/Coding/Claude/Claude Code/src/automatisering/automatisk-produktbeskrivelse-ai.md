@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Generer produktbeskrivelser med AI"
 meta_description: "Automatiser din produktbeskrivelser med AI og spar timer på manuelt copywriting. Generer unikke, SEO-optimerede tekster til din webshop hurtigt og effektivt."
-canonical: "https://airobotten.dk//automatisering/automatisk-produktbeskrivelse-ai/"
+canonical: "https://airobotten.dk/automatisering/automatisk-produktbeskrivelse-ai/"
 category: "Content"
 breadcrumb_label: "Generer produktbeskrivelser med AI"
 trigger: ""

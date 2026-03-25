@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatisk fragtberegning og label-generering"
 meta_description: "Automatiser fragtberegning og print af labels ved nye ordrer. Spar tid og fejl med automatisk valg af fragtmetode, priskalkulation og generering af fragtlabels."
-canonical: "https://airobotten.dk//automatisering/automatisk-fragt-beregning/"
+canonical: "https://airobotten.dk/automatisering/automatisk-fragt-beregning/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk fragtberegning og label-generering"
 trigger: ""

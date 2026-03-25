@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk win-back kampagne til inaktive kunder"
-meta_description: "Reaktiver inaktive kunder automatisk med målrettede win-back kampagner. Identificer churning kunder og send personlige tilbud på det rigtige tidspunkt for at genvinde dem."
-canonical: "https://airobotten.dk//automatisering/automatisk-winback-kampagne/"
+meta_description: "Reaktiver inaktive kunder automatisk med målrettede win-back kampagner. Identificer churning kunder og send personlige tilbud på det rigtige tidspunkt for."
+canonical: "https://airobotten.dk/automatisering/automatisk-winback-kampagne/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk win-back kampagne til inaktive kunder"
 trigger: ""

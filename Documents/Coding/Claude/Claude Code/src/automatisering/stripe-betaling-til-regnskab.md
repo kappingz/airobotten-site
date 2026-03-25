@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Sync Stripe-betalinger automatisk til regnskab"
-meta_description: "Synkroniser automatisk Stripe-betalinger direkte til dit regnskabsprogram. Eliminer manuel bogføring af online betalinger og hold altid dit regnskab opdateret og korrekt."
-canonical: "https://airobotten.dk//automatisering/stripe-betaling-til-regnskab/"
+meta_description: "Synkroniser automatisk Stripe-betalinger direkte til dit regnskabsprogram. Eliminer manuel bogføring af online betalinger og hold altid dit regnskab."
+canonical: "https://airobotten.dk/automatisering/stripe-betaling-til-regnskab/"
 category: "Regnskab"
 breadcrumb_label: "Sync Stripe-betalinger automatisk til regnskab"
 trigger: ""

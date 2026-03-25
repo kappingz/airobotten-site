@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatisk offboarding når medarbejdere stopper"
 meta_description: "Håndtér medarbejder-offboarding automatisk og sikkert. Fjern adgange, overdrag opgaver og arkivér data automatisk når en medarbejder forlader din virksomhed."
-canonical: "https://airobotten.dk//automatisering/automatisk-medarbejder-offboarding/"
+canonical: "https://airobotten.dk/automatisering/automatisk-medarbejder-offboarding/"
 category: "HR"
 breadcrumb_label: "Automatisk offboarding når medarbejdere stopper"
 trigger: ""

@@ -1,5 +1,5 @@
 ---
-title: "ActiveCampaign vs Klaviyo: Hvilken er bedst til din virksomhed?"
+title: "ActiveCampaign vs Klaviyo: Hvilken er bedst til din"
 slug: "activecampaign-vs-klaviyo-danmark"
 tool_a: "ActiveCampaign"
 tool_b: "Klaviyo"

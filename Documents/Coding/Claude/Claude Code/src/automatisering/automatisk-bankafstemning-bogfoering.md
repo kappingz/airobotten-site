@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "Automatisk bankafstemning med bogføring i Dinero"
-meta_description: "Afstem bankkontoen automatisk med Dinero. Matcher bankposteringer mod bogførte bilag og markerer uoverensstemmelser til behandling — spar timer ved månedsskiftet."
+meta_description: "Afstem bankkontoen automatisk med Dinero. Matcher bankposteringer mod bogførte bilag og markerer uoverensstemmelser til behandling — spar timer ved."
 canonical: "https://airobotten.dk/automatisering/automatisk-bankafstemning-bogfoering/"
 category: "Regnskab"
 breadcrumb_label: "Automatisk bankafstemning"

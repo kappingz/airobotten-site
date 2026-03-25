@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk tilbudsberegning fra formular"
-meta_description: "Generer automatisk præcise tilbud baseret på kundens formular-svar. Spar tid på manuel prisberegning og send professionelle tilbud hurtigt direkte til potentielle kunder."
-canonical: "https://airobotten.dk//automatisering/automatisk-tilbudsberegning/"
+meta_description: "Generer automatisk præcise tilbud baseret på kundens formular-svar. Spar tid på manuel prisberegning og send professionelle tilbud hurtigt direkte til."
+canonical: "https://airobotten.dk/automatisering/automatisk-tilbudsberegning/"
 category: "Salg"
 breadcrumb_label: "Automatisk tilbudsberegning fra formular"
 trigger: ""

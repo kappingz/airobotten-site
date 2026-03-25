@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Facebook Lead Ads direkte til dit CRM"
-meta_description: "Send automatisk Facebook Lead Ads-leads direkte til dit CRM i realtid. Undgå manuel CSV-eksport og sørg for at dit salgsteam altid har de nyeste leads klar til opfølgning."
-canonical: "https://airobotten.dk//automatisering/facebook-lead-ads-til-crm/"
+meta_description: "Send automatisk Facebook Lead Ads-leads direkte til dit CRM i realtid. Undgå manuel CSV-eksport og sørg for at dit salgsteam altid har de nyeste leads klar."
+canonical: "https://airobotten.dk/automatisering/facebook-lead-ads-til-crm/"
 category: "Lead-håndtering"
 breadcrumb_label: "Facebook Lead Ads direkte til dit CRM"
 trigger: ""

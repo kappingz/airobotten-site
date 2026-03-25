@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk moedebooking fra din hjemmeside"
-meta_description: "Lad besøgende booke møder direkte fra din hjemmeside med automatisk mødebooking. Synkroniser automatisk med din kalender og send bekræftelser og påmindelser til alle parter."
-canonical: "https://airobotten.dk//automatisering/automatisk-moedebooking-fra-website/"
+meta_description: "Lad besøgende booke møder direkte fra din hjemmeside med automatisk mødebooking. Synkroniser automatisk med din kalender og send bekræftelser og."
+canonical: "https://airobotten.dk/automatisering/automatisk-moedebooking-fra-website/"
 category: "Salg"
 breadcrumb_label: "Automatisk moedebooking fra din hjemmeside"
 trigger: ""

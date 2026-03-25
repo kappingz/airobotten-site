@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Send Typeform-leads direkte til HubSpot"
-meta_description: "Automatiser din lead-håndtering ved at sende Typeform-besvarelser direkte til HubSpot. Nye kontakter oprettes automatisk og starter din salgsproces med det samme."
-canonical: "https://airobotten.dk//automatisering/lead-fra-typeform-til-hubspot/"
+meta_description: "Automatiser din lead-håndtering ved at sende Typeform-besvarelser direkte til HubSpot. Nye kontakter oprettes automatisk og starter din salgsproces med det."
+canonical: "https://airobotten.dk/automatisering/lead-fra-typeform-til-hubspot/"
 category: "Lead-håndtering"
 breadcrumb_label: "Send Typeform-leads direkte til HubSpot"
 trigger: ""

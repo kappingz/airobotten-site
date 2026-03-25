@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk udgiftsrapportering fra kvitteringer"
-meta_description: "Automatiser din udgiftsrapportering fra scanning af kvitteringer til bogføring. AI udtrækker data fra bilag automatisk og eliminerer tidskrævende manuel registrering."
-canonical: "https://airobotten.dk//automatisering/udgiftsrapport-automatisering/"
+meta_description: "Automatiser din udgiftsrapportering fra scanning af kvitteringer til bogføring. AI udtrækker data fra bilag automatisk og eliminerer tidskrævende manuel."
+canonical: "https://airobotten.dk/automatisering/udgiftsrapport-automatisering/"
 category: "Regnskab"
 breadcrumb_label: "Automatisk udgiftsrapportering fra kvitteringer"
 trigger: ""

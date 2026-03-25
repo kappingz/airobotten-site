@@ -1,9 +1,9 @@
 ---
-title: "AI-automatisering til rengøringsfirmaer: Spar 5 timer om ugen på tilbud og fakturering"
+title: "AI-automatisering til rengøringsfirmaer: Spar 5 timer om"
 slug: "ai-automatisering-rengoeringsfirmaer"
 branche: "rengøringsfirmaer"
 branche_kort: "rengøringsfirma"
-meta_description: "AI-automatisering til rengøringsfirmaer — automatiser tilbud, fakturaer, vagtplan og kundeopfølgning. Konvertér forespørgsler 3x hurtigere, spar tid på papirarbejde."
+meta_description: "AI-automatisering til rengøringsfirmaer — automatiser tilbud, fakturaer, vagtplan og kundeopfølgning. Konvertér forespørgsler 3x hurtigere, spar tid på."
 canonical: "https://airobotten.dk/branche/ai-automatisering-rengoeringsfirmaer/"
 layout: branche.njk
 intro: |

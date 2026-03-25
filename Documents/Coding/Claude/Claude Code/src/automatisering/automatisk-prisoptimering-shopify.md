@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "AI-drevet prisoptimering til din Shopify-shop"
 meta_description: "Automatiser prisoptimering i din Shopify-shop med AI. Tilpas priser dynamisk baseret på konkurrenter, lagerstatus og efterspørgsel og øg din fortjeneste."
-canonical: "https://airobotten.dk//automatisering/automatisk-prisoptimering-shopify/"
+canonical: "https://airobotten.dk/automatisering/automatisk-prisoptimering-shopify/"
 category: "E-commerce"
 breadcrumb_label: "AI-drevet prisoptimering til din Shopify-shop"
 trigger: ""

@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatiser influencer-outreach med AI"
-meta_description: "Find og kontakt relevante influencers automatisk med personlige AI-genererede beskeder. Skalér din influencer marketing og byg flere brandpartnerskaber med mindre manuel indsats."
-canonical: "https://airobotten.dk//automatisering/automatisk-influencer-outreach/"
+meta_description: "Find og kontakt relevante influencers automatisk med personlige AI-genererede beskeder. Skalér din influencer marketing og byg flere brandpartnerskaber med."
+canonical: "https://airobotten.dk/automatisering/automatisk-influencer-outreach/"
 category: "Marketing"
 breadcrumb_label: "Automatiser influencer-outreach med AI"
 trigger: ""

@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk TikTok Ads-rapport til Slack"
-meta_description: "Modtag automatisk dine TikTok Ads-rapporter direkte i Slack. Hold styr på visninger, klik, konverteringer og ROAS uden manuelt at trække data ud af TikTok Ads Manager."
-canonical: "https://airobotten.dk//automatisering/tiktok-ads-rapport/"
+meta_description: "Modtag automatisk dine TikTok Ads-rapporter direkte i Slack. Hold styr på visninger, klik, konverteringer og ROAS uden manuelt at trække data ud af TikTok."
+canonical: "https://airobotten.dk/automatisering/tiktok-ads-rapport/"
 category: "Marketing"
 breadcrumb_label: "Automatisk TikTok Ads-rapport til Slack"
 trigger: ""

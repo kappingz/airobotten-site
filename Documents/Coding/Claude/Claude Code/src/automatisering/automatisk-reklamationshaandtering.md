@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatiser din reklamationshaandtering"
-meta_description: "Håndtér reklamationer automatisk og hurtigere med en struktureret automatiseringsproces. Registrér, kategorisér og eskalér reklamationer automatisk for bedre kundeservice."
-canonical: "https://airobotten.dk//automatisering/automatisk-reklamationshaandtering/"
+meta_description: "Håndtér reklamationer automatisk og hurtigere med en struktureret automatiseringsproces. Registrér, kategorisér og eskalér reklamationer automatisk for."
+canonical: "https://airobotten.dk/automatisering/automatisk-reklamationshaandtering/"
 category: "Kundeservice"
 breadcrumb_label: "Automatiser din reklamationshaandtering"
 trigger: ""

@@ -1,5 +1,5 @@
 ---
-title: "AI-automatisering til tømrere og håndværkere: Spar 6 timer om ugen på papirarbejde"
+title: "AI-automatisering til tømrere og håndværkere: Spar 6 timer"
 slug: "ai-automatisering-toemrere"
 branche: "tømrere og håndværkere"
 branche_kort: "håndværker"

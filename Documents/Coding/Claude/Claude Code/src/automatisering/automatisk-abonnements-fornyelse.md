@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatiser abonnementsfornyelse og betaling"
-meta_description: "Forny abonnementer og opkræv betalinger automatisk ved udløb. Reducer churn med automatiske påmindelser og problemfri fornyelse der sikrer kontinuerlig indtægt for din virksomhed."
-canonical: "https://airobotten.dk//automatisering/automatisk-abonnements-fornyelse/"
+meta_description: "Forny abonnementer og opkræv betalinger automatisk ved udløb. Reducer churn med automatiske påmindelser og problemfri fornyelse der sikrer kontinuerlig."
+canonical: "https://airobotten.dk/automatisering/automatisk-abonnements-fornyelse/"
 category: "SaaS"
 breadcrumb_label: "Automatiser abonnementsfornyelse og betaling"
 trigger: ""

@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "AI-genereret content-kalender til social media"
-meta_description: "Planlæg og generer din sociale medie-indhold automatisk med AI. Få en fuld content-kalender med færdige opslag, grafikforslag og publiceringstider uden manuelt arbejde."
-canonical: "https://airobotten.dk//automatisering/automatisk-content-kalender/"
+meta_description: "Planlæg og generer din sociale medie-indhold automatisk med AI. Få en fuld content-kalender med færdige opslag, grafikforslag og publiceringstider uden."
+canonical: "https://airobotten.dk/automatisering/automatisk-content-kalender/"
 category: "Content"
 breadcrumb_label: "AI-genereret content-kalender til social media"
 trigger: ""

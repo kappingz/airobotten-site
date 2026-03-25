@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk forberedelse af loenkoersel"
-meta_description: "Forbered din månedlige lønkørsel automatisk ved at samle timer, fravær og tillæg fra dine systemer. Spar tid på lønbogholderi og reducer risikoen for fejl i lønnen."
-canonical: "https://airobotten.dk//automatisering/automatisk-loenkoersel-forberedelse/"
+meta_description: "Forbered din månedlige lønkørsel automatisk ved at samle timer, fravær og tillæg fra dine systemer. Spar tid på lønbogholderi og reducer risikoen for fejl."
+canonical: "https://airobotten.dk/automatisering/automatisk-loenkoersel-forberedelse/"
 category: "HR"
 breadcrumb_label: "Automatisk forberedelse af loenkoersel"
 trigger: ""

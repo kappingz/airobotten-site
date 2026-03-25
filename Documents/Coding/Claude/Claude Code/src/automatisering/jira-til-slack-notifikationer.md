@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatiske Jira-notifikationer i Slack"
-meta_description: "Hold dit team opdateret med automatiske Jira-notifikationer direkte i Slack. Modtag alerts ved statusændringer, nye issues og kommentarer uden at skifte mellem systemer."
-canonical: "https://airobotten.dk//automatisering/jira-til-slack-notifikationer/"
+meta_description: "Hold dit team opdateret med automatiske Jira-notifikationer direkte i Slack. Modtag alerts ved statusændringer, nye issues og kommentarer uden at skifte."
+canonical: "https://airobotten.dk/automatisering/jira-til-slack-notifikationer/"
 category: "Projektledelse"
 breadcrumb_label: "Automatiske Jira-notifikationer i Slack"
 trigger: ""

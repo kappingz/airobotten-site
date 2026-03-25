@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "AI-genererede svarforslag til kundeservice"
-meta_description: "Besvar kundehenvendelser hurtigere med AI-genererede svarforslag til dit supportteam. Reducer svartider og forbedr kundetilfredsheden med intelligent automatisering af kundeservice."
-canonical: "https://airobotten.dk//automatisering/kundeservice-auto-svar/"
+meta_description: "Besvar kundehenvendelser hurtigere med AI-genererede svarforslag til dit supportteam. Reducer svartider og forbedr kundetilfredsheden med intelligent."
+canonical: "https://airobotten.dk/automatisering/kundeservice-auto-svar/"
 category: "Kundeservice"
 breadcrumb_label: "AI-genererede svarforslag til kundeservice"
 trigger: ""

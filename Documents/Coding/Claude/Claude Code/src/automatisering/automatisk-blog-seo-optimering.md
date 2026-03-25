@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "AI-optimering af blogindlaeg til SEO"
-meta_description: "Optimer automatisk dine blogindlæg til søgemaskiner med AI-drevet SEO-analyse. Identificer forbedringer, tilføj keywords og forbedre din organiske synlighed automatisk."
-canonical: "https://airobotten.dk//automatisering/automatisk-blog-seo-optimering/"
+meta_description: "Optimer automatisk dine blogindlæg til søgemaskiner med AI-drevet SEO-analyse. Identificer forbedringer, tilføj keywords og forbedre din organiske."
+canonical: "https://airobotten.dk/automatisering/automatisk-blog-seo-optimering/"
 category: "Content"
 breadcrumb_label: "AI-optimering af blogindlaeg til SEO"
 trigger: ""

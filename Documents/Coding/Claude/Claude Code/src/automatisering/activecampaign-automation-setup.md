@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Avancerede ActiveCampaign-automatiseringer"
-meta_description: "Opsæt kraftfulde ActiveCampaign-automatiseringer der konverterer leads til kunder. Byg avancerede flows, lead scoring og personlige email-sekvenser der kører helt automatisk."
-canonical: "https://airobotten.dk//automatisering/activecampaign-automation-setup/"
+meta_description: "Opsæt kraftfulde ActiveCampaign-automatiseringer der konverterer leads til kunder. Byg avancerede flows, lead scoring og personlige email-sekvenser der."
+canonical: "https://airobotten.dk/automatisering/activecampaign-automation-setup/"
 category: "Email Marketing"
 breadcrumb_label: "Avancerede ActiveCampaign-automatiseringer"
 trigger: ""

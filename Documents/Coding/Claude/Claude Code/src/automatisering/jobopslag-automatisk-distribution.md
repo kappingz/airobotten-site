@@ -1,6 +1,6 @@
 ---
 layout: automatisering.njk
-title: "Automatisk distribution af jobopslag til LinkedIn og Jobindex"
+title: "Automatisk distribution af jobopslag til LinkedIn og"
 meta_description: "Publicér nye jobopslag automatisk på LinkedIn, Jobindex og interne kanaler. Opsæt én gang — rekrutteringsprocessen starter af sig selv ved hvert nyt opslag."
 canonical: "https://airobotten.dk/automatisering/jobopslag-automatisk-distribution/"
 category: "HR"

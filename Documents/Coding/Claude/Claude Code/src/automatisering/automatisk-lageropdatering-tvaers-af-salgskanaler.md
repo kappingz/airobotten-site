@@ -1,6 +1,6 @@
 ---
 layout: automatisering.njk
-title: "Automatiser lageropdatering på tværs af alle dine salgskanaler"
+title: "Automatiser lageropdatering på tværs af alle dine"
 meta_description: "Synkroniser lagerbeholdning automatisk på tværs af Shopify, WooCommerce, fysisk butik og marketplace. Undgå oversalg og manuelle lagertjek for altid."
 canonical: "https://airobotten.dk/automatisering/automatisk-lageropdatering-tvaers-af-salgskanaler/"
 category: "E-commerce"

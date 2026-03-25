@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk leveringsstatus-notifikation til kunder"
-meta_description: "Hold dine kunder opdateret med automatiske leveringsnotifikationer. Send status-opdateringer via SMS og email ved afsendelse, transit og levering og reducer kundeservice."
-canonical: "https://airobotten.dk//automatisering/leveringsstatus-notifikation/"
+meta_description: "Hold dine kunder opdateret med automatiske leveringsnotifikationer. Send status-opdateringer via SMS og email ved afsendelse, transit og levering og."
+canonical: "https://airobotten.dk/automatisering/leveringsstatus-notifikation/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk leveringsstatus-notifikation til kunder"
 trigger: ""

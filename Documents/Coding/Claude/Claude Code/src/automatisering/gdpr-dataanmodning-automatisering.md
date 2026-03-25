@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatiser GDPR-dataanmodninger"
-meta_description: "Håndtér GDPR-dataanmodninger automatisk og overhold lovgivningen uden besvær. Automatiser behandling af indsigtsanmodninger og sletninger og dokument svar inden for fristen."
-canonical: "https://airobotten.dk//automatisering/gdpr-dataanmodning-automatisering/"
+meta_description: "Håndtér GDPR-dataanmodninger automatisk og overhold lovgivningen uden besvær. Automatiser behandling af indsigtsanmodninger og sletninger og dokument svar."
+canonical: "https://airobotten.dk/automatisering/gdpr-dataanmodning-automatisering/"
 category: "Compliance"
 breadcrumb_label: "Automatiser GDPR-dataanmodninger"
 trigger: ""

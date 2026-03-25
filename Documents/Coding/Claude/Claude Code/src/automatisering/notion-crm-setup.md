@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Byg et komplet CRM i Notion med automatiseringer"
-meta_description: "Opbyg et fuldt funktionelt CRM direkte i Notion med automatiseringer. Spor leads, deals og kundekommunikation automatisk og hold hele salgsprocessen samlet på ét sted."
-canonical: "https://airobotten.dk//automatisering/notion-crm-setup/"
+meta_description: "Opbyg et fuldt funktionelt CRM direkte i Notion med automatiseringer. Spor leads, deals og kundekommunikation automatisk og hold hele salgsprocessen samlet."
+canonical: "https://airobotten.dk/automatisering/notion-crm-setup/"
 category: "Salg"
 breadcrumb_label: "Byg et komplet CRM i Notion med automatiseringer"
 trigger: ""

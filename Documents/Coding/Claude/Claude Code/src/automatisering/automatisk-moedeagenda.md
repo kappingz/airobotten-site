@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "AI-genereret moedeagenda foer hvert moede"
-meta_description: "Generer automatisk en struktureret mødeagenda med AI inden hvert møde. Saml relevante punkter fra dine systemer og send agendaen til alle deltagere automatisk i god tid."
-canonical: "https://airobotten.dk//automatisering/automatisk-moedeagenda/"
+meta_description: "Generer automatisk en struktureret mødeagenda med AI inden hvert møde. Saml relevante punkter fra dine systemer og send agendaen til alle deltagere."
+canonical: "https://airobotten.dk/automatisering/automatisk-moedeagenda/"
 category: "Produktivitet"
 breadcrumb_label: "AI-genereret moedeagenda foer hvert moede"
 trigger: ""

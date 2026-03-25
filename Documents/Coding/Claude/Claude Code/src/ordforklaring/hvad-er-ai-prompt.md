@@ -1,5 +1,5 @@
 ---
-title: "Hvad er en AI-prompt? En simpel forklaring til virksomhedsejere"
+title: "Hvad er en AI-prompt? En simpel forklaring til"
 slug: "hvad-er-ai-prompt"
 term: "AI-prompt"
 category: "Kunstig intelligens"

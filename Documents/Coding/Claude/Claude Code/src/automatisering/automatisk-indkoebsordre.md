@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk indkoebsordre når lager er lavt"
-meta_description: "Generer automatisk indkøbsordrer til leverandører når lageret falder under minimum. Undgå udsolgte varer med intelligent automatisk genbestilling baseret på dine regler."
-canonical: "https://airobotten.dk//automatisering/automatisk-indkoebsordre/"
+meta_description: "Generer automatisk indkøbsordrer til leverandører når lageret falder under minimum. Undgå udsolgte varer med intelligent automatisk genbestilling baseret."
+canonical: "https://airobotten.dk/automatisering/automatisk-indkoebsordre/"
 category: "Indkoeb"
 breadcrumb_label: "Automatisk indkoebsordre når lager er lavt"
 trigger: ""

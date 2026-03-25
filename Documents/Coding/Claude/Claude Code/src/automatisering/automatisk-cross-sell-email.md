@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk cross-sell email baseret på koeb"
-meta_description: "Øg din gennemsnitlige ordreværdi med automatiske cross-sell emails baseret på kundens tidligere køb. Send relevante produktanbefalinger på det rigtige tidspunkt automatisk."
-canonical: "https://airobotten.dk//automatisering/automatisk-cross-sell-email/"
+meta_description: "Øg din gennemsnitlige ordreværdi med automatiske cross-sell emails baseret på kundens tidligere køb. Send relevante produktanbefalinger på det rigtige."
+canonical: "https://airobotten.dk/automatisering/automatisk-cross-sell-email/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk cross-sell email baseret på koeb"
 trigger: ""

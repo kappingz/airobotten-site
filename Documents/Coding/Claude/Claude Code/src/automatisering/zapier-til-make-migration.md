@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Migrer dine Zapier-flows til Make.com"
-meta_description: "Skift fra Zapier til Make.com og spar op til 90% på automatiseringsomkostninger. Få hjælp til at migrere dine eksisterende Zapier-flows og opbyg kraftfulde Make-automations."
-canonical: "https://airobotten.dk//automatisering/zapier-til-make-migration/"
+meta_description: "Skift fra Zapier til Make.com og spar op til 90% på automatiseringsomkostninger. Få hjælp til at migrere dine eksisterende Zapier-flows og opbyg kraftfulde."
+canonical: "https://airobotten.dk/automatisering/zapier-til-make-migration/"
 category: "Integration"
 breadcrumb_label: "Migrer dine Zapier-flows til Make.com"
 trigger: ""

@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Sync Notion-deadlines til Google Calendar"
-meta_description: "Hold styr på dine deadlines ved at synkronisere Notion automatisk med Google Calendar. Nye opgaver og frister i Notion vises straks i din kalender uden manuel opdatering."
-canonical: "https://airobotten.dk//automatisering/notion-til-google-calendar-sync/"
+meta_description: "Hold styr på dine deadlines ved at synkronisere Notion automatisk med Google Calendar. Nye opgaver og frister i Notion vises straks i din kalender uden."
+canonical: "https://airobotten.dk/automatisering/notion-til-google-calendar-sync/"
 category: "Produktivitet"
 breadcrumb_label: "Sync Notion-deadlines til Google Calendar"
 trigger: ""

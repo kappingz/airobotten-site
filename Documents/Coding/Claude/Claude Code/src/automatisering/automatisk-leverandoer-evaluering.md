@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk evaluering af leverandoerer"
-meta_description: "Evaluer dine leverandører automatisk baseret på levering, kvalitet og pris. Saml data og generer leverandørrapporter automatisk for at træffe bedre indkøbsbeslutninger."
-canonical: "https://airobotten.dk//automatisering/automatisk-leverandoer-evaluering/"
+meta_description: "Evaluer dine leverandører automatisk baseret på levering, kvalitet og pris. Saml data og generer leverandørrapporter automatisk for at træffe bedre."
+canonical: "https://airobotten.dk/automatisering/automatisk-leverandoer-evaluering/"
 category: "Indkoeb"
 breadcrumb_label: "Automatisk evaluering af leverandoerer"
 trigger: ""

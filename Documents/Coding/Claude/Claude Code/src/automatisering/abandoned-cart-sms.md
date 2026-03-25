@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatisk SMS ved forladt indkoebskurv"
 meta_description: "Genvind tabte salg med automatisk SMS til kunder der forlader deres indkøbskurv. Opsæt SMS-flows der minder kunderne om deres varer og øger konverteringen."
-canonical: "https://airobotten.dk//automatisering/abandoned-cart-sms/"
+canonical: "https://airobotten.dk/automatisering/abandoned-cart-sms/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk SMS ved forladt indkoebskurv"
 trigger: ""

@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "AI-kurateret branchenyhedsovervagning"
 meta_description: "Hold dig opdateret med AI-kurateret nyhedsovervågning af din branche. Modtag daglige sammendrag af de vigtigste nyheder direkte i din inbox eller Slack-kanal."
-canonical: "https://airobotten.dk//automatisering/automatisk-nyhedsovervagning/"
+canonical: "https://airobotten.dk/automatisering/automatisk-nyhedsovervagning/"
 category: "Produktivitet"
 breadcrumb_label: "AI-kurateret branchenyhedsovervagning"
 trigger: ""

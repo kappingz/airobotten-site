@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk kreditvurdering af nye kunder"
-meta_description: "Kreditvurder automatisk nye kunder ved oprettelse og undgå betalingsrisici. Indhent og analyser kreditdata automatisk og tag beslutninger baseret på klare kriterier."
-canonical: "https://airobotten.dk//automatisering/automatisk-kreditvurdering/"
+meta_description: "Kreditvurder automatisk nye kunder ved oprettelse og undgå betalingsrisici. Indhent og analyser kreditdata automatisk og tag beslutninger baseret på klare."
+canonical: "https://airobotten.dk/automatisering/automatisk-kreditvurdering/"
 category: "Salg"
 breadcrumb_label: "Automatisk kreditvurdering af nye kunder"
 trigger: ""

@@ -1,5 +1,5 @@
 ---
-title: "Hvad er en webhook? En simpel forklaring til virksomhedsejere"
+title: "Hvad er en webhook? En simpel forklaring til"
 slug: "hvad-er-webhook"
 term: "Webhook"
 category: "Tekniske begreber"

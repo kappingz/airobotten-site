@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk opfølgning på udsendte tilbud"
-meta_description: "Gå aldrig glip af et salg med automatisk opfølgning på dine tilbud. Send påmindelser til prospects på det rigtige tidspunkt og forbedr din konverteringsrate markant."
-canonical: "https://airobotten.dk//automatisering/automatisk-opfoelgning-paa-tilbud/"
+meta_description: "Gå aldrig glip af et salg med automatisk opfølgning på dine tilbud. Send påmindelser til prospects på det rigtige tidspunkt og forbedr din."
+canonical: "https://airobotten.dk/automatisering/automatisk-opfoelgning-paa-tilbud/"
 category: "Salg"
 breadcrumb_label: "Automatisk opfølgning på udsendte tilbud"
 trigger: ""

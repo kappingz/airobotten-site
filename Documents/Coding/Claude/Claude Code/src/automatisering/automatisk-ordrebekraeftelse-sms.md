@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk ordrebekraeftelse via SMS"
-meta_description: "Send automatisk SMS-ordrebekræftelse til dine kunder med det samme de afgiver en ordre. Øg kundeoplevelsen med hurtige, personlige SMS-beskeder der bekræfter købet."
-canonical: "https://airobotten.dk//automatisering/automatisk-ordrebekraeftelse-sms/"
+meta_description: "Send automatisk SMS-ordrebekræftelse til dine kunder med det samme de afgiver en ordre. Øg kundeoplevelsen med hurtige, personlige SMS-beskeder der."
+canonical: "https://airobotten.dk/automatisering/automatisk-ordrebekraeftelse-sms/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk ordrebekraeftelse via SMS"
 trigger: ""

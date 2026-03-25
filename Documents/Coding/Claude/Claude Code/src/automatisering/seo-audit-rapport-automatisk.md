@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "Automatisk SEO-audit og optimeringsrapport hver uge"
-meta_description: "Modtag automatisk ugentlig SEO-rapport med dine vigtigste søgeordsplaceringer, tekniske fejl og optimeringsmuligheder fra Google Search Console til Google Sheets."
+meta_description: "Modtag automatisk ugentlig SEO-rapport med dine vigtigste søgeordsplaceringer, tekniske fejl og optimeringsmuligheder fra Google Search Console til Google."
 canonical: "https://airobotten.dk/automatisering/seo-audit-rapport-automatisk/"
 category: "Marketing"
 breadcrumb_label: "Automatisk SEO-audit rapport"

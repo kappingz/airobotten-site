@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk anmeldelsesopfordring efter koeb"
-meta_description: "Indsaml automatisk flere anmeldelser ved at sende opfordringer til kunder på det rigtige tidspunkt efter køb. Boost din Trustpilot-score og online omdømme med automatisering."
-canonical: "https://airobotten.dk//automatisering/anmeldelse-opfordring-efter-koeb/"
+meta_description: "Indsaml automatisk flere anmeldelser ved at sende opfordringer til kunder på det rigtige tidspunkt efter køb. Boost din Trustpilot-score og online omdømme."
+canonical: "https://airobotten.dk/automatisering/anmeldelse-opfordring-efter-koeb/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk anmeldelsesopfordring efter koeb"
 trigger: ""

@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "LinkedIn-opslag genereret med AI fra virksomhedsnyheder"
-meta_description: "Generer automatisk LinkedIn-opslag med AI baseret på nyheder, blogindlæg og virksomhedsopdateringer. Konsekvent tilstedeværelse på LinkedIn uden at bruge timer på det."
+meta_description: "Generer automatisk LinkedIn-opslag med AI baseret på nyheder, blogindlæg og virksomhedsopdateringer. Konsekvent tilstedeværelse på LinkedIn uden at bruge."
 canonical: "https://airobotten.dk/automatisering/linkedin-opslag-ai-fra-nyheder/"
 category: "Content"
 breadcrumb_label: "AI-genererede LinkedIn-opslag"

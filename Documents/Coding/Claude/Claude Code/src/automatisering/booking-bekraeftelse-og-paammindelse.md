@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatisk bookingbekraeftelse og påmindelse"
 meta_description: "Send automatisk bookingbekræftelse og påmindelser til dine kunder. Reducer no-shows og forbedre kundeoplevelsen med tidstro beskeder via email og SMS."
-canonical: "https://airobotten.dk//automatisering/booking-bekraeftelse-og-paammindelse/"
+canonical: "https://airobotten.dk/automatisering/booking-bekraeftelse-og-paammindelse/"
 category: "Booking"
 breadcrumb_label: "Automatisk bookingbekraeftelse og påmindelse"
 trigger: ""

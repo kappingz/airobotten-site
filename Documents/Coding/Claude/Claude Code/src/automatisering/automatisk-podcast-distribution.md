@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatiser podcast-distribution og promotion"
-meta_description: "Distribuer din podcast automatisk til alle platforme og promover nye episoder på sociale medier. Spar timer på manuel distribution og nå flere lyttere effortlessly."
-canonical: "https://airobotten.dk//automatisering/automatisk-podcast-distribution/"
+meta_description: "Distribuer din podcast automatisk til alle platforme og promover nye episoder på sociale medier. Spar timer på manuel distribution og nå flere lyttere."
+canonical: "https://airobotten.dk/automatisering/automatisk-podcast-distribution/"
 category: "Content"
 breadcrumb_label: "Automatiser podcast-distribution og promotion"
 trigger: ""

@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
-title: "Automatiske Slack-notifikationer ved vagtplanændringer i Planday"
-meta_description: "Notificér medarbejdere automatisk i Slack og SMS når vagter ændres i Planday. Ingen mistede vagter, ingen manuelle opkald — ændringer kommunikeres øjeblikkeligt."
+title: "Automatiske Slack-notifikationer ved vagtplanændringer i"
+meta_description: "Notificér medarbejdere automatisk i Slack og SMS når vagter ændres i Planday. Ingen mistede vagter, ingen manuelle opkald — ændringer kommunikeres."
 canonical: "https://airobotten.dk/automatisering/planday-vagtplan-notifikation/"
 category: "HR"
 breadcrumb_label: "Planday vagtplan-notifikationer"

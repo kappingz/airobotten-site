@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatisk onboarding-flow for nye medarbejdere"
 meta_description: "Giv nye medarbejdere den bedste start med et automatisk onboarding-flow. Opsæt adgange, send velkomstmails og tildel opgaver automatisk fra første arbejdsdag."
-canonical: "https://airobotten.dk//automatisering/onboarding-ny-medarbejder/"
+canonical: "https://airobotten.dk/automatisering/onboarding-ny-medarbejder/"
 category: "HR"
 breadcrumb_label: "Automatisk onboarding-flow for nye medarbejdere"
 trigger: ""

@@ -1,6 +1,6 @@
 ---
 layout: automatisering.njk
-title: "Automatisk ugentlig Meta Ads performance-rapport til din email"
+title: "Automatisk ugentlig Meta Ads performance-rapport til din"
 meta_description: "Modtag automatisk en overskuelig Meta Ads rapport i din indbakke hver mandag. Forbrug, ROAS, CPM og topkampagner samlet uden manuelt arbejde i Ads Manager."
 canonical: "https://airobotten.dk/automatisering/meta-ads-ugentlig-performance-rapport-email/"
 category: "Marketing"

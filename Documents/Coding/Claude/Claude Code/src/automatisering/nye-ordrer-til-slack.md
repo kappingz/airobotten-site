@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Send automatisk besked i Slack ved nye ordrer"
-meta_description: "Hold hele teamet opdateret med automatiske Slack-notifikationer ved nye ordrer. Få instant besked om ordredetaljer direkte i din Slack-kanal uden manuel opdatering."
-canonical: "https://airobotten.dk//automatisering/nye-ordrer-til-slack/"
+meta_description: "Hold hele teamet opdateret med automatiske Slack-notifikationer ved nye ordrer. Få instant besked om ordredetaljer direkte i din Slack-kanal uden manuel."
+canonical: "https://airobotten.dk/automatisering/nye-ordrer-til-slack/"
 category: "E-commerce"
 breadcrumb_label: "Send automatisk besked i Slack ved nye ordrer"
 trigger: ""

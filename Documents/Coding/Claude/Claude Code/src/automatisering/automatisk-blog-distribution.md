@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk distribution af blogindlaeg"
-meta_description: "Distribuer automatisk dine blogindlæg til alle kanaler ved publicering. Del indhold til sociale medier, nyhedsbrev og andre platforme på én gang uden manuel indsats."
-canonical: "https://airobotten.dk//automatisering/automatisk-blog-distribution/"
+meta_description: "Distribuer automatisk dine blogindlæg til alle kanaler ved publicering. Del indhold til sociale medier, nyhedsbrev og andre platforme på én gang uden."
+canonical: "https://airobotten.dk/automatisering/automatisk-blog-distribution/"
 category: "Content"
 breadcrumb_label: "Automatisk distribution af blogindlaeg"
 trigger: ""

@@ -1,5 +1,5 @@
 ---
-title: "AI-automatisering til rekrutteringsbureauer: Spar 10 timer om ugen på CV-screening"
+title: "AI-automatisering til rekrutteringsbureauer: Spar 10 timer"
 slug: "ai-automatisering-rekruttering"
 branche: "rekrutteringsbureauer"
 branche_kort: "rekrutteringskonsulent"

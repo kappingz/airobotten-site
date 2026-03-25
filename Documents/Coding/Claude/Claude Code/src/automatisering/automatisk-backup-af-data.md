@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk backup af forretningskritiske data"
-meta_description: "Beskyt din virksomhed med automatisk backup af forretningskritiske data. Opsæt regelmæssige sikkerhedskopier til cloud-lager og undgå datatab ved fejl eller nedbrud."
-canonical: "https://airobotten.dk//automatisering/automatisk-backup-af-data/"
+meta_description: "Beskyt din virksomhed med automatisk backup af forretningskritiske data. Opsæt regelmæssige sikkerhedskopier til cloud-lager og undgå datatab ved fejl."
+canonical: "https://airobotten.dk/automatisering/automatisk-backup-af-data/"
 category: "DevOps"
 breadcrumb_label: "Automatisk backup af forretningskritiske data"
 trigger: ""

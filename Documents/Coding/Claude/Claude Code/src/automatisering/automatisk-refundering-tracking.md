@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk tracking af refunderinger og returner"
-meta_description: "Hold styr på refunderinger og returner automatisk på tværs af dine salgskanaler. Synkroniser retur-data med lager og regnskab automatisk og spar tid på manuel opfølgning."
-canonical: "https://airobotten.dk//automatisering/automatisk-refundering-tracking/"
+meta_description: "Hold styr på refunderinger og returner automatisk på tværs af dine salgskanaler. Synkroniser retur-data med lager og regnskab automatisk og spar tid på."
+canonical: "https://airobotten.dk/automatisering/automatisk-refundering-tracking/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk tracking af refunderinger og returner"
 trigger: ""

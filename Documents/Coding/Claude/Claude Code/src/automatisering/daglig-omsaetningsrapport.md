@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk daglig omsaetningsrapport"
-meta_description: "Modtag automatisk en daglig omsætningsrapport med nøgletal fra din butik eller platform. Følg salgsudviklingen tæt og reager hurtigt på trends med friske data hver morgen."
-canonical: "https://airobotten.dk//automatisering/daglig-omsaetningsrapport/"
+meta_description: "Modtag automatisk en daglig omsætningsrapport med nøgletal fra din butik eller platform. Følg salgsudviklingen tæt og reager hurtigt på trends med friske."
+canonical: "https://airobotten.dk/automatisering/daglig-omsaetningsrapport/"
 category: "Rapportering"
 breadcrumb_label: "Automatisk daglig omsaetningsrapport"
 trigger: ""

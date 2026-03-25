@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Gem Slack-beskeder automatisk i Notion-vidensbase"
-meta_description: "Bevar vigtig viden fra Slack ved automatisk at gemme udvalgte beskeder i din Notion-vidensbase. Hold styr på beslutninger og indsigter uden at information går tabt i chatten."
-canonical: "https://airobotten.dk//automatisering/slack-til-notion-vidensbase/"
+meta_description: "Bevar vigtig viden fra Slack ved automatisk at gemme udvalgte beskeder i din Notion-vidensbase. Hold styr på beslutninger og indsigter uden at information."
+canonical: "https://airobotten.dk/automatisering/slack-til-notion-vidensbase/"
 category: "Produktivitet"
 breadcrumb_label: "Gem Slack-beskeder automatisk i Notion-vidensbase"
 trigger: ""

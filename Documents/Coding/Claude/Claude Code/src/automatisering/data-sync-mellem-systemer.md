@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk datasynkronisering mellem systemer"
-meta_description: "Synkroniser automatisk data på tværs af dine systemer og hold altid oplysningerne konsistente. Eliminer dobbeltindtastning og sikre at alle platforme har opdaterede data."
-canonical: "https://airobotten.dk//automatisering/data-sync-mellem-systemer/"
+meta_description: "Synkroniser automatisk data på tværs af dine systemer og hold altid oplysningerne konsistente. Eliminer dobbeltindtastning og sikre at alle platforme har."
+canonical: "https://airobotten.dk/automatisering/data-sync-mellem-systemer/"
 category: "Integration"
 breadcrumb_label: "Automatisk datasynkronisering mellem systemer"
 trigger: ""

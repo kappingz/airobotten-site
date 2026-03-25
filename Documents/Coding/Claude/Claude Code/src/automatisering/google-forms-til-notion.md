@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Send Google Forms-besvarelser automatisk til Notion"
-meta_description: "Synkroniser automatisk Google Forms-svar direkte til Notion. Opret nye Notion-sider eller opdater databaser automatisk når en formular udfyldes og hold data organiseret."
-canonical: "https://airobotten.dk//automatisering/google-forms-til-notion/"
+meta_description: "Synkroniser automatisk Google Forms-svar direkte til Notion. Opret nye Notion-sider eller opdater databaser automatisk når en formular udfyldes og hold."
+canonical: "https://airobotten.dk/automatisering/google-forms-til-notion/"
 category: "Produktivitet"
 breadcrumb_label: "Send Google Forms-besvarelser automatisk til Notion"
 trigger: ""

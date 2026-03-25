@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "Automatisk lageralarm ved lav beholdning i Shopify"
-meta_description: "Få automatisk alarm i Slack eller email når et Shopify-produkt når et kritisk lagerniveau. Undgå udsolgte varer og tabte ordrer med intelligent lagerovervågning."
+meta_description: "Få automatisk alarm i Slack eller email når et Shopify-produkt når et kritisk lagerniveau. Undgå udsolgte varer og tabte ordrer med intelligent."
 canonical: "https://airobotten.dk/automatisering/lager-alarm-lav-beholdning/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk lageralarm"

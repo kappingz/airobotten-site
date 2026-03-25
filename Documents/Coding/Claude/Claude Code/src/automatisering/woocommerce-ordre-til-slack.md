@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "WooCommerce-ordrer automatisk til Slack"
-meta_description: "Modtag automatisk Slack-notifikationer ved nye WooCommerce-ordrer. Hold hele teamet opdateret i realtid med ordredetaljer direkte i jeres Slack-kanal uden manuel overvågning."
-canonical: "https://airobotten.dk//automatisering/woocommerce-ordre-til-slack/"
+meta_description: "Modtag automatisk Slack-notifikationer ved nye WooCommerce-ordrer. Hold hele teamet opdateret i realtid med ordredetaljer direkte i jeres Slack-kanal uden."
+canonical: "https://airobotten.dk/automatisering/woocommerce-ordre-til-slack/"
 category: "E-commerce"
 breadcrumb_label: "WooCommerce-ordrer automatisk til Slack"
 trigger: ""

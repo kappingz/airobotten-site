@@ -1,6 +1,6 @@
 ---
 layout: automatisering.njk
-title: "AI kundeservice-chatbot der besvarer gentagne spørgsmål automatisk"
+title: "AI kundeservice-chatbot der besvarer gentagne spørgsmål"
 meta_description: "Opsæt en AI-chatbot der besvarer 60-80% af dine gentagne kundehenvendelser automatisk. Kortere svartid, lavere supportomkostninger, tilfredse kunder."
 canonical: "https://airobotten.dk/automatisering/ai-chatbot-til-kundeservice-gentagne-spoergsmaal/"
 category: "Kundeservice"

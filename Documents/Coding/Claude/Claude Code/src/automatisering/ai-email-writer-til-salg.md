@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "AI-skrevet salgsmails baseret på lead-data"
-meta_description: "Generer personlige salgsmails automatisk med AI baseret på dine leads data og virksomhedsinfo. Øg din svarrate med relevante, skræddersyede beskeder uden manuelt copywriting."
-canonical: "https://airobotten.dk//automatisering/ai-email-writer-til-salg/"
+meta_description: "Generer personlige salgsmails automatisk med AI baseret på dine leads data og virksomhedsinfo. Øg din svarrate med relevante, skræddersyede beskeder uden."
+canonical: "https://airobotten.dk/automatisering/ai-email-writer-til-salg/"
 category: "Salg"
 breadcrumb_label: "AI-skrevet salgsmails baseret på lead-data"
 trigger: ""

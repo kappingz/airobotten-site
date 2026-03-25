@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatiser kursustilmelding og adgang"
 meta_description: "Automatiser kursustilmelding og giv deltagere adgang automatisk efter betaling. Administrer enrollment, velkomstmails og kursusadgang uden manuel håndtering."
-canonical: "https://airobotten.dk//automatisering/automatisk-kursus-enrollment/"
+canonical: "https://airobotten.dk/automatisering/automatisk-kursus-enrollment/"
 category: "Kurser"
 breadcrumb_label: "Automatiser kursustilmelding og adgang"
 trigger: ""

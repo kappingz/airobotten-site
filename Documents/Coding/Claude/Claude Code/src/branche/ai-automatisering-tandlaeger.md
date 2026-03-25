@@ -1,5 +1,5 @@
 ---
-title: "AI-automatisering til tandlæger: Spar 8 timer om ugen på administration"
+title: "AI-automatisering til tandlæger: Spar 8 timer om ugen på"
 slug: "ai-automatisering-tandlaeger"
 branche: "tandlæger"
 branche_kort: "tandlæge"

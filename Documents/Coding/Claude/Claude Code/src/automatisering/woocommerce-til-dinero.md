@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Sync WooCommerce-ordrer til Dinero automatisk"
-meta_description: "Synkroniser automatisk dine WooCommerce-ordrer direkte til Dinero og hold regnskabet ajour. Spar tid på manuel bogføring og undgå fejl med automatisk data-synkronisering."
-canonical: "https://airobotten.dk//automatisering/woocommerce-til-dinero/"
+meta_description: "Synkroniser automatisk dine WooCommerce-ordrer direkte til Dinero og hold regnskabet ajour. Spar tid på manuel bogføring og undgå fejl med automatisk."
+canonical: "https://airobotten.dk/automatisering/woocommerce-til-dinero/"
 category: "Regnskab"
 breadcrumb_label: "Sync WooCommerce-ordrer til Dinero automatisk"
 trigger: ""

@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk eskalering fra Intercom til Slack"
-meta_description: "Eskalér automatisk kritiske kundehenvendelser fra Intercom til Slack. Sikr at vigtige sager altid når det rette team hurtigt med automatisk routing og notifikationer."
-canonical: "https://airobotten.dk//automatisering/intercom-til-slack-eskalering/"
+meta_description: "Eskalér automatisk kritiske kundehenvendelser fra Intercom til Slack. Sikr at vigtige sager altid når det rette team hurtigt med automatisk routing og."
+canonical: "https://airobotten.dk/automatisering/intercom-til-slack-eskalering/"
 category: "Kundeservice"
 breadcrumb_label: "Automatisk eskalering fra Intercom til Slack"
 trigger: ""

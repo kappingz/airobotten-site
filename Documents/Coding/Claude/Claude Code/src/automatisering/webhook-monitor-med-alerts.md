@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Overvaag webhooks og få alerts ved fejl"
-meta_description: "Monitorér dine webhooks automatisk og modtag øjeblikkelige alerts ved fejl eller nedbrud. Hold dine integrationer kørende og reager hurtigt ved problemer i dine automations."
-canonical: "https://airobotten.dk//automatisering/webhook-monitor-med-alerts/"
+meta_description: "Monitorér dine webhooks automatisk og modtag øjeblikkelige alerts ved fejl eller nedbrud. Hold dine integrationer kørende og reager hurtigt ved problemer i."
+canonical: "https://airobotten.dk/automatisering/webhook-monitor-med-alerts/"
 category: "DevOps"
 breadcrumb_label: "Overvaag webhooks og få alerts ved fejl"
 trigger: ""

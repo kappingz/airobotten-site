@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Generer ugentlige social media-opslag med AI"
-meta_description: "Generer automatisk engagerende social media-opslag med AI til alle dine kanaler. Planlæg og publicér indhold automatisk og opbyg en konsistent tilstedeværelse på sociale medier."
-canonical: "https://airobotten.dk//automatisering/social-media-content-med-ai/"
+meta_description: "Generer automatisk engagerende social media-opslag med AI til alle dine kanaler. Planlæg og publicér indhold automatisk og opbyg en konsistent."
+canonical: "https://airobotten.dk/automatisering/social-media-content-med-ai/"
 category: "Content"
 breadcrumb_label: "Generer ugentlige social media-opslag med AI"
 trigger: ""

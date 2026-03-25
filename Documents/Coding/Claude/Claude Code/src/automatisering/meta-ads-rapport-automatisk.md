@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk Meta Ads-rapport med AI-indsigter"
-meta_description: "Modtag automatiske Meta Ads-rapporter med AI-genererede indsigter og anbefalinger. Spor Facebook og Instagram-kampagners performance og optimer dit annoncebudget løbende."
-canonical: "https://airobotten.dk//automatisering/meta-ads-rapport-automatisk/"
+meta_description: "Modtag automatiske Meta Ads-rapporter med AI-genererede indsigter og anbefalinger. Spor Facebook og Instagram-kampagners performance og optimer dit."
+canonical: "https://airobotten.dk/automatisering/meta-ads-rapport-automatisk/"
 category: "Marketing"
 breadcrumb_label: "Automatisk Meta Ads-rapport med AI-indsigter"
 trigger: ""

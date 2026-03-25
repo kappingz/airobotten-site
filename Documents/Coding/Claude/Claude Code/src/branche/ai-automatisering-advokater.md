@@ -1,5 +1,5 @@
 ---
-title: "AI-automatisering til advokatfirmaer: Spar 8 timer om ugen på dokumenter og tidsskrivning"
+title: "AI-automatisering til advokatfirmaer: Spar 8 timer om ugen"
 slug: "ai-automatisering-advokater"
 branche: "advokatfirmaer"
 branche_kort: "advokat"

@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Ugentlig Analytics-rapport direkte i Slack"
-meta_description: "Modtag automatisk ugentlige Google Analytics-rapporter direkte i din Slack-kanal. Hold teamet opdateret på trafik, konverteringer og performance uden at åbne Analytics."
-canonical: "https://airobotten.dk//automatisering/rapport-fra-google-analytics-til-slack/"
+meta_description: "Modtag automatisk ugentlige Google Analytics-rapporter direkte i din Slack-kanal. Hold teamet opdateret på trafik, konverteringer og performance uden at."
+canonical: "https://airobotten.dk/automatisering/rapport-fra-google-analytics-til-slack/"
 category: "Rapportering"
 breadcrumb_label: "Ugentlig Analytics-rapport direkte i Slack"
 trigger: ""

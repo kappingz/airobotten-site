@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatisk dokumentgenerering fra skabeloner"
 meta_description: "Generer kontrakter, tilbud og rapporter automatisk fra skabeloner. Udfyld dokumenter med data fra dit CRM eller formular og send dem direkte til underskrift."
-canonical: "https://airobotten.dk//automatisering/dokument-generering-fra-skabelon/"
+canonical: "https://airobotten.dk/automatisering/dokument-generering-fra-skabelon/"
 category: "Administration"
 breadcrumb_label: "Automatisk dokumentgenerering fra skabeloner"
 trigger: ""

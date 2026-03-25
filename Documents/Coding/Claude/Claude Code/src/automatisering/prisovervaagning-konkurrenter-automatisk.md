@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "Automatisk prisovervågning af konkurrenter"
-meta_description: "Overvåg konkurrenters priser automatisk og modtag alarm i Slack eller email når de ændrer sig. Reagér hurtigere og behold din konkurrencefordel uden manuelt arbejde."
+meta_description: "Overvåg konkurrenters priser automatisk og modtag alarm i Slack eller email når de ændrer sig. Reagér hurtigere og behold din konkurrencefordel uden."
 canonical: "https://airobotten.dk/automatisering/prisovervaagning-konkurrenter-automatisk/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk prisovervågning"

@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk ugentlig statusmail til kunder"
-meta_description: "Hold dine kunder opdaterede med automatiske ugentlige statusmails om deres projekter eller ordrer. Spar tid på manuel rapportering og styrk kundeforholdet med regelmæssig kommunikation."
-canonical: "https://airobotten.dk//automatisering/automatisk-ugentlig-statusmail/"
+meta_description: "Hold dine kunder opdaterede med automatiske ugentlige statusmails om deres projekter eller ordrer. Spar tid på manuel rapportering og styrk kundeforholdet."
+canonical: "https://airobotten.dk/automatisering/automatisk-ugentlig-statusmail/"
 category: "Projektledelse"
 breadcrumb_label: "Automatisk ugentlig statusmail til kunder"
 trigger: ""

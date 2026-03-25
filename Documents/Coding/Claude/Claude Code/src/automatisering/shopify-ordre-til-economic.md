@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Sync Shopify-ordrer automatisk til e-conomic"
-meta_description: "Synkroniser automatisk Shopify-ordrer til e-conomic og hold regnskabet opdateret. Undgå manuel bogføring af webshop-salg med direkte integration mellem Shopify og e-conomic."
-canonical: "https://airobotten.dk//automatisering/shopify-ordre-til-economic/"
+meta_description: "Synkroniser automatisk Shopify-ordrer til e-conomic og hold regnskabet opdateret. Undgå manuel bogføring af webshop-salg med direkte integration mellem."
+canonical: "https://airobotten.dk/automatisering/shopify-ordre-til-economic/"
 category: "Regnskab"
 breadcrumb_label: "Sync Shopify-ordrer automatisk til e-conomic"
 trigger: ""

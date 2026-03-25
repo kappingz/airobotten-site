@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk svar på Google Reviews med AI"
-meta_description: "Svar automatisk på dine Google Reviews med personlige AI-genererede svar. Styrk dit omdømme, vis du lytter til kunder og spar tid med automatiseret review-håndtering."
-canonical: "https://airobotten.dk//automatisering/google-reviews-automatisk-svar/"
+meta_description: "Svar automatisk på dine Google Reviews med personlige AI-genererede svar. Styrk dit omdømme, vis du lytter til kunder og spar tid med automatiseret."
+canonical: "https://airobotten.dk/automatisering/google-reviews-automatisk-svar/"
 category: "Marketing"
 breadcrumb_label: "Automatisk svar på Google Reviews med AI"
 trigger: ""

@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatisk detektion af duplikater i dit CRM"
 meta_description: "Hold dit CRM rent og opdateret med automatisk duplikat-detektion. Find og flet dubletter automatisk og sikr at dine salgs- og marketingdata altid er korrekte."
-canonical: "https://airobotten.dk//automatisering/automatisk-duplikat-detektion-crm/"
+canonical: "https://airobotten.dk/automatisering/automatisk-duplikat-detektion-crm/"
 category: "Salg"
 breadcrumb_label: "Automatisk detektion af duplikater i dit CRM"
 trigger: ""

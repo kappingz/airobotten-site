@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk feedback-indsamling efter events"
-meta_description: "Indsaml automatisk feedback fra deltagerne efter dine events og arrangementer. Send surveys automatisk og analysér svarene for at forbedre fremtidige events løbende."
-canonical: "https://airobotten.dk//automatisering/automatisk-tilbagemelding-efter-event/"
+meta_description: "Indsaml automatisk feedback fra deltagerne efter dine events og arrangementer. Send surveys automatisk og analysér svarene for at forbedre fremtidige."
+canonical: "https://airobotten.dk/automatisering/automatisk-tilbagemelding-efter-event/"
 category: "Events"
 breadcrumb_label: "Automatisk feedback-indsamling efter events"
 trigger: ""

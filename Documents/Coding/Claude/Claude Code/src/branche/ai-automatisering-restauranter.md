@@ -1,5 +1,5 @@
 ---
-title: "AI-automatisering til restauranter og caféer: Spar 5 timer om ugen på vagtplan og admin"
+title: "AI-automatisering til restauranter og caféer: Spar 5 timer"
 slug: "ai-automatisering-restauranter"
 branche: "restauranter og caféer"
 branche_kort: "restauratør"

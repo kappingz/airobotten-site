@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "AI-genereret nyhedsbrevsindhold på autopilot"
-meta_description: "Lad AI generere engagerende nyhedsbrevsindhold på autopilot. Skab konsistente og relevante nyhedsbreve til dine abonnenter uden at bruge timer på at skrive indhold manuelt."
-canonical: "https://airobotten.dk//automatisering/automatisk-nyhedsbrevsindhold/"
+meta_description: "Lad AI generere engagerende nyhedsbrevsindhold på autopilot. Skab konsistente og relevante nyhedsbreve til dine abonnenter uden at bruge timer på at skrive."
+canonical: "https://airobotten.dk/automatisering/automatisk-nyhedsbrevsindhold/"
 category: "Email Marketing"
 breadcrumb_label: "AI-genereret nyhedsbrevsindhold på autopilot"
 trigger: ""

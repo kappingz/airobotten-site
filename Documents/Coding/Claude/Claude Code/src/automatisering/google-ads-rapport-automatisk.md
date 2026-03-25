@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk Google Ads-rapport til dit team"
-meta_description: "Modtag automatiske Google Ads-rapporter med de vigtigste nøgletal. Hold teamet opdateret på kampagne-performance, udgifter og konverteringer uden at trække data manuelt."
-canonical: "https://airobotten.dk//automatisering/google-ads-rapport-automatisk/"
+meta_description: "Modtag automatiske Google Ads-rapporter med de vigtigste nøgletal. Hold teamet opdateret på kampagne-performance, udgifter og konverteringer uden at trække."
+canonical: "https://airobotten.dk/automatisering/google-ads-rapport-automatisk/"
 category: "Marketing"
 breadcrumb_label: "Automatisk Google Ads-rapport til dit team"
 trigger: ""

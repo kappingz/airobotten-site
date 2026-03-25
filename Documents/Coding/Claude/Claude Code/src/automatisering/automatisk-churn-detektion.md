@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk churn-detektion med AI"
-meta_description: "Identificer automatisk kunder der er ved at churne med AI-drevet churn-detektion. Reagér proaktivt med målrettede tilbud og indsatser og bevar flere kunder i din forretning."
-canonical: "https://airobotten.dk//automatisering/automatisk-churn-detektion/"
+meta_description: "Identificer automatisk kunder der er ved at churne med AI-drevet churn-detektion. Reagér proaktivt med målrettede tilbud og indsatser og bevar flere kunder."
+canonical: "https://airobotten.dk/automatisering/automatisk-churn-detektion/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk churn-detektion med AI"
 trigger: ""

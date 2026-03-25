@@ -1,6 +1,6 @@
 ---
 layout: automatisering.njk
-title: "Automatisk IT-provisionering ved ansættelse af ny medarbejder"
+title: "Automatisk IT-provisionering ved ansættelse af ny"
 meta_description: "Automatiser IT-provisionering ved ansættelse. Nye medarbejdere får email, Slack og systemadgange klar automatisk fra dag 1."
 canonical: "https://airobotten.dk/automatisering/it-adgang-ny-medarbejder/"
 category: "HR"

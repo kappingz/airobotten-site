@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatiser fakturahåndtering fra email til regnskab"
 meta_description: "Automatiser hele faktura-processen fra modtagelse i email til bogføring i regnskabet. AI udtrækker data, kategoriserer og bogfører fakturaer automatisk for dig."
-canonical: "https://airobotten.dk//automatisering/faktura-fra-email-til-regnskab/"
+canonical: "https://airobotten.dk/automatisering/faktura-fra-email-til-regnskab/"
 category: "Regnskab"
 breadcrumb_label: "Automatiser fakturahåndtering fra email til regnskab"
 trigger: ""

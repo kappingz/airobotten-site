@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk social listening med AI-analyse"
-meta_description: "Overvåg automatisk hvad der siges om dit brand på sociale medier med AI-analyse. Få alerts ved nævnelser og analyser sentiment for at reagere hurtigt på kundernes feedback."
-canonical: "https://airobotten.dk//automatisering/automatisk-social-listening/"
+meta_description: "Overvåg automatisk hvad der siges om dit brand på sociale medier med AI-analyse. Få alerts ved nævnelser og analyser sentiment for at reagere hurtigt på."
+canonical: "https://airobotten.dk/automatisering/automatisk-social-listening/"
 category: "Marketing"
 breadcrumb_label: "Automatisk social listening med AI-analyse"
 trigger: ""

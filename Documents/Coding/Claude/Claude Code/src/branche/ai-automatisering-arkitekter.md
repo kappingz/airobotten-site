@@ -1,9 +1,9 @@
 ---
-title: "AI-automatisering til arkitekt- og rådgivningsfirmaer: Spar 7 timer om ugen på tilbud og rapporter"
+title: "AI-automatisering til arkitekt- og rådgivningsfirmaer"
 slug: "ai-automatisering-arkitekter"
 branche: "arkitekt- og rådgivningsfirmaer"
 branche_kort: "arkitekt"
-meta_description: "AI-automatisering til arkitekter og rådgivere — automatiser tilbudsskrivning, projektstatus, mødereferater og timerapporter. Mere projekttid, mindre papirarbeid."
+meta_description: "AI-automatisering til arkitekter og rådgivere — automatiser tilbudsskrivning, projektstatus, mødereferater og timerapporter. Mere projekttid, mindre."
 canonical: "https://airobotten.dk/branche/ai-automatisering-arkitekter/"
 layout: branche.njk
 intro: |

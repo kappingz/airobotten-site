@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Send automatisk gavekort på kundens foedseldag"
-meta_description: "Overrask dine kunder med et automatisk gavekort på deres fødselsdag. Styrk kundeloyalitet og øg salget med en personlig og automatiseret fødselsdagskampagne til alle kunder."
-canonical: "https://airobotten.dk//automatisering/automatisk-gavekort-ved-foedseldag/"
+meta_description: "Overrask dine kunder med et automatisk gavekort på deres fødselsdag. Styrk kundeloyalitet og øg salget med en personlig og automatiseret."
+canonical: "https://airobotten.dk/automatisering/automatisk-gavekort-ved-foedseldag/"
 category: "E-commerce"
 breadcrumb_label: "Send automatisk gavekort på kundens foedseldag"
 trigger: ""

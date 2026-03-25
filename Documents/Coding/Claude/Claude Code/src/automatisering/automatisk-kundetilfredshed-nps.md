@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk NPS-maaling af kundetilfredshed"
-meta_description: "Mål kundetilfredsheden automatisk med NPS-surveys sendt på det rigtige tidspunkt. Saml feedback, analyser resultater og forbedr kundeoplevelsen løbende med automatisering."
-canonical: "https://airobotten.dk//automatisering/automatisk-kundetilfredshed-nps/"
+meta_description: "Mål kundetilfredsheden automatisk med NPS-surveys sendt på det rigtige tidspunkt. Saml feedback, analyser resultater og forbedr kundeoplevelsen løbende med."
+canonical: "https://airobotten.dk/automatisering/automatisk-kundetilfredshed-nps/"
 category: "Kundeservice"
 breadcrumb_label: "Automatisk NPS-maaling af kundetilfredshed"
 trigger: ""

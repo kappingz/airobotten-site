@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "Automatisk opfølgningsmail efter hvert kundemøde"
-meta_description: "Send automatisk en personlig opfølgningsmail efter hvert kundemøde bookad via Calendly. AI udarbejder indholdet — du lukker flere deals ved at følge op konsekvent."
+meta_description: "Send automatisk en personlig opfølgningsmail efter hvert kundemøde bookad via Calendly. AI udarbejder indholdet — du lukker flere deals ved at følge op."
 canonical: "https://airobotten.dk/automatisering/opfoelgningsmail-efter-kundemøde/"
 category: "Salg"
 breadcrumb_label: "Automatisk opfølgningsmail efter møde"

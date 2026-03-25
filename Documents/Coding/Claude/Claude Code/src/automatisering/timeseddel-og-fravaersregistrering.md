@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "Automatisk timeseddel og fraværsregistrering for dit team"
-meta_description: "Automatiser indsamling af timesedler og fraværsregistrering med Slack og Google Sheets. Ingen manuelle rykke-emails, altid et opdateret overblik og løngrundlag klar til tid."
+meta_description: "Automatiser indsamling af timesedler og fraværsregistrering med Slack og Google Sheets. Ingen manuelle rykke-emails, altid et opdateret overblik og."
 canonical: "https://airobotten.dk/automatisering/timeseddel-og-fravaersregistrering/"
 category: "HR"
 breadcrumb_label: "Automatisk timeseddel og fravær"

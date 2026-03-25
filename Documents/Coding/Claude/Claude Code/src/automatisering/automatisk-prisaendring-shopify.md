@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatiser prisaendringer i Shopify baseret på regler"
-meta_description: "Opsæt automatiske prisændringer i din Shopify-shop baseret på definerede regler. Tilpas priser ved udsalg, sæsonudsving og lagerændringer automatisk uden manuel indgriben."
-canonical: "https://airobotten.dk//automatisering/automatisk-prisaendring-shopify/"
+meta_description: "Opsæt automatiske prisændringer i din Shopify-shop baseret på definerede regler. Tilpas priser ved udsalg, sæsonudsving og lagerændringer automatisk uden."
+canonical: "https://airobotten.dk/automatisering/automatisk-prisaendring-shopify/"
 category: "E-commerce"
 breadcrumb_label: "Automatiser prisaendringer i Shopify baseret på regler"
 trigger: ""

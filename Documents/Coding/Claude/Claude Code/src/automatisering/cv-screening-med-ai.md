@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk CV-screening med AI"
-meta_description: "Screen kandidaters CV'er automatisk med AI og find de bedste matches hurtigt. Spar timer på manuel gennemgang og lad AI rangere og filtrere ansøgere efter dine kriterier."
-canonical: "https://airobotten.dk//automatisering/cv-screening-med-ai/"
+meta_description: "Screen kandidaters CV'er automatisk med AI og find de bedste matches hurtigt. Spar timer på manuel gennemgang og lad AI rangere og filtrere ansøgere efter."
+canonical: "https://airobotten.dk/automatisering/cv-screening-med-ai/"
 category: "HR"
 breadcrumb_label: "Automatisk CV-screening med AI"
 trigger: ""

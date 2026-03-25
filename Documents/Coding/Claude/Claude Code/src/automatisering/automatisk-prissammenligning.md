@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk prissammenligning på tvaers af leverandoerer"
-meta_description: "Sammenlign automatisk priser hos dine leverandører og find altid den bedste pris. Spar tid på manuelle prissammenligninger og optimer dine indkøbsomkostninger løbende."
-canonical: "https://airobotten.dk//automatisering/automatisk-prissammenligning/"
+meta_description: "Sammenlign automatisk priser hos dine leverandører og find altid den bedste pris. Spar tid på manuelle prissammenligninger og optimer dine."
+canonical: "https://airobotten.dk/automatisering/automatisk-prissammenligning/"
 category: "Indkoeb"
 breadcrumb_label: "Automatisk prissammenligning på tvaers af leverandoerer"
 trigger: ""

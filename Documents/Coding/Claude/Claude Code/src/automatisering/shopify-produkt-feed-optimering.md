@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk optimering af Shopify-produktfeed"
-meta_description: "Optimer dit Shopify-produktfeed automatisk til Google Shopping og andre kanaler. Øg synlighed og klik med opdaterede titler, billeder og priser uden manuel indsats."
-canonical: "https://airobotten.dk//automatisering/shopify-produkt-feed-optimering/"
+meta_description: "Optimer dit Shopify-produktfeed automatisk til Google Shopping og andre kanaler. Øg synlighed og klik med opdaterede titler, billeder og priser uden manuel."
+canonical: "https://airobotten.dk/automatisering/shopify-produkt-feed-optimering/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk optimering af Shopify-produktfeed"
 trigger: ""

@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "Automatisk momsafstemning og forberedelse af momsangivelse"
-meta_description: "Automatiser momsafstemning og klargøring af momsangivelse til SKAT. Momstal beregnes automatisk fra e-conomic, afstemmes og klargøres til revisor — spar timer ved momsperioden."
+meta_description: "Automatiser momsafstemning og klargøring af momsangivelse til SKAT. Momstal beregnes automatisk fra e-conomic, afstemmes og klargøres til revisor — spar."
 canonical: "https://airobotten.dk/automatisering/automatisk-moms-afstemning-og-angivelse/"
 category: "Regnskab"
 breadcrumb_label: "Automatisk momsafstemning"

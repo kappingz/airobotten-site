@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "Automatisk dokumentgenerering med AI fra skabeloner"
-meta_description: "Generer tilbud, kontrakter og præsentationer automatisk med AI fra CRM-data. Personlige dokumenter klar på minutter frem for timer — med korrekte tal og kundenavn."
+meta_description: "Generer tilbud, kontrakter og præsentationer automatisk med AI fra CRM-data. Personlige dokumenter klar på minutter frem for timer — med korrekte tal og."
 canonical: "https://airobotten.dk/automatisering/ai-dokumentgenerering-skabeloner/"
 category: "Salg"
 breadcrumb_label: "AI-dokumentgenerering fra skabeloner"

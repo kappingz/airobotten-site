@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "AI-genererede produktbeskrivelser til din webshop"
-meta_description: "Spar dage på produktbeskrivelser — lad AI generere SEO-optimerede tekster direkte i Shopify baseret på produktdata. Konsekvent tone, dansk sprog, klar til publicering."
+meta_description: "Spar dage på produktbeskrivelser — lad AI generere SEO-optimerede tekster direkte i Shopify baseret på produktdata. Konsekvent tone, dansk sprog, klar til."
 canonical: "https://airobotten.dk/automatisering/ai-produktbeskrivelser-webshop/"
 category: "E-commerce"
 breadcrumb_label: "AI-genererede produktbeskrivelser"

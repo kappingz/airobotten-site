@@ -1,6 +1,6 @@
 ---
 layout: automatisering.njk
-title: "Automatisk nyhedsbrev til abonnenter når du publicerer nyt blogindhold"
+title: "Automatisk nyhedsbrev til abonnenter når du publicerer nyt"
 meta_description: "Publicer et blogindlæg i WordPress og send automatisk et nyhedsbrev til dine Mailchimp-abonnenter. AI skriver intro og teaser — du focuserer på indholdet."
 canonical: "https://airobotten.dk/automatisering/automatisk-nyhedsbrev-fra-blog/"
 category: "Marketing"

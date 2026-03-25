@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Byg et automatisk projekt-dashboard i Airtable"
-meta_description: "Opret et automatisk projekt-dashboard i Airtable der samler data fra alle dine systemer. Få realtidsoverblik over projektstatus, deadlines og ressourcer på ét sted."
-canonical: "https://airobotten.dk//automatisering/airtable-projekt-dashboard/"
+meta_description: "Opret et automatisk projekt-dashboard i Airtable der samler data fra alle dine systemer. Få realtidsoverblik over projektstatus, deadlines og ressourcer på."
+canonical: "https://airobotten.dk/automatisering/airtable-projekt-dashboard/"
 category: "Projektledelse"
 breadcrumb_label: "Byg et automatisk projekt-dashboard i Airtable"
 trigger: ""

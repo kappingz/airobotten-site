@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Automatisk indsamling af social proof"
 meta_description: "Indsaml automatisk anmeldelser, testimonials og social proof fra dine kunder. Byg troværdighed og øg konverteringen med en automatiseret social proof-strategi."
-canonical: "https://airobotten.dk//automatisering/automatisk-social-proof-indsamling/"
+canonical: "https://airobotten.dk/automatisering/automatisk-social-proof-indsamling/"
 category: "Marketing"
 breadcrumb_label: "Automatisk indsamling af social proof"
 trigger: ""

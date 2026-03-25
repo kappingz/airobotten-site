@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "Automatisk godkendelsesflow for indkøb og udgifter"
-meta_description: "Digitalisér indkøbsgodkendelse med et automatisk flow i Slack. Medarbejdere anmoder, ledere godkender med ét klik, og alt logges automatisk — ingen emails frem og tilbage."
+meta_description: "Digitalisér indkøbsgodkendelse med et automatisk flow i Slack. Medarbejdere anmoder, ledere godkender med ét klik, og alt logges automatisk — ingen emails."
 canonical: "https://airobotten.dk/automatisering/automatisk-indkoebsgodkendelse/"
 category: "HR"
 breadcrumb_label: "Automatisk indkøbsgodkendelse"

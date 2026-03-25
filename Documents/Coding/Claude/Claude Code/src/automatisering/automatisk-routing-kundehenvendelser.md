@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "Automatisk routing af kundehenvendelser til rette afdeling"
-meta_description: "Sorter og rout kundehenvendelser automatisk til den rigtige medarbejder eller afdeling. Hurtigere svartider, ingen henvendelser der falder igennem og bedre kundeoplevelse."
+meta_description: "Sorter og rout kundehenvendelser automatisk til den rigtige medarbejder eller afdeling. Hurtigere svartider, ingen henvendelser der falder igennem og bedre."
 canonical: "https://airobotten.dk/automatisering/automatisk-routing-kundehenvendelser/"
 category: "Kundeservice"
 breadcrumb_label: "Automatisk routing af kundehenvendelser"

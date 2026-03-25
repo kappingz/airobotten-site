@@ -1,5 +1,5 @@
 ---
-title: "AI-automatisering til revisorer: Spar 10 timer om ugen på klientdatahåndtering"
+title: "AI-automatisering til revisorer: Spar 10 timer om ugen på"
 slug: "ai-automatisering-revisorer"
 branche: "revisorer og bogholderikontorer"
 branche_kort: "revisor"

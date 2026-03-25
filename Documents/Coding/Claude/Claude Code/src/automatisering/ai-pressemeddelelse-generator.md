@@ -1,6 +1,6 @@
 ---
 layout: automatisering.njk
-title: "Automatisk AI-genereret pressemeddelelse fra virksomhedsnyheder"
+title: "Automatisk AI-genereret pressemeddelelse fra"
 meta_description: "Generer professionelle pressemeddelelser automatisk med AI. Fra produktlancering til milestone — klar til udsendelse inden for 10 minutter."
 canonical: "https://airobotten.dk/automatisering/ai-pressemeddelelse-generator/"
 category: "Marketing"

@@ -1,7 +1,7 @@
 ---
 layout: automatisering.njk
 title: "AI-kategorisering af udgifter og bilag automatisk"
-meta_description: "Lad AI kategorisere dine udgifter og bilag automatisk i e-conomic. Spar timer på manuel bilagsbehandling og reducer fejl i konteringen med Claude AI og Make.com."
+meta_description: "Lad AI kategorisere dine udgifter og bilag automatisk i e-conomic. Spar timer på manuel bilagsbehandling og reducer fejl i konteringen med Claude AI og."
 canonical: "https://airobotten.dk/automatisering/ai-kategorisering-udgifter-bilag/"
 category: "Regnskab"
 breadcrumb_label: "AI-kategorisering af udgifter"

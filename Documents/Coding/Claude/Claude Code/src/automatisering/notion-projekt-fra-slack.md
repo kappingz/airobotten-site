@@ -2,7 +2,7 @@
 layout: automatisering.njk
 title: "Opret Notion-projekter direkte fra Slack"
 meta_description: "Opret nye projekter i Notion direkte fra Slack med en simpel kommando. Undgå kontekstskifte og hold teamets arbejdsflow i gang ved at integrere Slack og Notion."
-canonical: "https://airobotten.dk//automatisering/notion-projekt-fra-slack/"
+canonical: "https://airobotten.dk/automatisering/notion-projekt-fra-slack/"
 category: "Projektledelse"
 breadcrumb_label: "Opret Notion-projekter direkte fra Slack"
 trigger: ""

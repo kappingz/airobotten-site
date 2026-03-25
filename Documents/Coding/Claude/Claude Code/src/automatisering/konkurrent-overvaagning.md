@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk konkurrentovervaagning med AI"
-meta_description: "Overvåg dine konkurrenter automatisk med AI og få alerts ved prisændringer, nye produkter og marketingtiltag. Reagér hurtigere og hold dig altid et skridt foran."
-canonical: "https://airobotten.dk//automatisering/konkurrent-overvaagning/"
+meta_description: "Overvåg dine konkurrenter automatisk med AI og få alerts ved prisændringer, nye produkter og marketingtiltag. Reagér hurtigere og hold dig altid et skridt."
+canonical: "https://airobotten.dk/automatisering/konkurrent-overvaagning/"
 category: "Analyse"
 breadcrumb_label: "Automatisk konkurrentovervaagning med AI"
 trigger: ""

@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk AI-oversaettelse af produkter til nye markeder"
-meta_description: "Ekspander til nye markeder med automatisk AI-oversættelse af dine produkter. Oversæt produktbeskrivelser, titler og metadata hurtigt og præcist til ethvert sprog."
-canonical: "https://airobotten.dk//automatisering/ai-oversaettelse-af-produkter/"
+meta_description: "Ekspander til nye markeder med automatisk AI-oversættelse af dine produkter. Oversæt produktbeskrivelser, titler og metadata hurtigt og præcist til ethvert."
+canonical: "https://airobotten.dk/automatisering/ai-oversaettelse-af-produkter/"
 category: "E-commerce"
 breadcrumb_label: "Automatisk AI-oversaettelse af produkter til nye markeder"
 trigger: ""

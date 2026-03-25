@@ -1,8 +1,8 @@
 ---
 layout: automatisering.njk
 title: "Automatisk prisovervaagning hos leverandoerer"
-meta_description: "Overvåg automatisk priserne hos dine leverandører og få besked ved ændringer. Reagér hurtigt og forhandl bedre priser med altid opdaterede prisdata til rådighed."
-canonical: "https://airobotten.dk//automatisering/pris-overvaagning-leverandoerer/"
+meta_description: "Overvåg automatisk priserne hos dine leverandører og få besked ved ændringer. Reagér hurtigt og forhandl bedre priser med altid opdaterede prisdata til."
+canonical: "https://airobotten.dk/automatisering/pris-overvaagning-leverandoerer/"
 category: "Indkoeb"
 breadcrumb_label: "Automatisk prisovervaagning hos leverandoerer"
 trigger: ""

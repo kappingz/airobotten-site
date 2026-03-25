@@ -1,6 +1,6 @@
 ---
 layout: automatisering.njk
-title: "Automatisk Google Ads performance-rapport til Sheets og Slack"
+title: "Automatisk Google Ads performance-rapport til Sheets og"
 meta_description: "Modtag automatisk daglig Google Ads rapport med forbrug, ROAS, konverteringer og kampagnestatus i Slack og Google Sheets — uden manuelt arbejde i Ads-kontoen."
 canonical: "https://airobotten.dk/automatisering/google-ads-performance-rapport/"
 category: "Marketing"
