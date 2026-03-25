@@ -42,7 +42,7 @@ related:
   - url: "/automatisering/crm-pipeline-automatisk-opdatering/"
     title: "Automatisk opdatering af CRM pipeline baseret på kundeaktivitet"
     category: "Salg"
-  - url: "/automatisering/chatgpt-guide-til-smv-og-webshop/"
-    title: "ChatGPT — komplet guide til danske SMV'er og webshops"
-    category: "Redskaber"
+  - url: "/automatisering/ai-udkast-til-kundemails/"
+    title: "AI-genererede udkast til kundemails"
+    category: "Salg"
 ---

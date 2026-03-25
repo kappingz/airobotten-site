@@ -42,7 +42,7 @@ related:
   - url: "/automatisering/automatisk-rykkerprocedure/"
     title: "Automatisk rykkerprocedure ved manglende betaling"
     category: "Regnskab"
-  - url: "/automatisering/manus-ai-hvad-er-det-guide/"
-    title: "Manus AI — hvad er det, og hvordan bruger du det som virksomhed?"
-    category: "Redskaber"
+  - url: "/automatisering/automatisk-nyhedsovervagning/"
+    title: "Automatisk nyhedsovervågning og alerts"
+    category: "Content"
 ---
