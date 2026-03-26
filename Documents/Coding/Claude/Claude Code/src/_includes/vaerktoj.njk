@@ -1,0 +1,188 @@
+{% extends "base.njk" %}
+
+{% block extraCSS %}
+  /* VÆRKTØJ-SIDER */
+  .page-content { max-width: 720px; margin: 0 auto; padding: 8rem 2rem 4rem; }
+
+  .breadcrumb {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.78rem; color: var(--text-light);
+    margin-bottom: 2.5rem;
+  }
+  .breadcrumb a { transition: color 0.3s; }
+  .breadcrumb a:hover { color: var(--text); }
+  .breadcrumb .sep { opacity: 0.4; }
+
+  .page-category {
+    font-family: var(--font-mono);
+    font-size: 0.68rem; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.8rem;
+  }
+
+  .page-content h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 400; line-height: 1.15;
+    margin-bottom: 2rem;
+  }
+
+  .section-label {
+    font-family: var(--font-mono); font-size: 0.65rem;
+    letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.6rem; margin-top: 2.5rem;
+  }
+
+  .page-content h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem; font-weight: 400;
+    margin-bottom: 0.8rem; margin-top: 2.5rem;
+  }
+
+  .page-content h3 {
+    font-family: var(--font-display);
+    font-size: 1.15rem; font-weight: 400;
+    margin-bottom: 0.6rem; margin-top: 1.5rem;
+  }
+
+  .page-content p {
+    font-size: 1rem; line-height: 1.75;
+    color: var(--text-muted); margin-bottom: 1.2rem;
+  }
+
+  .page-content ul, .page-content ol {
+    margin: 0.5rem 0 1.5rem 1.4rem;
+    color: var(--text-muted);
+  }
+  .page-content li { font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.35rem; }
+
+  /* BEFORE / AFTER — fordele og ulemper */
+  .before-after {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 1rem; margin: 1.5rem 0 2rem;
+  }
+  .before, .after {
+    padding: 1.3rem 1.4rem;
+    border-radius: var(--radius);
+  }
+  .before { background: var(--orange-soft); border: 1px solid rgba(232,102,61,0.25); }
+  .after { background: var(--green-soft); border: 1px solid rgba(26,140,90,0.25); }
+  .before h3, .after h3 {
+    font-family: var(--font-mono); font-size: 0.68rem;
+    letter-spacing: 0.15em; text-transform: uppercase;
+    font-weight: 600; margin-bottom: 0.7rem; margin-top: 0;
+  }
+  .before h3 { color: var(--orange); }
+  .after h3 { color: var(--green); }
+  .before ul, .after ul { margin: 0; list-style: none; }
+  .before li, .after li { font-size: 0.88rem; color: var(--text); line-height: 1.6; margin-bottom: 0.35rem; }
+
+  /* STEPS — kom i gang */
+  .steps { list-style: none; margin: 1rem 0 2rem; display: flex; flex-direction: column; gap: 0.8rem; counter-reset: steps; }
+  .steps li {
+    display: flex; gap: 1rem; align-items: flex-start;
+    font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);
+    counter-increment: steps;
+  }
+  .steps li::before {
+    content: counter(steps);
+    font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700;
+    color: var(--accent); min-width: 1.8rem; padding-top: 0.1rem;
+    flex-shrink: 0;
+  }
+
+  /* CASE STUDY */
+  .case-study {
+    margin-top: 2.5rem; padding: 1.6rem 1.8rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .case-label {
+    display: inline-block; font-family: var(--font-mono);
+    font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 0.2rem 0.6rem; background: var(--orange-soft);
+    color: var(--orange); border-radius: 4px; margin-bottom: 0.6rem;
+  }
+  .case-study h3 {
+    font-family: var(--font-display); font-size: 1.1rem;
+    font-weight: 400; margin-bottom: 0.7rem; margin-top: 0.4rem;
+  }
+  .case-study p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 0.6rem; }
+  .case-study p:last-child { margin-bottom: 0; }
+
+  /* PRO-TIP */
+  .pro-tip {
+    margin-top: 2.5rem; padding: 1.2rem 1.5rem;
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+  .pro-tip p { font-size: 0.92rem; margin-bottom: 0; color: var(--text-muted); line-height: 1.7; }
+
+  /* FAQ DETAILS */
+  .faq-details { margin-top: 0.5rem; }
+  .faq-details details { border-bottom: 1px solid var(--border); }
+  .faq-details details:first-child { border-top: 1px solid var(--border); }
+  .faq-details summary {
+    cursor: pointer; padding: 0.85rem 0; font-weight: 600;
+    font-size: 0.93rem; list-style: none;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 1rem; color: var(--text);
+  }
+  .faq-details summary::-webkit-details-marker { display: none; }
+  .faq-details summary::after { content: '+'; color: var(--accent); font-size: 1.1rem; font-weight: 400; flex-shrink: 0; }
+  .faq-details details[open] > summary::after { content: '−'; }
+  .faq-details details p { padding: 0 0 0.9rem; font-size: 0.95rem; color: var(--text-muted); line-height: 1.7; }
+
+  /* CTA BOX */
+  .cta-box {
+    margin-top: 3.5rem; padding: 2.5rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); text-align: center;
+  }
+  .cta-box h3 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; margin-bottom: 0.6rem; }
+  .cta-box h3 em { font-style: italic; color: var(--accent); }
+  .cta-box p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.6; }
+
+  /* PRICE BOX */
+  .price-box {
+    margin: 1.5rem 0 2rem; padding: 1.4rem 1.6rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .price-box p { font-size: 0.9rem; margin-bottom: 0.4rem; }
+  .price-box p:last-child { margin-bottom: 0; }
+
+  @media (max-width: 768px) {
+    .page-content { padding: 7rem 1.5rem 3rem; }
+    .before-after { grid-template-columns: 1fr; }
+  }
+{% endblock %}
+
+{% block content %}
+<div class="page-content">
+
+  <div class="breadcrumb">
+    <a href="/">Forside</a>
+    <span class="sep">›</span>
+    <span>Værktøjer</span>
+    <span class="sep">›</span>
+    <span>{{ tool }}</span>
+  </div>
+
+  <div class="page-category">{{ category }}</div>
+  <h1>{{ title }}</h1>
+
+  {{ content | safe }}
+
+  <div class="cta-box">
+    <h3>Vil du have hjælp til at <em>komme i gang?</em></h3>
+    <p>Vi opsætter og konfigurerer automatiseringsværktøjer til danske virksomheder. Beskriv din situation, så vurderer vi hvad der passer bedst.</p>
+    <a href="/#contact" class="btn-primary">
+      Send din opgave
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+</div>
+{% endblock %}
