@@ -1,0 +1,179 @@
+{% extends "base.njk" %}
+
+{% block extraCSS %}
+  /* PRIS-SIDER */
+  .page-content { max-width: 720px; margin: 0 auto; padding: 8rem 2rem 4rem; }
+
+  .breadcrumb {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.78rem; color: var(--text-light);
+    margin-bottom: 2.5rem;
+  }
+  .breadcrumb a { transition: color 0.3s; }
+  .breadcrumb a:hover { color: var(--text); }
+  .breadcrumb .sep { opacity: 0.4; }
+
+  .page-category {
+    font-family: var(--font-mono);
+    font-size: 0.68rem; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.8rem;
+  }
+
+  .page-content h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 400; line-height: 1.15;
+    margin-bottom: 2rem;
+  }
+
+  .price-box {
+    margin-bottom: 3rem; padding: 2rem 2.2rem;
+    background: var(--bg-card); border: 2px solid var(--accent);
+    border-radius: var(--radius);
+  }
+  .price-label {
+    font-family: var(--font-mono); font-size: 0.65rem;
+    letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--accent); font-weight: 500;
+    display: block; margin-bottom: 0.5rem;
+  }
+  .price-range {
+    font-family: var(--font-display); font-size: 2.4rem;
+    font-weight: 400; line-height: 1.1;
+    display: block; margin-bottom: 0.5rem;
+  }
+  .price-note {
+    font-size: 0.88rem; color: var(--text-muted);
+    line-height: 1.5; display: block;
+  }
+
+  .section-label {
+    font-family: var(--font-mono); font-size: 0.65rem;
+    letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.6rem; margin-top: 2.5rem;
+  }
+
+  .page-content h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem; font-weight: 400;
+    margin-bottom: 0.8rem; margin-top: 2.5rem;
+  }
+
+  .page-content p {
+    font-size: 1rem; line-height: 1.75;
+    color: var(--text-muted); margin-bottom: 1.2rem;
+  }
+
+  .benefit-list { list-style: none; margin: 0.5rem 0 2rem; display: flex; flex-direction: column; gap: 0.6rem; }
+  .benefit-list li {
+    font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);
+    padding-left: 1.4rem; position: relative;
+  }
+  .benefit-list li::before { content: '→'; position: absolute; left: 0; color: var(--accent); font-size: 0.8rem; }
+
+  .factor-list { list-style: none; margin: 0.5rem 0 2rem; display: flex; flex-direction: column; gap: 1rem; }
+  .factor-list li {
+    font-size: 0.95rem; line-height: 1.65; color: var(--text-muted);
+    padding: 0.9rem 1rem; border-left: 3px solid var(--border-strong);
+    background: var(--bg-card); border-radius: 0 var(--radius) var(--radius) 0;
+  }
+  .factor-list li strong { color: var(--text); display: block; margin-bottom: 0.2rem; }
+
+  .cost-box {
+    margin: 2rem 0; padding: 1.8rem 2rem;
+    background: var(--orange-soft); border: 1px solid rgba(232,102,61,0.3);
+    border-radius: var(--radius);
+  }
+  .cost-box h3 {
+    font-family: var(--font-display); font-size: 1.15rem;
+    font-weight: 400; margin-bottom: 0.8rem; margin-top: 0;
+    color: var(--text);
+  }
+  .cost-box p { color: var(--text); font-size: 0.95rem; margin-bottom: 0.5rem; }
+  .cost-box .cost-total {
+    font-family: var(--font-display); font-size: 1.7rem;
+    color: var(--orange); margin-top: 0.8rem; display: block;
+    line-height: 1.2;
+  }
+
+  .case-study {
+    margin-top: 2.5rem; padding: 1.6rem 1.8rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .case-label {
+    display: inline-block; font-family: var(--font-mono);
+    font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 0.2rem 0.6rem; background: var(--orange-soft);
+    color: var(--orange); border-radius: 4px; margin-bottom: 0.6rem;
+  }
+  .case-study h3 {
+    font-family: var(--font-display); font-size: 1.1rem;
+    font-weight: 400; margin-bottom: 0.7rem; margin-top: 0.4rem;
+  }
+  .case-study p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 0.6rem; }
+  .case-study p:last-child { margin-bottom: 0; }
+
+  .faq-details { margin-top: 0.5rem; }
+  .faq-details details { border-bottom: 1px solid var(--border); }
+  .faq-details details:first-child { border-top: 1px solid var(--border); }
+  .faq-details summary {
+    cursor: pointer; padding: 0.85rem 0; font-weight: 600;
+    font-size: 0.93rem; list-style: none;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 1rem; color: var(--text);
+  }
+  .faq-details summary::-webkit-details-marker { display: none; }
+  .faq-details summary::after { content: '+'; color: var(--accent); font-size: 1.1rem; font-weight: 400; flex-shrink: 0; }
+  .faq-details details[open] > summary::after { content: '−'; }
+  .faq-details details p { padding: 0 0 0.9rem; font-size: 0.95rem; color: var(--text-muted); line-height: 1.7; }
+
+  .cta-box {
+    margin-top: 3.5rem; padding: 2.5rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); text-align: center;
+  }
+  .cta-box h3 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; margin-bottom: 0.6rem; }
+  .cta-box h3 em { font-style: italic; color: var(--accent); }
+  .cta-box p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.6; }
+
+  @media (max-width: 768px) {
+    .page-content { padding: 7rem 1.5rem 3rem; }
+    .price-range { font-size: 1.8rem; }
+  }
+{% endblock %}
+
+{% block content %}
+<div class="page-content">
+
+  <div class="breadcrumb">
+    <a href="/">Forside</a>
+    <span class="sep">›</span>
+    <span>Priser</span>
+    <span class="sep">›</span>
+    <span>{{ service }}</span>
+  </div>
+
+  <div class="page-category">Pris &amp; investering</div>
+  <h1>{{ title }}</h1>
+
+  <div class="price-box">
+    <span class="price-label">Typisk investering</span>
+    <span class="price-range">{{ price_from }} – {{ price_to }} kr.</span>
+    <span class="price-note">Afhænger af kompleksitet og antal integrationer</span>
+  </div>
+
+  {{ content | safe }}
+
+  <div class="cta-box">
+    <h3>Klar til et <em>præcist</em> prisestimat?</h3>
+    <p>Beskriv din situation, og vi vender tilbage med en konkret prisindikation — uforpligtende og uden salgspres.</p>
+    <a href="/#contact" class="btn-primary">
+      Få et gratis prisestimat
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+</div>
+{% endblock %}
