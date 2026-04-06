@@ -108,4 +108,4 @@ layout: vaerktoj.njk
   </details>
 </div>
 
-<p>Se også: <a href="/sammenligning/make-vs-zapier-danmark/">Make.com vs. Zapier — hvad passer til din virksomhed?</a>, <a href="/pris/hvad-koster-make-com-automatisering/">Hvad koster Make.com automatisering?</a> og <a href="/ordforklaring/hvad-er-webhook/">Hvad er en webhook?</a></p>
+<p>Se også: <a href="/sammenligning/make-vs-zapier-danmark/">Make.com vs. Zapier — hvad passer til din virksomhed?</a>, <a href="/pris/hvad-koster-make-com-automatisering/">Hvad koster Make.com automatisering?</a>, <a href="/ordforklaring/hvad-er-webhook/">Hvad er en webhook?</a> og <a href="/ordforklaring/hvad-er-no-code/">Hvad er no-code?</a></p>

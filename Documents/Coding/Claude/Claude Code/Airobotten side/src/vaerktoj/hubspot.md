@@ -108,4 +108,4 @@ layout: vaerktoj.njk
   </details>
 </div>
 
-<p>Se også: <a href="/sammenligning/hubspot-vs-pipedrive-danmark/">HubSpot vs. Pipedrive</a>, <a href="/pris/hvad-koster-hubspot-automatisering/">Hvad koster HubSpot automatisering?</a>, <a href="/pris/hvad-koster-crm-automatisering/">Hvad koster CRM-automatisering?</a> og <a href="/kan-man/kan-man-automatisere-lead-kvalificering/">Kan man automatisere lead kvalificering?</a></p>
+<p>Se også: <a href="/sammenligning/hubspot-vs-pipedrive-danmark/">HubSpot vs. Pipedrive</a>, <a href="/pris/hvad-koster-hubspot-automatisering/">Hvad koster HubSpot automatisering?</a>, <a href="/pris/hvad-koster-crm-automatisering/">Hvad koster CRM-automatisering?</a>, <a href="/kan-man/kan-man-automatisere-lead-kvalificering/">Kan man automatisere lead kvalificering?</a> og <a href="/sammenligning/calendly-vs-microsoft-bookings/">Calendly vs Microsoft Bookings</a>.</p>

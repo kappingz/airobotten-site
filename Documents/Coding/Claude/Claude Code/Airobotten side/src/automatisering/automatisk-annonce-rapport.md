@@ -63,6 +63,7 @@ before_cta: |
   <p>Den største fejl i rapport-automatisering er at bygge en rapport der indeholder ALT — og så ender ingen med at læse den. Inden vi bygger flowet, bruger vi tid på at afklare: hvad er de tre beslutninger du træffer på baggrund af denne rapport? De tal der understøtter dem, er de eneste tal der behøver være i rapporten.</p>
   <p>Definér også dine KPIer på forhånd og hvad "godt", "acceptabelt" og "kritisk" ser ud for hvert mål. Når rapporten er automatiseret, er det oplagt også at bygge farvekodning og tær skel-markering ind — så er rapporten en beslutn ingshjælp, ikke blot et talsæt.</p>
   <p>Endelig: afklar hvem der modtager rapporten og på hvilken kanal. En tung PDF til ledergruppen og en kort Slack-notifikation til den operationelle teamleder kan sagtens sendes fra samme flow — men de kræver lidt forskellig formatering. Det er værd at tænke over fra start.</p>
+  <p>Se også: <a href="/branche/ai-automatisering-marketingbureauer/">AI-automatisering til marketingbureauer</a></p>
 related:
   - url: "/automatisering/meta-ads-ugentlig-performance-rapport-email/"
     title: "Automatisk ugentlig Meta Ads performance-rapport til din email"

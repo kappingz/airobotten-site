@@ -62,7 +62,7 @@ before_cta: |
   <p>Før vi sætter et kundeservice-flow op, anbefaler vi at lave en simpel analyse af dine indgående henvendelser fra de seneste 30 dage. Kategor isér dem i 5–10 overordnede emner og notér, hvilke der gentager sig oftest. Det er typisk disse 3–5 kategorier, der bør automatiseres først — alt andet kan vente.</p>
   <p>Skriv også de færdige svartekster, du ønsker at bruge til de hyppigste henvendelser. Jo bedre dine svabskabeloner er formuleret fra start, jo mere tilfredse vil dine kunder være. AI kan generere svar, men det er stadig dig der kender din tone of voice og de præcise informationer der er korrekte for netop din virksomhed.</p>
   <p>Planlæg en "human handoff"-strategi på forhånd: hvornår skal en automatiseret henvendelse eskaleres til en medarbejder? Hvilke nøgleord eller signaler er indikationer på, at kunden er frustreret og behøver menneskelig opmærksomhed? At have disse regler defineret inden go-live gør flowet markant mere robust.</p>
-  <p>Se også: <a href="/vaerktoj/openai-api/">OpenAI API til danske virksomheder</a>.</p>
+  <p>Se også: <a href="/vaerktoj/openai-api/">OpenAI API til danske virksomheder</a>, <a href="/branche/ai-automatisering-it-virksomheder/">AI-automatisering til IT-virksomheder</a> og <a href="/ordforklaring/hvad-er-ai-agent/">Hvad er en AI-agent?</a></p>
 related:
   - url: "/automatisering/nye-ordrer-til-slack/"
     title: "Send automatisk besked i Slack ved nye ordrer"

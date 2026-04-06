@@ -40,7 +40,7 @@ benefits:
   - "Øg rebooking-raten med automatisk opfølgnings-SMS efter besøget"
   - "Virker på tværs af alle behandlere i klinikken uden ekstra opsætning per person"
 before_cta: |
-  <p>Se også: <a href="/branche/ai-automatisering-restauranter/">AI-automatisering til restauranter</a>.</p>
+  <p>Se også: <a href="/branche/ai-automatisering-restauranter/">AI-automatisering til restauranter</a> og <a href="/branche/ai-automatisering-laegepraksis/">AI-automatisering til lægepraksis</a>.</p>
 
 faq_items:
   - q: "Virker det med vores nuværende bookingsystem?"

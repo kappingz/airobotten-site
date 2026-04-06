@@ -62,6 +62,7 @@ before_cta: |
   <p>Projekt-automatiseringer afslører hurtigt svægheder i eksisterende processer. Inden vi bygger flowet, anbefaler vi at bruge tid på at definere: hvad er de fæste regler for, hvornår en opgave skifter status? Hvornår er et projekt "påbegyndt"? Hvornår er en milestone "nået"? Disse definitioner er automatiseringens fundament — uden dem bygger vi på løs sand.</p>
   <p>Se også på dine nuværende skabeloner. Bruger I standard projektskabeloner, eller starter hvert projekt fra bunden? Automatisering er mest værdifuld når den udløser kon sistente skabeloner og tjeklister fremfor at starte på bar mark. En god skabelon er grundstenen i et effektivt onboarding- eller projektflow.</p>
   <p>Kortlæg endelig, hvem der har brug for at se hvad. Notifikationer der sendes til alle om alt er støj — det gør at folk holder op med at læse dem. Vi bygger flows der sender præcis de rette informationer til præcis de rette personer på præcis det rette tidspunkt. Det kræver, at du definerer rolle-matr icen inden vi starter.</p>
+  <p>Se også: <a href="/branche/ai-automatisering-it-virksomheder/">AI-automatisering til IT-virksomheder</a></p>
 related:
   - url: "/automatisering/nye-ordrer-til-slack/"
     title: "Send automatisk besked i Slack ved nye ordrer"

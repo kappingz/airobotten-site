@@ -63,7 +63,7 @@ before_cta: |
   <p>AI-baserede flows adskiller sig fra klassiske automatiseringer på én væsentlig måde: outputkvaliteten afhænger direkte af inputkvaliteten. Gode resultater starter med gode prompter. Inden vi bygger flowet, bruger vi tid på at finde de formulerin ger der fungerer bedst til netop dit brug s tilfælde — det er ikke noget vi gør på må og få; vi tester systematisk.</p>
   <p>Vær også forberedt på at skulle gennemgå og godkende de første 20–30 outputs manuelt, inden du stoler fuldt på flowet. AI er ikke perfekt, og særligt i starten er det værdifuldt at have et menneske til at fænge de 5% der ikke rammer målet. Efterhånden som du ser mønstrene i fejl, kan vi justere prompten for at undgå dem.</p>
   <p>Hav en klar plan for, hvad der sker når AI'en er usikker. Vi bygger altid et "confidence check" ind i flows, så AI-output med lav s ikkerhedsscoring sendes til human review frem for direkte til kunden eller dit system. Det er den lille detalje der adskiller et professionelt flow fra et der skaber problemer.</p>
-  <p>Se også: <a href="/kan-man/kan-man-automatisere-instagram-opslag/">Kan man automatisere Instagram opslag?</a> og <a href="/pris/hvad-koster-social-media-automatisering/">Hvad koster social media automatisering?</a></p>
+  <p>Se også: <a href="/kan-man/kan-man-automatisere-instagram-opslag/">Kan man automatisere Instagram opslag?</a>, <a href="/pris/hvad-koster-social-media-automatisering/">Hvad koster social media automatisering?</a> og <a href="/branche/ai-automatisering-marketingbureauer/">AI-automatisering til marketingbureauer</a>.</p>
 related:
   - url: "/automatisering/ai-blogindlaeg-fra-produktdata/"
     title: "AI-genererede blogindlæg fra produktdata og emnevalg"

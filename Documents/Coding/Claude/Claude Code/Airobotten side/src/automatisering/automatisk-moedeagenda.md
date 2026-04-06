@@ -63,6 +63,7 @@ before_cta: |
   <p>Den bedste investering inden implementering er at kortlægge din nuværende manuelle proces i detaljer. Skriv alle trin ned — også dem der virker åbenlyse — og notér, hvornår der opstår undtagelser. "Sædvanligvis gør vi sådan, men når X sker, gør vi sådan" — disse undtagelsesregler er det der adskiller et robust flow fra et der fejler et par gange om måneden.</p>
   <p>Sørg for, at alle involverede systemer er tilgængelige via API eller webhooks, og at du har de nødvendige adgange og nøgler. Det er en administrativ opgave der tager 30–60 minutter men typisk blokerer opsætningen, hvis den ikke er gjort på forhånd. Vi hjælper dig med at identificere præcis hvilke adgange du behøver.</p>
   <p>Plan læg endelig en testperiode på mindst 48 timer inden fuld go-live. I den periode kører flowet i "observation mode" — det logger hvad det ville have gjort, uden at udføre handlingerne. Så kan du sammenligne med din manuelle proces og sikre, at outputtet er som forventet. Det er den bedste forsikring mod overraskelser.</p>
+  <p>Se også: <a href="/branche/ai-automatisering-konsulenter/">AI-automatisering til konsulentfirmaer</a> og <a href="/sammenligning/monday-vs-asana-danmark/">Monday.com vs Asana</a>.</p>
 related:
   - url: "/automatisering/nye-ordrer-til-slack/"
     title: "Send automatisk besked i Slack ved nye ordrer"

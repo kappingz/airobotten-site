@@ -63,6 +63,7 @@ choose_b: |
 recommendation: |
   <p>Vores anbefaling er klar: <strong>Spørg din revisor.</strong> Har du en revisor, er det systemet de anbefaler der vinder — og det er oftest e-conomic. Revisor-kompatibilitet er ikke en nice-to-have, det er afgørende for din årsrapport.</p>
   <p>Har du ikke revisor og er under 10 medarbejdere med simple behov, start med Dinero. Det er hurtigere at komme i gang med, billigere, og du kan altid migrere til e-conomic når virksomheden vokser. Har du ansatte eller lager fra dag ét, gå direkte til e-conomic og spar dig migreringen.</p>
+  <p>Se også: <a href="/sammenligning/xero-vs-e-conomic-danmark/">Xero vs e-conomic — hvad passer til dig?</a></p>
 faq_details:
   - q: "Kan jeg automatisk bogføre Shopify-ordrer i begge systemer?"
     a: "Ja. Vi har automatiseringsflows til begge systemer der bogfører Shopify-ordrer direkte ved betaling — inklusiv moms, valuta og fragtomkostninger. e-conomic-flowet understøtter mere komplekse kontoplanskonfigurationer, Dinero-flowet er hurtigere at opsætte."

@@ -63,6 +63,7 @@ before_cta: |
   <p>For at få det bedste resultat af automatiseringen er det en god idé at have et par ting klar på forhånd. Sørg for, at din regnskabssoftware har en aktiv API-adgang, og at du ved hvilken kontoplan du bruger. Det gør opsætningen markant hurtigere og reducerer risikoen for at posteringer lander på forkerte konti fra start.</p>
   <p>Det er også værd at kortlægge, hvilke bilagstyper der fylder mest i dit daglige arbejde. Er det primært Stripe-betalinger, faktura-PDF'er fra leverandører eller banktransaktioner? Start med den bilagstype der fylder mest, og lad resten vente til flowet er testet grundigt. En gradueret udrulning giver dig langt mere kontrol og selvtillid.</p>
   <p>Endelig: afsæt 30 minutter til et kort interview med os, hvor vi går din kontoplan og eventuelle undtagelsesregler igennem. De fleste virksomheder har 3–5 "specielle tilfælde" de ikke har tænkt på før vi spørger. Det er meget billigere at håndtere dem i designfasen end efter go-live.</p>
+  <p>Se også: <a href="/branche/ai-automatisering-bogholderfirmaer/">AI-automatisering til bogholderfirmaer</a></p>
 related:
   - url: "/automatisering/moms-indberetning-forberedelse/"
     title: "Automatisk forberedelse af momsindberetning til SKAT"

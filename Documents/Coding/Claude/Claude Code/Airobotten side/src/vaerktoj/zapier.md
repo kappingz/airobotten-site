@@ -108,4 +108,4 @@ layout: vaerktoj.njk
   </details>
 </div>
 
-<p>Se også: <a href="/sammenligning/make-vs-zapier-danmark/">Make.com vs. Zapier — hvad passer til din virksomhed?</a>, <a href="/pris/hvad-koster-zapier-automatisering/">Hvad koster Zapier automatisering?</a> og <a href="/ordforklaring/hvad-er-workflow-automation/">Hvad er workflow automation?</a></p>
+<p>Se også: <a href="/sammenligning/make-vs-zapier-danmark/">Make.com vs. Zapier — hvad passer til din virksomhed?</a>, <a href="/pris/hvad-koster-zapier-automatisering/">Hvad koster Zapier automatisering?</a>, <a href="/ordforklaring/hvad-er-workflow-automation/">Hvad er workflow automation?</a> og <a href="/ordforklaring/hvad-er-no-code/">Hvad er no-code?</a></p>

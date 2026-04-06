@@ -106,4 +106,4 @@ layout: vaerktoj.njk
   </details>
 </div>
 
-<p>Se også: <a href="/sammenligning/notion-vs-airtable-danmark/">Notion vs. Airtable</a>, <a href="/pris/hvad-koster-loen-hr-automatisering/">Hvad koster løn og HR automatisering?</a>, <a href="/kan-man/kan-man-automatisere-medarbejder-onboarding/">Kan man automatisere medarbejder onboarding?</a> og <a href="/ordforklaring/hvad-er-workflow-automation/">Hvad er workflow automation?</a></p>
+<p>Se også: <a href="/sammenligning/notion-vs-airtable-danmark/">Notion vs. Airtable</a>, <a href="/pris/hvad-koster-loen-hr-automatisering/">Hvad koster løn og HR automatisering?</a>, <a href="/kan-man/kan-man-automatisere-medarbejder-onboarding/">Kan man automatisere medarbejder onboarding?</a>, <a href="/ordforklaring/hvad-er-workflow-automation/">Hvad er workflow automation?</a> og <a href="/sammenligning/monday-vs-asana-danmark/">Monday.com vs Asana</a>.</p>
