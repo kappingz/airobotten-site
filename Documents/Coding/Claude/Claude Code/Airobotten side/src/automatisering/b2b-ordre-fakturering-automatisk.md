@@ -74,6 +74,9 @@ related:
   - url: "/automatisering/automatisk-upsell-sekvens/"
     title: "Automatisk upsell-sekvens baseret på købshistorik"
     category: "E-commerce"
+  - url: "/branche/ai-automatisering-engros/"
+    title: "AI-automatisering til engros og distribution"
+    category: "Branche"
 faq_schema: |
   {
     "@context":"https://schema.org",

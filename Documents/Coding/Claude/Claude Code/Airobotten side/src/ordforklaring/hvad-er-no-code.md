@@ -57,6 +57,9 @@ related:
   - url: "/automatisering/data-sync-mellem-systemer/"
     title: "Automatisk data-sync mellem systemer"
     category: "Produktivitet"
+  - url: "/ordforklaring/hvad-er-rpa/"
+    title: "Hvad er RPA? Robotic Process Automation forklaret"
+    category: "Ordforklaring"
 faq_schema: |
   {
     "@context": "https://schema.org",

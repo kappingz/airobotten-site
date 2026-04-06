@@ -108,4 +108,4 @@ layout: vaerktoj.njk
   </details>
 </div>
 
-<p>Se også: <a href="/sammenligning/hubspot-vs-pipedrive-danmark/">HubSpot vs. Pipedrive — hvad passer bedst?</a>, <a href="/kan-man/kan-man-automatisere-lead-kvalificering/">Kan man automatisere lead kvalificering?</a> og <a href="/pris/hvad-koster-salgspipeline-automatisering/">Hvad koster salgspipeline automatisering?</a></p>
+<p>Se også: <a href="/sammenligning/hubspot-vs-pipedrive-danmark/">HubSpot vs. Pipedrive — hvad passer bedst?</a>, <a href="/kan-man/kan-man-automatisere-lead-kvalificering/">Kan man automatisere lead kvalificering?</a>, <a href="/pris/hvad-koster-salgspipeline-automatisering/">Hvad koster salgspipeline automatisering?</a> og <a href="/pris/hvad-koster-pipedrive-automatisering/">Hvad koster Pipedrive automatisering?</a></p>

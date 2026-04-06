@@ -75,6 +75,9 @@ related:
   - url: "/automatisering/social-media-content-med-ai/"
     title: "Generer ugentlige social media-opslag med AI"
     category: "Content"
+  - url: "/branche/ai-automatisering-transport/"
+    title: "AI-automatisering til transport og logistik"
+    category: "Branche"
 faq_schema: |
   {
     "@context":"https://schema.org",

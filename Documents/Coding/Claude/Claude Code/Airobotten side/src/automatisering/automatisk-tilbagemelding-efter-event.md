@@ -76,6 +76,9 @@ related:
   - url: "/automatisering/social-media-content-med-ai/"
     title: "Generer ugentlige social media-opslag med AI"
     category: "Content"
+  - url: "/branche/ai-automatisering-event/"
+    title: "AI-automatisering til eventbureauer"
+    category: "Branche"
 faq_schema: |
   {
     "@context":"https://schema.org",

@@ -75,6 +75,9 @@ related:
   - url: "/automatisering/social-media-content-med-ai/"
     title: "Generer ugentlige social media-opslag med AI"
     category: "Content"
+  - url: "/sammenligning/typeform-vs-google-forms/"
+    title: "Typeform vs Google Forms — hvad passer til dig?"
+    category: "Sammenligning"
 faq_schema: |
   {
     "@context":"https://schema.org",

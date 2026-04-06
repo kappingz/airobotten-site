@@ -76,6 +76,9 @@ related:
   - url: "/automatisering/woocommerce-bogfoering-e-conomic/"
     title: "Automatisk bogføring af WooCommerce-ordrer i e-conomic"
     category: "Regnskab"
+  - url: "/kan-man/kan-man-automatisere-timeregistrering/"
+    title: "Kan man automatisere timeregistrering?"
+    category: "Kan man"
 faq_schema: |
   {
     "@context":"https://schema.org",

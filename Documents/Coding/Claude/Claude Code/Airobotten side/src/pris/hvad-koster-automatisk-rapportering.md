@@ -92,4 +92,4 @@ layout: pris.njk
   </details>
 </div>
 
-<p>Se også: <a href="/automatisering/daglig-omsaetningsrapport/">Automatisk daglig omsætningsrapport</a>, <a href="/automatisering/seo-rapport-med-ai-analyse/">Ugentlig SEO-rapport med AI-analyse</a> og <a href="/automatisering/google-ads-rapport-automatisk/">Automatisk Google Ads-rapport til dit team</a>.</p>
+<p>Se også: <a href="/automatisering/daglig-omsaetningsrapport/">Automatisk daglig omsætningsrapport</a>, <a href="/automatisering/seo-rapport-med-ai-analyse/">Ugentlig SEO-rapport med AI-analyse</a>, <a href="/automatisering/google-ads-rapport-automatisk/">Automatisk Google Ads-rapport til dit team</a> og <a href="/kan-man/kan-man-automatisere-rapportering/">Kan man automatisere rapportering?</a></p>

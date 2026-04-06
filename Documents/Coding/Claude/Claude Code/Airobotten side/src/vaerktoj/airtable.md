@@ -108,4 +108,4 @@ layout: vaerktoj.njk
   </details>
 </div>
 
-<p>Se også: <a href="/sammenligning/notion-vs-airtable-danmark/">Notion vs. Airtable</a>, <a href="/pris/hvad-koster-indkoeb-og-lager-automatisering/">Hvad koster indkøb og lager automatisering?</a>, <a href="/pris/hvad-koster-dokumenthaandtering-automatisering/">Hvad koster dokumenthåndtering automatisering?</a> og <a href="/kan-man/kan-man-automatisere-lagerstyring/">Kan man automatisere lagerstyring?</a></p>
+<p>Se også: <a href="/sammenligning/notion-vs-airtable-danmark/">Notion vs. Airtable</a>, <a href="/pris/hvad-koster-indkoeb-og-lager-automatisering/">Hvad koster indkøb og lager automatisering?</a>, <a href="/pris/hvad-koster-dokumenthaandtering-automatisering/">Hvad koster dokumenthåndtering automatisering?</a>, <a href="/kan-man/kan-man-automatisere-lagerstyring/">Kan man automatisere lagerstyring?</a> og <a href="/pris/hvad-koster-airtable-automatisering/">Hvad koster Airtable automatisering?</a></p>

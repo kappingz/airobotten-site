@@ -75,6 +75,9 @@ related:
   - url: "/automatisering/social-media-content-med-ai/"
     title: "Generer ugentlige social media-opslag med AI"
     category: "Content"
+  - url: "/pris/hvad-koster-pipedrive-automatisering/"
+    title: "Hvad koster Pipedrive automatisering?"
+    category: "Pris"
 faq_schema: |
   {
     "@context":"https://schema.org",

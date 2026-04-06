@@ -50,4 +50,7 @@ related:
   - url: "/automatisering/automatisk-onboarding-flow-nye-medarbejdere/"
     title: "Automatisk onboarding-flow for nye medarbejdere"
     category: "HR"
+  - url: "/kan-man/kan-man-automatisere-timeregistrering/"
+    title: "Kan man automatisere timeregistrering?"
+    category: "Kan man"
 ---

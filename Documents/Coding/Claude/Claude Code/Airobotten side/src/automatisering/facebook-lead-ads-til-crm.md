@@ -75,6 +75,9 @@ related:
   - url: "/automatisering/social-media-content-med-ai/"
     title: "Generer ugentlige social media-opslag med AI"
     category: "Content"
+  - url: "/vaerktoj/typeform/"
+    title: "Typeform til danske virksomheder"
+    category: "Værktøjer"
 faq_schema: |
   {
     "@context":"https://schema.org",

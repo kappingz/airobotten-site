@@ -76,6 +76,9 @@ related:
   - url: "/automatisering/social-media-content-med-ai/"
     title: "Generer ugentlige social media-opslag med AI"
     category: "Content"
+  - url: "/kan-man/kan-man-automatisere-rapportering/"
+    title: "Kan man automatisere rapportering?"
+    category: "Kan man"
 faq_schema: |
   {
     "@context":"https://schema.org",

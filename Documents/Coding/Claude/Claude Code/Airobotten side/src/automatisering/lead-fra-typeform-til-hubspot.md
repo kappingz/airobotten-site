@@ -75,6 +75,12 @@ related:
   - url: "/automatisering/shopify-trustpilot-invitation/"
     title: "Automatisk Trustpilot-invitation efter Shopify-levering"
     category: "E-commerce"
+  - url: "/sammenligning/typeform-vs-google-forms/"
+    title: "Typeform vs Google Forms — hvad passer til dig?"
+    category: "Sammenligning"
+  - url: "/vaerktoj/typeform/"
+    title: "Typeform til danske virksomheder"
+    category: "Værktøjer"
 faq_schema: |
   {
     "@context":"https://schema.org",

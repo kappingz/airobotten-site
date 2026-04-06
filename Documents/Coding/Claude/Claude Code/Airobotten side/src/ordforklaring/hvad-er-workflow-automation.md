@@ -53,6 +53,9 @@ related:
   - url: "/automatisering/email-lead-nurturing-sekvens/"
     title: "Automatisk email lead nurturing-sekvens"
     category: "Salg"
+  - url: "/ordforklaring/hvad-er-rpa/"
+    title: "Hvad er RPA? Robotic Process Automation forklaret"
+    category: "Ordforklaring"
 faq_schema: |
   {
     "@context": "https://schema.org",
