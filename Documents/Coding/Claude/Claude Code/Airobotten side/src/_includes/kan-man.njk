@@ -1,0 +1,202 @@
+{% extends "base.njk" %}
+
+{% block extraCSS %}
+  /* KAN-MAN-SIDER */
+  .page-content { max-width: 720px; margin: 0 auto; padding: 8rem 2rem 4rem; }
+
+  .breadcrumb {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.78rem; color: var(--text-light);
+    margin-bottom: 2.5rem;
+  }
+  .breadcrumb a { transition: color 0.3s; }
+  .breadcrumb a:hover { color: var(--text); }
+  .breadcrumb .sep { opacity: 0.4; }
+
+  .page-category {
+    font-family: var(--font-mono);
+    font-size: 0.68rem; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.8rem;
+  }
+
+  .page-content h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 400; line-height: 1.15;
+    margin-bottom: 2rem;
+  }
+
+  .answer-box {
+    margin-bottom: 3rem; padding: 1.8rem 2rem;
+    background: var(--green-soft); border: 2px solid var(--green);
+    border-radius: var(--radius);
+  }
+  .answer-badge {
+    font-family: var(--font-mono); font-size: 0.65rem;
+    letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--green); font-weight: 500;
+    display: block; margin-bottom: 0.5rem;
+  }
+  .answer-box p {
+    font-size: 1.05rem; color: var(--text);
+    line-height: 1.65; margin-bottom: 0;
+  }
+
+  .section-label {
+    font-family: var(--font-mono); font-size: 0.65rem;
+    letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent);
+    font-weight: 500; margin-bottom: 0.6rem; margin-top: 2.5rem;
+  }
+
+  .page-content h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem; font-weight: 400;
+    margin-bottom: 0.8rem; margin-top: 2.5rem;
+  }
+
+  .page-content p {
+    font-size: 1rem; line-height: 1.75;
+    color: var(--text-muted); margin-bottom: 1.2rem;
+  }
+
+  .flow-diagram {
+    display: flex; flex-wrap: wrap; align-items: center;
+    gap: 0.6rem; margin: 1.5rem 0 2rem;
+  }
+  .flow-step {
+    padding: 0.7rem 1.1rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius);
+    font-size: 0.85rem; font-weight: 500; color: var(--text);
+    line-height: 1.3;
+  }
+  .flow-step span {
+    display: block; font-family: var(--font-mono);
+    font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--text-light); margin-bottom: 0.2rem;
+  }
+  .flow-arrow { color: var(--accent); font-size: 1.2rem; opacity: 0.5; }
+
+  .benefit-list { list-style: none; margin: 0.5rem 0 2rem; display: flex; flex-direction: column; gap: 0.6rem; }
+  .benefit-list li {
+    font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);
+    padding-left: 1.4rem; position: relative;
+  }
+  .benefit-list li::before { content: '→'; position: absolute; left: 0; color: var(--accent); font-size: 0.8rem; }
+
+  .req-list { list-style: none; margin: 0.5rem 0 2rem; display: flex; flex-direction: column; gap: 0.7rem; }
+  .req-list li {
+    font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);
+    padding: 0.8rem 1rem; border-left: 3px solid var(--border-strong);
+    background: var(--bg-card); border-radius: 0 var(--radius) var(--radius) 0;
+  }
+
+  .before-after {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 1rem; margin: 1.5rem 0 2rem;
+  }
+  .before, .after {
+    padding: 1.3rem 1.4rem;
+    border-radius: var(--radius);
+  }
+  .before { background: var(--orange-soft); border: 1px solid rgba(232,102,61,0.25); }
+  .after { background: var(--green-soft); border: 1px solid rgba(26,140,90,0.25); }
+  .ba-label {
+    font-family: var(--font-mono); font-size: 0.6rem;
+    letter-spacing: 0.15em; text-transform: uppercase;
+    font-weight: 600; margin-bottom: 0.8rem; display: block;
+  }
+  .before .ba-label { color: var(--orange); }
+  .after .ba-label { color: var(--green); }
+  .before p, .after p { font-size: 0.88rem; color: var(--text); line-height: 1.6; margin-bottom: 0.4rem; }
+  .before p:last-child, .after p:last-child { margin-bottom: 0; }
+
+  .case-study {
+    margin-top: 2.5rem; padding: 1.6rem 1.8rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .case-label {
+    display: inline-block; font-family: var(--font-mono);
+    font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 0.2rem 0.6rem; background: var(--orange-soft);
+    color: var(--orange); border-radius: 4px; margin-bottom: 0.6rem;
+  }
+  .case-study h3 {
+    font-family: var(--font-display); font-size: 1.1rem;
+    font-weight: 400; margin-bottom: 0.7rem; margin-top: 0.4rem;
+  }
+  .case-study p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 0.6rem; }
+  .case-study p:last-child { margin-bottom: 0; }
+
+  .next-steps { list-style: none; margin: 1rem 0 2rem; display: flex; flex-direction: column; gap: 0.8rem; counter-reset: steps; }
+  .next-steps li {
+    display: flex; gap: 1rem; align-items: flex-start;
+    font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);
+    counter-increment: steps;
+  }
+  .next-steps li::before {
+    content: counter(steps);
+    font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700;
+    color: var(--accent); min-width: 1.8rem; padding-top: 0.1rem;
+  }
+
+  .faq-details { margin-top: 0.5rem; }
+  .faq-details details { border-bottom: 1px solid var(--border); }
+  .faq-details details:first-child { border-top: 1px solid var(--border); }
+  .faq-details summary {
+    cursor: pointer; padding: 0.85rem 0; font-weight: 600;
+    font-size: 0.93rem; list-style: none;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 1rem; color: var(--text);
+  }
+  .faq-details summary::-webkit-details-marker { display: none; }
+  .faq-details summary::after { content: '+'; color: var(--accent); font-size: 1.1rem; font-weight: 400; flex-shrink: 0; }
+  .faq-details details[open] > summary::after { content: '−'; }
+  .faq-details details p { padding: 0 0 0.9rem; font-size: 0.95rem; color: var(--text-muted); line-height: 1.7; }
+
+  .cta-box {
+    margin-top: 3.5rem; padding: 2.5rem;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); text-align: center;
+  }
+  .cta-box h3 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; margin-bottom: 0.6rem; }
+  .cta-box h3 em { font-style: italic; color: var(--accent); }
+  .cta-box p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.6; }
+
+  @media (max-width: 768px) {
+    .page-content { padding: 7rem 1.5rem 3rem; }
+    .before-after { grid-template-columns: 1fr; }
+    .flow-diagram { flex-direction: column; align-items: flex-start; }
+    .flow-arrow { transform: rotate(90deg); }
+  }
+{% endblock %}
+
+{% block content %}
+<div class="page-content">
+
+  <div class="breadcrumb">
+    <a href="/">Forside</a>
+    <span class="sep">›</span>
+    <span>Kan man automatisere</span>
+    <span class="sep">›</span>
+    <span>{{ process }}</span>
+  </div>
+
+  <div class="page-category">Automatisering — muligt?</div>
+  <h1>{{ title }}</h1>
+
+  {{ content | safe }}
+
+  <div class="cta-box">
+    <h3>Klar til at <em>komme i gang?</em></h3>
+    <p>Beskriv din situation, og vi viser dig præcis hvad vi kan automatisere — uforpligtende og konkret.</p>
+    <a href="/#contact" class="btn-primary">
+      Send din opgave
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+</div>
+{% endblock %}
